@@ -54,6 +54,8 @@ def main():
         "rep": max(c["rep"] for c in cos),
         "updated": "2026-11-26",
         "companies": [{k: c.get(k, "") for k in ("id", "name", "full", "rep", "source", "note", "color", "ink")} for c in cos],
+        # 未收錄嘅公司（名 + 原因），總覽會列出，免得客人以為冇列出 = 唔好
+        "missing": json.load(open(os.path.join(SRC, "missing.json"), encoding="utf-8")) if os.path.exists(os.path.join(SRC, "missing.json")) else [],
         "series": series,
     }
     json.dump(out, open(os.path.join(ROOT, "data.json"), "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
