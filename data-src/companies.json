@@ -108,6 +108,16 @@
     "ink": "#006E67"
   },
   {
+    "id": "chubb",
+    "name": "安達人壽",
+    "full": "安達人壽保險香港有限公司 Chubb Life Insurance Hong Kong Limited",
+    "file": "chubb.csv",
+    "rep": 2025,
+    "source": "https://www.chubblife.com.hk/zh/customer-service/fulfillment-ratios-of-dividend.html",
+    "note": "安達「累積紅利及利息」歸入週年紅利，「增保紅利」歸入歸原紅利。2025 年才推出的計劃顯示為未推出。",
+    "color": "#1F1F1F"
+  },
+  {
     "id": "aiae",
     "name": "友邦雋峰（AIA Everest）",
     "full": "AIA Everest Life Company Limited",
