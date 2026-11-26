@@ -524,7 +524,7 @@ function coTag(id,txt){const c=CO[id];return `<span class="co" style="--co:${c.c
 function planKey(s){return s.co+'|'+s.en;}
 // 計劃名：預設中文（冇中文就用英文），可以切換做英文；另一種語言細細個顯示
 function pn(x){return state.lang==='en'?x.en:(x.zh||x.en);}
-function pa(x){return state.lang==='en'?(x.zh||''):(x.zh?x.en:'');}
+function pa(x){const o=state.lang==='en'?(x.zh||''):(x.zh?x.en:'');return o===pn(x)?'':o;}
 function nameHTML(x){const a=pa(x);return `<b>${esc(pn(x))}</b>${a?`<span class="alt">${esc(a)}</span>`:''}`;}
 function serSub(s){return `${coTag(s.co)} · ${s.type}${s.cur&&s.cur!=='全部'?' · '+s.cur:''}`;}
 function filt(f){return D.series.filter(s=>(f.co==='all'||s.co===f.co)&&(f.cat==='all'||s.cat===f.cat)&&(f.tg==='all'||s.tg===f.tg));}

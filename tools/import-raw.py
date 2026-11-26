@@ -12,7 +12,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 CI = r"危疾|Critical [Ii]llness|[Cc]risis|安心保|易重保|倍安保|智倍保|愛伴航|On Your Side|CI\b"
 SAVE = (r"儲蓄|Sav|入息|Income|年金|Annuity|教育|Education|升學|長享|Coupon|充裕未來|Bonus Power|盈御|Global Power|"
-        r"財富|Wealth|智昇|Proactive|諾享|Fortune Promise|盈尚|儲速|活享|環宇|Flexi|傳承|Legacy|Endowment|養老|收益")
+        r"財富|創富|萬利|Wealth|智昇|Proactive|諾享|Fortune Promise|盈尚|儲速|活享|環宇|Flexi|傳承|Legacy|Endowment|養老|收益")
 SAVE_TYPES = r"儲蓄|入息|年金|Endowment|Annuity|Income"
 OVERRIDE = {
     # (公司, 英文名): cat
@@ -25,7 +25,7 @@ def classify(co, zh, en, ptype):
     if (co, en) in OVERRIDE:
         return OVERRIDE[(co, en)]
     txt = f"{zh} {en}"
-    if re.search(CI, txt):
+    if re.search(CI, txt + " " + ptype):
         return "ci"
     if re.search(SAVE_TYPES, ptype) or re.search(SAVE, txt):
         return "save"

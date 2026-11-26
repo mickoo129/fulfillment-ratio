@@ -22,6 +22,17 @@
   "ink": "#C8102E"
  },
  {
+  "id": "manulife",
+  "name": "宏利",
+  "full": "Manulife (International) Limited",
+  "file": "manulife.csv",
+  "rep": 2025,
+  "source": "https://www.manulife.com.hk/zh-hk/individual/products/understanding-your-participating-policy/fulfillment-ratio.html",
+  "note": "宏利按保單生效時期分開公布同一計劃，計劃名後面括號是該組保單的生效時期；只有中文名稱。",
+  "color": "#2E6B4F",
+  "ink": "#2E6B4F"
+ },
+ {
   "id": "aiae",
   "name": "友邦雋峰（AIA Everest）",
   "full": "AIA Everest Life Company Limited",
