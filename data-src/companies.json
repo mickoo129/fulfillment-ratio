@@ -66,6 +66,16 @@
     "ink": ""
   },
   {
+    "id": "hangseng",
+    "name": "恒生保險",
+    "full": "恒生保險有限公司 Hang Seng Insurance Company Limited",
+    "file": "hangseng.csv",
+    "rep": 2025,
+    "source": "https://www.hangseng.com/zh-hk/hangseng-insurance/fulfilment-ratio/",
+    "note": "恒生「每年紅利」歸入週年紅利。網站要在選單逐個選計劃，計劃名經逐個點選核對。",
+    "color": "#1F6E2C"
+  },
+  {
     "id": "sunlife",
     "name": "永明金融",
     "full": "永明保險（香港）有限公司 Sun Life Hong Kong Limited",
