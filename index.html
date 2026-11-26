@@ -141,7 +141,12 @@ h3{font-size:16.5px;font-weight:700}
 .card-h p{margin:0;color:var(--mk-muted);font-size:13.5px}
 .intro{display:grid;grid-template-columns:1.4fr 1fr;gap:16px}
 .intro .card{margin-top:0}
-.cos{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.cos{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.cos-box{margin-top:10px;font-size:14px}.cos-box summary{cursor:pointer;color:var(--mk-brand-ink);font-weight:700}
+.fact .nw{white-space:nowrap}
+.plan-act{margin-top:12px;display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px}
+.plan-act small{color:var(--mk-muted);font-size:12.5px}
+.src-print-note{display:none}
 .co-chip{display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border-radius:999px;background:var(--mk-brand-soft);color:var(--mk-brand-ink);font-size:13px;font-weight:700}
 .howto{margin:0;padding:0;list-style:none;display:grid;gap:8px;font-size:14px}
 .howto b{font-family:var(--mk-num);font-size:16px}
@@ -313,7 +318,18 @@ td.co-cell{box-shadow:inset 4px 0 0 var(--co)}
   .card,.kpi,.catc,tr,.hbar{break-inside:avoid}
   .card{border-color:#ccc;padding:10px 12px;margin-top:10px}
   .tbl-wrap{overflow:visible;border:0}
-  table{font-size:8pt}th,td{padding:3px 4px}
+  table{font-size:7.5pt;table-layout:fixed;width:100%}th,td{padding:3px 2px}
+  th{white-space:normal;word-break:keep-all;font-size:7pt}
+  td.plan{min-width:0;max-width:none;white-space:normal;word-break:break-word}td.v{min-width:0;font-size:8pt}td.v.code{font-size:6.5pt}
+  #srcN{display:none}
+  th small{font-size:6.5pt}
+  #cmOut table th:first-child,#planOut table th:first-child{width:24%}
+  #cmOut table th:nth-child(2){width:9%}
+  #planOut table th:nth-child(2){width:7%}
+  #allTbl th:first-child{width:18%}#allTbl th:nth-child(2),#allTbl th:nth-child(3),#allTbl th:nth-child(4){width:6%}
+  .tag{padding:0 3px;font-size:6.5pt}
+  .cos-box[open] .cos,.cos-box .cos{display:flex}
+  .src-print-note{display:block!important}
   thead th{position:static}
   .mk-footer{background:#fff;color:var(--mk-ink);padding:8px 0 0}
   .mk-footer h3,.mk-footer a{color:var(--mk-deep)}
@@ -354,7 +370,7 @@ td.co-cell{box-shadow:inset 4px 0 0 var(--co)}
     <div class="card">
       <h2>分紅實現率是什麼？</h2>
       <p class="lead" style="color:var(--mk-ink)">分紅保單的紅利不保證。保險公司每年要公布「分紅實現率」，即是<b>實際派發的非保證紅利</b>與<b>投保時建議書所示金額</b>的比例，讓客戶了解過往派發紅利的紀錄。</p>
-      <div class="cos" id="coChips"></div>
+      <details class="cos-box"><summary id="coSum">現時收錄的保險公司</summary><div class="cos" id="coChips"></div></details>
       <p class="lead" style="font-size:13.5px">報告年度：<b id="repYear"></b>　｜　數據整理日期：<span id="updDate"></span></p>
     </div>
     <div class="card">
@@ -450,7 +466,7 @@ td.co-cell{box-shadow:inset 4px 0 0 var(--co)}
     </div>
     <div class="pick" style="margin-top:10px">
       <label class="fld wide"><span>計劃及紅利類型 <small class="pick-n" id="cmN"></small></span><select id="cmSer"></select></label>
-      <div class="fld" style="flex:0 0 auto"><span>&nbsp;</span><button type="button" class="btn" id="cmAdd">加入比較</button></div>
+      <div class="fld" style="flex:0 0 auto"><span>&nbsp;</span><span style="display:flex;flex-wrap:wrap;gap:8px"><button type="button" class="btn" id="cmAdd">加入比較</button><button type="button" class="btn ghost" id="cmAddAll" hidden>加入這計劃全部紅利</button></span></div>
     </div>
     <div class="cmp-list" id="cmList"></div>
     <div class="count" id="cmCount"></div>
@@ -481,7 +497,7 @@ td.co-cell{box-shadow:inset 4px 0 0 var(--co)}
     <p>分紅實現率只反映過往派發紀錄，不代表將來表現。每個數字是同一計劃、同一保單年度所有相關保單的平均，個別保單的情況可能不同。本工具的平均數是把已公布的數字直接平均（每個數字比重相同，沒有按保單數目或保費加權），只供參考。產品類型（儲蓄及退休、人壽、危疾）由本工具按產品性質分類，並非保險公司的官方分類。計劃名稱跟保險公司公布的寫法；部分已停售的計劃找不到中文名稱，會以英文顯示。如有出入，以保險公司公布的資料為準。</p>
     <details class="src-box" id="srcBox"><summary><h3 style="display:inline">資料來源</h3> <span id="srcN"></span></summary>
     <p>各保險公司按保險業監管局指引（GL16）在網站公布的分紅實現率：</p>
-    <ul class="srcs" id="srcList"></ul></details>
+    <ul class="srcs" id="srcList"></ul><p class="src-print-note" id="srcNote"></p></details>
     <div class="mk-ecard">
   <div class="mk-ecard-txt"><b>想進一步了解或有疑問？</b><span>歡迎查看我的電子名片，可直接 WhatsApp、加 IG 或儲存聯絡資料。</span></div>
   <a class="mk-ecard-btn" href="https://api.portfoplus.com/api/v1/adviser/5e41564ab3b1bc00153394db?m=link&amp;r=adviser" target="_blank" rel="noopener">查看電子名片 <span aria-hidden="true">→</span></a>
@@ -526,6 +542,7 @@ const vIn=(s,idx)=>s.v.filter((x,i)=>isN(x)&&(!idx||idx.includes(i)));
 // 比較線：冇固定意思，但為免同產品類型色（2、3、5）撞色，用 1、4、6、8（見 CLAUDE.md）
 const CMP=[{c:MK_CAT[0],dash:'',mk:'circle'},{c:MK_CAT[3],dash:'6 4',mk:'square'},{c:MK_CAT[5],dash:'',mk:'diamond'},{c:MK_CAT[7],dash:'2 3',mk:'triangle'}];
 const MAXCMP=4;
+const AVG_ST=[{color:'#7E8C8B',dash:'4 3'},{color:'#4E5C5B',dash:'1 3'},{color:'#9AA6A5',dash:'8 3 2 3'}];
 let D=null, CO={}, state={tab:'overview',f:{co:'all',cat:'all',tg:'all',py:'all'},a:{co:'all',cat:'all',tg:'all',py:'all',q:'',sort:'',only:true},pl:{co:'',key:'',iy:'',fco:'',cat:'all',q:''},cm:[],cf:{co:'',cat:'all',q:''},avg:true,lang:'zh'};
 
 const $=s=>document.querySelector(s);
@@ -656,7 +673,10 @@ function lineChart(el,lines){
   for(let i=0;i<11;i++){s+=`<text x="${x(i)}" y="${H-m.b+16}" text-anchor="middle" style="fill:var(--mk-ink)">${i<10?i+1:'10+'}</text>`;if(W>=640)s+=`<text x="${x(i)}" y="${H-m.b+30}" text-anchor="middle" style="font-size:10.5px">${i<10?D.rep-i-1:'前'}</text>`;}
   lines.forEach(l=>{let d='',seg=false;l.vals.forEach((v,i)=>{if(isN(v)){d+=(seg?'L':'M')+x(i)+','+y(v);seg=true;}else seg=false;});
     s+=`<path d="${d}" fill="none" stroke="${l.color}" stroke-width="${l.faint?1.5:2}" stroke-dasharray="${l.dash||''}" stroke-linejoin="round" stroke-linecap="round" opacity="${l.faint?.8:1}"/>`;
-    l.vals.forEach((v,i)=>{if(isN(v))s+=l.mk?marker(l.mk,x(i),y(v),l.color):`<circle cx="${x(i)}" cy="${y(v)}" r="2.5" fill="${l.color}"/>`;});});
+    const few=l.vals.filter(isN).length<=2;
+    l.vals.forEach((v,i)=>{if(!isN(v))return;const solo=!isN(l.vals[i-1])&&!isN(l.vals[i+1]);
+      s+=l.mk?marker(l.mk,x(i),y(v),l.color,solo&&!l.faint?6:4.5):`<circle cx="${x(i)}" cy="${y(v)}" r="${solo?3.5:2.5}" fill="${l.color}"/>`;
+      if(!l.faint&&(few||solo))s+=`<text x="${x(i)}" y="${y(v)-11}" text-anchor="middle" style="fill:var(--mk-ink);font-weight:700;font-family:var(--mk-num);font-size:12px;paint-order:stroke;stroke:#fff;stroke-width:3px">${pct(v)}</text>`;});});
   s+=`<g class="hover"><line id="xh" y1="${m.t}" y2="${m.t+ih}" stroke="#5B6B6A" stroke-width="1" opacity="0"/></g>`;
   for(let i=0;i<11;i++)s+=`<rect x="${m.l+i*iw/11}" y="${m.t}" width="${iw/11}" height="${ih+24}" fill="transparent" data-i="${i}"/>`;
   s+=`<text x="${m.l}" y="${H-2}" style="font-size:11px">保單年度${W>=640?'（下方為生效年份）':''}</text></svg>`;
@@ -681,7 +701,10 @@ document.addEventListener('click',e=>{const a=e.target.closest('[data-types]');i
 /* ---------- 計劃查詢 ---------- */
 function plansOf(co){const m=new Map();D.series.filter(s=>s.co===co).forEach(s=>{const k=planKey(s);if(!m.has(k))m.set(k,{key:k,co:s.co,zh:s.zh,en:s.en,cat:s.cat,list:[]});m.get(k).list.push(s);});return [...m.values()].sort((a,b)=>{const ha=a.list.some(s=>s.v.some(isN)),hb=b.list.some(s=>s.v.some(isN));return (hb-ha)||pn(a).localeCompare(pn(b));});}
 /* 計劃名搜尋：中英文都搵，唔理大細楷同空格 */
-const norm=t=>(t||'').toLowerCase().replace(/[\s·・‧∙「」『』（）()]/g,'');
+/* 常見異體字、簡體字當同一個字（例如「隽升」搵到「雋陞」） */
+const VAR_PAIRS='隽雋陞升昇升储儲传傳计計划劃宝寶丰豐财財终終寿壽险險万萬爱愛乐樂荣榮誉譽汇匯悦悅跃躍赢贏晋晉钻鑽优優挚摯创創业業华華龙龍凤鳳银銀护護医醫疗療着著裏裡卫衛恆恒峯峰綫線线線为為与與长長乐樂岁歲盛盛惠惠聪聰进進泰泰鸿鴻运運禄祿满滿双雙丽麗东東兴興亿億惟惟鑫鑫启啟';
+const VAR=(()=>{const m={};for(let i=0;i<VAR_PAIRS.length;i+=2)m[VAR_PAIRS[i]]=VAR_PAIRS[i+1];return m;})();
+const norm=t=>(t||'').normalize('NFKC').toLowerCase().replace(/[\s·・‧∙「」『』（）()]/g,'').replace(/[^\x00-\x7f]/g,c=>VAR[c]||c);
 const qHit=(x,q)=>!q||norm(x.zh).includes(norm(q))||norm(x.en).includes(norm(q));
 const catOpts=v=>`<option value="all">全部類型</option>`+Object.entries(CATS).map(([k,c])=>`<option value="${k}"${v===k?' selected':''}>${c.name}</option>`).join('');
 const coOpts=v=>`<option value="all"${v==='all'?' selected':''}>全部公司</option>`+D.companies.map(c=>`<option value="${c.id}"${c.id===v?' selected':''}>${esc(c.name)}</option>`).join('');
@@ -708,14 +731,14 @@ function renderPlan(){
   if(!plan){out.innerHTML='<div class="empty" style="margin-top:16px">請選擇計劃。</div>';return;}
   const c=CATS[plan.cat], co=CO[p.co], iy=p.iy===''?null:+p.iy, P=pts(plan.list);
   const TG=[...new Set(plan.list.map(s=>s.tg))];
-  const facts=P.length?`<div class="facts">${TG.map(t=>{const q=pts(plan.list.filter(s=>s.tg===t));if(!q.length)return `<div class="fact"><span>${TGS[t]}</span><b>—</b> <small>未有數字</small></div>`;const ca=pts(D.series.filter(s=>s.cat===plan.cat&&s.tg===t));return `<div class="fact"><span>${TGS[t]}平均</span><b>${pct(mean(q))}</b> <small>${q.length} 個數字 · 最高 ${pct(Math.max(...q))}／最低 ${pct(Math.min(...q))}</small><small style="display:block">同類（${c.name}）平均 ${pct(mean(ca))}</small></div>`;}).join('')}<div class="fact"><span>達 100% 或以上</span><b>${P.filter(x=>x>=100).length} / ${P.length}</b> <small>所有紅利</small></div></div><p class="lead" style="font-size:12.5px;margin-top:6px">不同種類紅利的計算方法不同，所以分開計平均。</p>`:'';
+  const facts=P.length?`<div class="facts">${TG.map(t=>{const q=pts(plan.list.filter(s=>s.tg===t));if(!q.length)return `<div class="fact"><span>${TGS[t]}</span><b>—</b> <small>未有數字</small></div>`;const ca=pts(D.series.filter(s=>s.cat===plan.cat&&s.tg===t));return `<div class="fact"><span>${TGS[t]}平均</span><b>${pct(mean(q))}</b> <small>${q.length} 個數字</small><small style="display:block"><span class="nw">最高 ${pct(Math.max(...q))}</span>　<span class="nw">最低 ${pct(Math.min(...q))}</span></small><small style="display:block" class="nw">同類平均 ${pct(mean(ca))}</small></div>`;}).join('')}<div class="fact"><span>達 100% 或以上</span><b>${P.filter(x=>x>=100).length} / ${P.length}</b> <small>所有紅利</small></div></div><p class="lead" style="font-size:12.5px;margin-top:6px">不同種類紅利的計算方法不同，所以分開計平均。</p>`:'';
   let iyBox='';
   if(iy!=null){const lb=pyLabel(iy);iyBox=`<div class="iy-res"><div style="margin-bottom:4px"><b>${lb.iy}的保單</b>（${D.rep} 報告年度屬${lb.py}）</div>${plan.list.map(s=>{const avg=catAvgByPy(s.cat,s.tg)[iy];return `<div class="row"><span>${esc(s.type)}${s.cur!=='全部'?' · '+esc(s.cur):''}</span><span><b class="num">${cellTxt(s.v[iy])}</b>${avg?` <small style="color:var(--mk-muted)">同類平均 ${pct(avg.v)}</small>`:''}</span></div>`;}).join('')}</div>`;}
   const tgv=(p.tgv&&(p.tgv==='all'||TG.includes(p.tgv)))?p.tgv:(TG.length>1&&innerWidth<640?TG[0]:'all');
   const shown=tgv==='all'?plan.list:plan.list.filter(s=>s.tg===tgv);
   const lines=[];shown.forEach((s,k)=>{const st=CMP[k%CMP.length];lines.push({name:`${s.type}${s.cur!=='全部'?' · '+s.cur:''}`,color:st.c.color,dash:st.dash,mk:st.mk,vals:s.v});});
-  const seen=new Set();shown.forEach(s=>{const k=s.tg;if(seen.has(k))return;seen.add(k);const a=catAvgByPy(s.cat,s.tg);if(a.some(Boolean))lines.push({name:`同類平均：${c.name} · ${TGS[s.tg]}`,short:`同類平均 · ${TGS[s.tg]}`,color:'#8A9796',dash:'3 3',vals:a.map(x=>x?x.v:null),faint:true});});
-  out.innerHTML=`<div class="card"><div class="plan-head"><h3>${esc(pn(plan))}</h3><span class="tag" style="${catVar(c.n)}">${c.name}</span><small>${coTag(p.co)}${pa(plan)?' · '+esc(pa(plan)):''}</small></div>${facts}${iyBox}</div>
+  const seen=new Set();shown.forEach(s=>{const k=s.tg;if(seen.has(k))return;seen.add(k);const a=catAvgByPy(s.cat,s.tg);const st=AVG_ST[(seen.size-1)%AVG_ST.length];if(a.some(Boolean))lines.push({name:`同類平均：${c.name} · ${TGS[s.tg]}`,short:`同類平均 · ${TGS[s.tg]}`,color:st.color,dash:st.dash,vals:a.map(x=>x?x.v:null),faint:true});});
+  out.innerHTML=`<div class="card"><div class="plan-head"><h3>${esc(pn(plan))}</h3><span class="tag" style="${catVar(c.n)}">${c.name}</span><small>${coTag(p.co)}${pa(plan)?' · '+esc(pa(plan)):''}</small></div>${facts}${iyBox}${P.length?`<div class="plan-act no-print"><button type="button" class="btn" id="plToCmp">加入比較</button><small>${tgv==='all'?'把這個計劃的紅利加入「比較」':'把這個計劃的'+TGS[tgv]+'加入「比較」'}${new Set(shown.filter(s=>s.v.some(isN)).map(s=>s.cur)).size>1?'（有多種貨幣時，加入數字最多的貨幣）':''}，再揀其他計劃並排看</small></div>`:''}</div>
   <div class="card"><div class="card-h"><h3>按保單年度</h3><p>灰色虛線是所有公司同類產品、同一紅利類型的平均</p></div>${TG.length>1?`<div class="seg tgseg no-print" role="group" aria-label="顯示哪種紅利"><button type="button" data-tgv="all" aria-pressed="${tgv==='all'}">全部</button>${TG.map(t=>`<button type="button" data-tgv="${t}" aria-pressed="${tgv===t}">${TGS[t]}</button>`).join('')}</div>`:''}<div class="series-legend">${lines.map(l=>`<span>${legendIcon(l)}${esc(l.name)}</span>`).join('')}</div><div class="chart" id="plChart"></div></div>
   <div class="card"><div class="card-h"><h3>數據表</h3><p>${D.rep} 報告年度</p></div><div class="tbl-wrap"><table>${pyHead('<th class="l">紅利類型</th><th>貨幣</th>')}<tbody>${plan.list.map(s=>`<tr><td class="l">${esc(s.type)}</td><td>${esc(s.cur)}</td>${vCells(s.v,iy)}</tr>`).join('')}</tbody></table></div>
   <div class="legend"><span><i class="sw-hi"></i>100% 或以上</span><span><i class="sw-mid"></i>80%–99%</span><span><i class="sw-lo"></i>低於 80%</span></div>
@@ -723,6 +746,12 @@ function renderPlan(){
   <p class="lead" style="font-size:12.5px;margin-top:8px">資料來源：<a href="${esc(co.source)}" target="_blank" rel="noopener">${esc(co.full)}</a>${co.note?'。'+esc(co.note):''}</p></div>`;
   lineChart($('#plChart'),lines);
   out.querySelectorAll('[data-tgv]').forEach(b=>b.addEventListener('click',()=>{state.pl.tgv=b.dataset.tgv;renderPlan();}));
+  const tc=$('#plToCmp');if(tc)tc.addEventListener('click',()=>{
+    // 揀數字最多嗰個貨幣，加入該貨幣全部（有數字）紅利類型
+    const has=shown.filter(s=>s.v.some(isN)),cnt={};has.forEach(s=>cnt[s.cur]=(cnt[s.cur]||0)+s.v.filter(isN).length);
+    const cur=Object.keys(cnt).sort((a,b)=>cnt[b]-cnt[a])[0];const ids=has.filter(s=>s.cur===cur).map(s=>s.id);
+    const r=addCmp(ids);state.cf.co=p.co;state.cf.q='';state.cf.cat='all';setTab('compare');scrollTo({top:0});
+    mkToast(r.n?`已加入 ${r.n} 項到「比較」`+(r.skip?`；最多 ${MAXCMP} 項，另外 ${r.skip} 項未能加入`:'')+'，可以再揀其他計劃':(r.skip?`比較已有 ${MAXCMP} 項，請先移除`:'已在比較中'));});
   if(iy!=null)out.querySelectorAll(`th[data-col="${iy}"]`).forEach(th=>th.classList.add('sel'));
 }
 
@@ -733,19 +762,30 @@ function fillCmpPickers(){
   if($('#cmQ').value!==f.q)$('#cmQ').value=f.q;
   const byCo=f.co==='all';
   const L=D.series.filter(s=>(byCo||s.co===f.co)&&(f.cat==='all'||s.cat===f.cat)&&s.v.some(isN)&&qHit(s,f.q)).sort((a,b)=>pn(a).localeCompare(pn(b)));
-  $('#cmSer').innerHTML=L.length?groupOpts(L,byCo,s=>`<option value="${s.id}"${state.cm.includes(s.id)?' disabled':''}>${esc(pn(s))} · ${esc(s.type)}${s.cur!=='全部'?' · '+esc(s.cur):''}${byCo?'（'+CATS[s.cat].name+'）':''}</option>`):'<option value="">沒有符合條件、有數字的計劃</option>';
+  const keep=$('#cmSer').value;
+  $('#cmSer').innerHTML=L.length?`<option value="">請選擇計劃及紅利類型</option>`+groupOpts(L,byCo,s=>`<option value="${s.id}"${state.cm.includes(s.id)?' disabled':''}>${esc(pn(s))} · ${esc(s.type)}${s.cur!=='全部'?' · '+esc(s.cur):''}${byCo?'（'+CATS[s.cat].name+'）':''}</option>`):'<option value="">沒有符合條件、有數字的計劃</option>';
+  if(keep&&L.some(s=>s.id===keep&&!state.cm.includes(s.id)))$('#cmSer').value=keep;
   $('#cmN').textContent=`共 ${L.length} 項`;
-  $('#cmAdd').disabled=state.cm.length>=MAXCMP||!L.length;
+  cmBtns();
 }
+/* 同一計劃、同一貨幣嘅其他紅利類型 */
+function siblings(id){const s=D.series.find(x=>x.id===id);if(!s)return [];return D.series.filter(x=>x.co===s.co&&planKey(x)===planKey(s)&&x.cur===s.cur&&x.v.some(isN));}
+function cmBtns(){const id=$('#cmSer').value,full=state.cm.length>=MAXCMP;
+  $('#cmAdd').disabled=full||!id;
+  const sib=id?siblings(id).filter(x=>!state.cm.includes(x.id)):[];
+  $('#cmAddAll').hidden=sib.length<2;$('#cmAddAll').disabled=full;
+  $('#cmAddAll').textContent=`加入這計劃全部紅利（${sib.length} 項）`;}
+/* 加入比較；回傳加咗幾多項、有幾多項放唔落 */
+function addCmp(ids){let n=0,skip=0;ids.forEach(id=>{if(state.cm.includes(id))return;if(state.cm.length>=MAXCMP){skip++;return;}state.cm.push(id);n++;});return {n,skip};}
 function renderCompare(){
   fillCmpPickers();
   const S=state.cm.map(id=>D.series.find(s=>s.id===id)).filter(Boolean);
   $('#cmList').innerHTML=S.map((s,k)=>`<div class="cmp-item" style="--co:${CO[s.co].color}">${legendIcon({color:CMP[k].c.color,dash:CMP[k].dash,mk:CMP[k].mk})}<div class="txt">${nameHTML(s)}<small>${serSub(s)} · ${CATS[s.cat].name}</small></div><button type="button" class="btn-x" data-rm="${s.id}" aria-label="移除">×</button></div>`).join('');
-  $('#cmCount').textContent=S.length?`已選 ${S.length} / ${MAXCMP} 項`:'未選擇。請先選保險公司，再選計劃及紅利類型，按「加入比較」。';
+  $('#cmCount').textContent=S.length?`已選 ${S.length} / ${MAXCMP} 項`+(S.length>=MAXCMP?'（已滿，可按 × 移除）':''):'未選擇。請先選保險公司，再選計劃及紅利類型，按「加入比較」。';
   const out=$('#cmOut');
   if(!S.length){out.innerHTML='';return;}
   const lines=S.map((s,k)=>({name:`${pn(s)} · ${s.type}`,short:pn(s),color:CMP[k].c.color,dash:CMP[k].dash,mk:CMP[k].mk,vals:s.v}));
-  if(state.avg){const seen=new Set();S.forEach(s=>{const k=s.cat+s.tg;if(seen.has(k))return;seen.add(k);const a=catAvgByPy(s.cat,s.tg);lines.push({name:`同類平均：${CATS[s.cat].name} · ${TGS[s.tg]}`,short:`同類平均 · ${CATS[s.cat].name}`,color:'#8A9796',dash:'3 3',vals:a.map(x=>x?x.v:null),faint:true});});}
+  if(state.avg){const seen=new Set();S.forEach(s=>{const k=s.cat+s.tg;if(seen.has(k))return;seen.add(k);const a=catAvgByPy(s.cat,s.tg);const st=AVG_ST[(seen.size-1)%AVG_ST.length];lines.push({name:`同類平均：${CATS[s.cat].name} · ${TGS[s.tg]}`,short:`同類平均 · ${CATS[s.cat].name} · ${TGS[s.tg]}`,color:st.color,dash:st.dash,vals:a.map(x=>x?x.v:null),faint:true});});}
   const sum=S.map((s,k)=>{const p=s.v.filter(isN);return `<tr><td class="plan"><span style="display:inline-flex;vertical-align:middle;margin-right:6px">${legendIcon({color:CMP[k].c.color,dash:CMP[k].dash,mk:CMP[k].mk})}</span><b style="display:inline">${esc(pn(s))}</b>${pa(s)?`<span class="alt">${esc(pa(s))}</span>`:'<br>'}<small>${serSub(s)}</small></td><td><span class="tag" style="${catVar(CATS[s.cat].n)}">${CATS[s.cat].name}</span></td>${vCells(s.v)}<td class="v ${cls(mean(p))}">${p.length?pct(mean(p)):'—'}</td></tr>`;}).join('');
   const tgs=[...new Set(S.map(s=>s.tg))], cats=[...new Set(S.map(s=>s.cat))], curs=[...new Set(S.map(s=>s.cur))];
   const W=[];
@@ -813,11 +853,16 @@ fetch('data.json').then(r=>r.json()).then(d=>{
   D=d;D.companies.forEach(c=>CO[c.id]=c);
   $('#repYear').textContent=D.rep;
   const u=D.updated.split('-');$('#updDate').textContent=`${u[0]} 年 ${+u[1]} 月 ${+u[2]} 日`;
-  $('#coChips').innerHTML=`<span style="font-size:13px;color:var(--mk-muted);align-self:center">現時收錄 ${D.companies.length} 間：</span>`+D.companies.map(c=>`<span class="co-chip" style="--co:${c.color};color:${c.ink||c.color}">${esc(c.name)}</span>`).join('');
-  if(D.missing&&D.missing.length)$('#coChips').insertAdjacentHTML('afterend',`<p class="lead" style="font-size:12.5px;margin-top:6px">暫未收錄：${D.missing.map(m=>esc(m.name)+(m.why?'（'+esc(m.why)+'）':'')).join('、')}。未收錄不代表表現較好或較差。</p>`);
+  $('#coSum').textContent=`現時收錄 ${D.companies.length} 間保險公司（撳開查看）`;
+  $('#coChips').innerHTML=D.companies.map(c=>`<span class="co-chip" style="--co:${c.color};color:${c.ink||c.color}">${esc(c.name)}</span>`).join('');
+  if(D.missing&&D.missing.length)$('.cos-box').insertAdjacentHTML('afterend',`<p class="lead" style="font-size:12.5px;margin-top:6px">暫未收錄：${D.missing.map(m=>esc(m.name)+(m.why?'（'+esc(m.why)+'）':'')).join('、')}。未收錄不代表表現較好或較差。</p>`);
   $('#srcN').textContent=`（${D.companies.length} 間公司，撳開查看）`;
-  addEventListener('beforeprint',()=>{$('#srcBox').open=true;});
-  $('#srcList').innerHTML=D.companies.map(c=>`<li>${esc(c.name)}（${esc(c.full)}）：<a href="${esc(c.source)}" target="_blank" rel="noopener">${D.rep} 報告年度分紅實現率</a>${c.note?'　'+esc(c.note):''}</li>`).join('');
+  const srcLi=c=>`<li>${esc(c.name)}（${esc(c.full)}）：<a href="${esc(c.source)}" target="_blank" rel="noopener">${D.rep} 報告年度分紅實現率</a>${c.note?'　'+esc(c.note):''}</li>`;
+  const fullSrc=()=>{$('#srcList').innerHTML=D.companies.map(srcLi).join('');$('#srcNote').textContent='';};
+  const pageCos=()=>{const t=state.tab;if(t==='compare')return [...new Set(state.cm.map(id=>(D.series.find(s=>s.id===id)||{}).co).filter(Boolean))];if(t==='plan')return state.pl.co?[state.pl.co]:[];const f=t==='all'?state.a:state.f;return f.co&&f.co!=='all'?[f.co]:null;};
+  fullSrc();
+  addEventListener('beforeprint',()=>{$('#srcBox').open=true;const cs=pageCos();if(cs&&cs.length){$('#srcList').innerHTML=D.companies.filter(c=>cs.includes(c.id)).map(srcLi).join('');$('#srcNote').textContent=`只列出本頁涉及的 ${cs.length} 間公司；其餘 ${D.companies.length-cs.length} 間的資料來源見網頁版。`;}});
+  addEventListener('afterprint',fullSrc);
   const t=readHash();
   $('#ovFilters').innerHTML=filterHTML('ov',state.f,false);bindFilters($('#ovFilters'),state.f,()=>{renderOverview();writeHash();});
   $('#allFilters').innerHTML=filterHTML('all',state.a,true);bindFilters($('#allFilters'),state.a,()=>{renderAll();writeHash();});
@@ -827,12 +872,15 @@ fetch('data.json').then(r=>r.json()).then(d=>{
   $('#plAll').addEventListener('change',e=>{state.pl.showAll=e.target.checked;renderPlan();});
   $('#plCat').addEventListener('change',e=>{state.pl.cat=e.target.value;renderPlan();writeHash();});
   let plT;$('#plQ').addEventListener('input',e=>{clearTimeout(plT);plT=setTimeout(()=>{state.pl.q=e.target.value.trim();renderPlan();writeHash();},200);});
-  $('#plPlan').addEventListener('change',e=>{const [c,k]=e.target.value.split('\u0001');if(!k)return;state.pl.co=c;state.pl.key=k;renderPlan();writeHash();});
-  $('#plIy').addEventListener('change',e=>{state.pl.iy=e.target.value;renderPlan();writeHash();});
+  const toRes=()=>{if(innerWidth<760){const o=$('#planOut');const top=o.getBoundingClientRect().top+scrollY-(document.querySelector('.mk-header').offsetHeight+8);scrollTo({top,behavior:'smooth'});}};
+  $('#plPlan').addEventListener('change',e=>{const [c,k]=e.target.value.split('\u0001');if(!k)return;state.pl.co=c;state.pl.key=k;renderPlan();writeHash();toRes();});
+  $('#plIy').addEventListener('change',e=>{state.pl.iy=e.target.value;renderPlan();writeHash();toRes();});
   $('#cmCo').addEventListener('change',e=>{state.cf.co=e.target.value;fillCmpPickers();});
   $('#cmCat').addEventListener('change',e=>{state.cf.cat=e.target.value;fillCmpPickers();});
   let cmT;$('#cmQ').addEventListener('input',e=>{clearTimeout(cmT);cmT=setTimeout(()=>{state.cf.q=e.target.value.trim();fillCmpPickers();},200);});
-  $('#cmAdd').addEventListener('click',()=>{const id=$('#cmSer').value;if(id&&!state.cm.includes(id)&&state.cm.length<MAXCMP){state.cm.push(id);renderCompare();writeHash();}});
+  $('#cmSer').addEventListener('change',cmBtns);
+  $('#cmAdd').addEventListener('click',()=>{const id=$('#cmSer').value;if(id&&!state.cm.includes(id)&&state.cm.length<MAXCMP){state.cm.push(id);$('#cmSer').value='';renderCompare();writeHash();}});
+  $('#cmAddAll').addEventListener('click',()=>{const id=$('#cmSer').value;if(!id)return;const r=addCmp(siblings(id).map(x=>x.id));$('#cmSer').value='';renderCompare();writeHash();if(r.skip)mkToast(`已加入 ${r.n} 項；最多比較 ${MAXCMP} 項，另外 ${r.skip} 項未能加入`);});
   $('#cmList').addEventListener('click',e=>{const b=e.target.closest('[data-rm]');if(!b)return;state.cm=state.cm.filter(x=>x!==b.dataset.rm);renderCompare();writeHash();});
   $('#cmAvg').checked=state.avg;$('#cmAvg').addEventListener('change',e=>{state.avg=e.target.checked;renderCompare();writeHash();});
   document.querySelectorAll('.mk-tab').forEach(b=>b.addEventListener('click',()=>{setTab(b.dataset.tab);scrollTo({top:0});}));
