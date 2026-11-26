@@ -183,6 +183,17 @@
     "ink": ""
   },
   {
+    "id": "generalibr",
+    "name": "忠意保險（香港分行）",
+    "full": "Assicurazioni Generali S.p.A. – Hong Kong Branch",
+    "file": "generalibr.csv",
+    "rep": 2025,
+    "source": "https://www.generali.com.hk//file-library/357ffd31-2aaf-4d79-ba10-23c2b81d8637/HKBFulfillmentRatio2025.pdf",
+    "note": "與忠意人壽（香港）是不同公司；只有一個已停售的危疾計劃。資料更新日期：2026 年 3 月。",
+    "color": "#9B1C14",
+    "ink": ""
+  },
+  {
     "id": "wli",
     "name": "立橋人壽",
     "full": "Well Link Life Insurance Company Limited",
@@ -202,6 +213,28 @@
     "source": "https://www.cpiclifehk.com.hk/customerSupport/importantInfo",
     "note": "2021 年開業，大部分計劃仍未有數字；「非保證年金」歸入週年紅利一組計算。",
     "color": "#0052A5",
+    "ink": ""
+  },
+  {
+    "id": "hklife",
+    "name": "香港人壽",
+    "full": "Hong Kong Life Insurance Limited",
+    "file": "hklife.csv",
+    "rep": 2025,
+    "source": "https://www.hklife.com.hk/tc/customer-info/fulfillment-ratios/index.html",
+    "note": "公司把週年紅利、特別紅利及非保證每月入息合併成一個實現率，本工具歸入週年紅利。",
+    "color": "#AF9777",
+    "ink": "#805528"
+  },
+  {
+    "id": "zurich",
+    "name": "蘇黎世人壽（香港）",
+    "full": "Zurich Life Insurance (Hong Kong) Limited",
+    "file": "zurich.csv",
+    "rep": 2025,
+    "source": "https://www.zurich.com.hk/en/customer-services/life-policy-services/zlihk",
+    "note": "只有 3 個舊分紅計劃（由 Zurich Life Insurance Company Ltd 轉入）有數字，全部是 10 年以上保單；2026 年推出的 Swiss Prime 未有數字。數字由公司 PDF 人手抄錄。",
+    "color": "#2167AE",
     "ink": ""
   }
 ]
