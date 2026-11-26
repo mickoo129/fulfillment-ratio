@@ -129,6 +129,16 @@
     "ink": "#9A5F00"
   },
   {
+    "id": "taiping",
+    "name": "中國太平人壽（香港）",
+    "full": "中國太平人壽保險（香港）有限公司 China Taiping Life Insurance (Hong Kong) Company Limited",
+    "file": "taiping.csv",
+    "rep": 2025,
+    "source": "https://tplhk.cntaiping.com/info/fulfillment_ratio",
+    "note": "中國太平不分貨幣公布，只列第 1 至第 10 個保單年度（沒有「10 年以上」）；「現金紅利」歸入週年紅利，「終期紅利／特別紅利」歸入終期紅利。",
+    "color": "#006CB7"
+  },
+  {
     "id": "aiae",
     "name": "友邦雋峰（AIA Everest）",
     "full": "AIA Everest Life Company Limited",
