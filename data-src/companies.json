@@ -77,6 +77,16 @@
     "ink": "#7A5A00"
   },
   {
+    "id": "yflife",
+    "name": "萬通保險",
+    "full": "萬通保險國際有限公司 YF Life Insurance International Ltd.",
+    "file": "yflife.csv",
+    "rep": 2025,
+    "source": "https://www.yflife.com/tc/support/useful-information/investment-strategy/",
+    "note": "萬通不分貨幣公布（所有貨幣合併）；「年終紅利／額外紅利」歸入週年紅利，「復歸紅利」即歸原紅利，「特別回報」歸入特別紅利，「退保價值」（非保證退保價值）歸入終期組。萬能壽險只有派息率，不收錄。",
+    "color": "#002E6C"
+  },
+  {
     "id": "aiae",
     "name": "友邦雋峰（AIA Everest）",
     "full": "AIA Everest Life Company Limited",
