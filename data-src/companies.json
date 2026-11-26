@@ -66,6 +66,17 @@
     "ink": ""
   },
   {
+    "id": "sunlife",
+    "name": "永明金融",
+    "full": "永明保險（香港）有限公司 Sun Life Hong Kong Limited",
+    "file": "sunlife.csv",
+    "rep": 2025,
+    "source": "https://www.sunlife.com.hk/zh-hant/insurance/fulfillment-ratios-of-respective-products/",
+    "note": "永明不分貨幣公布（所有貨幣合併）；「終期紅利／特別紅利」歸入終期紅利。",
+    "color": "#FFCB05",
+    "ink": "#7A5A00"
+  },
+  {
     "id": "aiae",
     "name": "友邦雋峰（AIA Everest）",
     "full": "AIA Everest Life Company Limited",

@@ -1,0 +1,77 @@
+傳愛儲蓄計劃|Venus|Whole Life|全部|歸原紅利|CS|CS|CS|100|100|NL|NL|NL|NL|NL|NL
+傳愛儲蓄計劃|Venus|Whole Life|全部|終期紅利|CS|CS|CS|NA|NA|NL|NL|NL|NL|NL|NL
+生命安心保, 生命安多保|LIFE Super, LIFE Super Plus|Whole Life|全部|週年紅利|CS|CS|CS|CS|97|97|96|95|95|95|96
+優月儲蓄計劃|Vision|Whole Life|全部|週年紅利|NA|101|103|100|98|97|NL|NL|NL|NL|NL
+優月儲蓄計劃|Vision|Whole Life|全部|歸原紅利|100|104|111|102|97|90|NL|NL|NL|NL|NL
+優月儲蓄計劃|Vision|Whole Life|全部|終期紅利|NA|NA|NA|NA|NA|NA|NL|NL|NL|NL|NL
+卓裕人壽系列|Generations|Whole Life|全部|歸原紅利|CS|CS|CS|96|90|92|93|NL|NL|NL|NL
+卓裕人壽系列|Generations|Whole Life|全部|終期紅利|CS|CS|CS|NA|NA|NA|NA|NL|NL|NL|NL
+傳富儲蓄計劃|Victory|Whole Life|全部|歸原紅利|NA|NA|120|119|117|NL|NL|NL|NL|NL|NL
+傳富儲蓄計劃|Victory|Whole Life|全部|終期紅利|NA|NA|NA|NA|NA|NL|NL|NL|NL|NL|NL
+展望成才計劃|HOPE Educator|Whole Life|全部|週年紅利|CS|CS|CS|CS|75|86|85|79|87|88|87
+承諾保障儲蓄計劃|Commitment|Whole Life|全部|歸原紅利|CS|100|100|92|85|87|86|NL|NL|NL|NL
+承諾保障儲蓄計劃|Commitment|Whole Life|全部|終期紅利|CS|NA|NA|NA|NA|NA|NA|NL|NL|NL|NL
+卓裕人壽系列 II|Generations II|Whole Life|全部|歸原紅利|NA|NA|115|115|NL|NL|NL|NL|NL|NL|NL
+卓裕人壽系列 II|Generations II|Whole Life|全部|終期紅利|NA|NA|NA|NA|NL|NL|NL|NL|NL|NL|NL
+生命雋富保|Life Brilliance|Whole Life|全部|歸原紅利|NA|NA|116|109|94|90|91|91|83|83|83
+生命雋富保|Life Brilliance|Whole Life|全部|終期紅利|NA|NA|NA|NA|NA|NA|NA|NA|NA|83|86
+終身照耀人壽系列|Prosperity|Whole Life|全部|歸原紅利|CS|CS|CS|99|95|97|98|NL|NL|NL|NL
+終身照耀人壽系列|Prosperity|Whole Life|全部|終期紅利|CS|CS|CS|NA|NA|NA|NA|NL|NL|NL|NL
+富越儲蓄計劃|Stellar|Whole Life|全部|歸原紅利|NA|104|103|NL|NL|NL|NL|NL|NL|NL|NL
+富越儲蓄計劃|Stellar|Whole Life|全部|終期紅利|NA|100|100|NL|NL|NL|NL|NL|NL|NL|NL
+萬年青 · 傳承儲蓄計劃|SunGift|Whole Life|全部|歸原紅利|NA|100|NL|NL|NL|NL|NL|NL|NL|NL|NL
+萬年青 · 傳承儲蓄計劃|SunGift|Whole Life|全部|終期紅利|NA|100|NL|NL|NL|NL|NL|NL|NL|NL|NL
+萬年青 · 星河傳承計劃|SunGift Global|Whole Life|全部|歸原紅利|NA|100|NL|NL|NL|NL|NL|NL|NL|NL|NL
+萬年青 · 星河傳承計劃|SunGift Global|Whole Life|全部|終期紅利|NA|100|NL|NL|NL|NL|NL|NL|NL|NL|NL
+萬年青 · 尊享儲蓄計劃|SunJoy|Whole Life|全部|歸原紅利|100|100|NL|NL|NL|NL|NL|NL|NL|NL|NL
+萬年青 · 尊享儲蓄計劃|SunJoy|Whole Life|全部|終期紅利|100|100|NL|NL|NL|NL|NL|NL|NL|NL|NL
+萬年青 · 星河尊享計劃|SunJoy Global|Whole Life|全部|歸原紅利|100|100|NL|NL|NL|NL|NL|NL|NL|NL|NL
+萬年青 · 星河尊享計劃|SunJoy Global|Whole Life|全部|終期紅利|NA|100|NL|NL|NL|NL|NL|NL|NL|NL|NL
+萬年青 · 瑞永盈計劃|SunWing|Whole Life|全部|歸原紅利|NA|100|NL|NL|NL|NL|NL|NL|NL|NL|NL
+萬年青 · 瑞永盈計劃|SunWing|Whole Life|全部|終期紅利|NA|100|NL|NL|NL|NL|NL|NL|NL|NL|NL
+萬年青 · 卓金計劃|SunPrime|Whole Life|全部|歸原紅利|100|100|NL|NL|NL|NL|NL|NL|NL|NL|NL
+萬年青 · 卓金計劃|SunPrime|Whole Life|全部|終期紅利|NA|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL
+永盈儲蓄計劃|SunGrowth|Whole Life|全部|歸原紅利|100|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+永盈儲蓄計劃|SunGrowth|Whole Life|全部|終期紅利|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+永越多元貨幣計劃|Stellar Multi-Currency Plan|Whole Life|全部|歸原紅利|NA|100|100|NL|NL|NL|NL|NL|NL|NL|NL
+永越多元貨幣計劃|Stellar Multi-Currency Plan|Whole Life|全部|終期紅利|NA|100|100|NL|NL|NL|NL|NL|NL|NL|NL
+永延保障計劃|SunProtect|Whole Life|全部|終期紅利|NA|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL
+永護保障計劃／永護保障計劃（守護版）|SunGuardian / SunGuardian (Care Version)|Whole Life|全部|終期紅利|NA|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL
+永逸保障計劃|MultiGuardian|Whole Life|全部|終期紅利|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+傳愛儲蓄計劃II|Venus II|Whole Life|全部|歸原紅利|NA|NA|NA|NA|NL|NL|NL|NL|NL|NL|NL
+傳愛儲蓄計劃II|Venus II|Whole Life|全部|終期紅利|NA|NA|NA|NA|NL|NL|NL|NL|NL|NL|NL
+永譽傳承儲蓄計劃|RoyalFortune Savings Insurance Plan|Whole Life|全部|歸原紅利|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+永譽傳承儲蓄計劃|RoyalFortune Savings Insurance Plan|Whole Life|全部|終期紅利|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+昇暉保障計劃|Vital|Whole Life|全部|歸原紅利|NA|NA|120|120|NL|NL|NL|NL|NL|NL|NL
+昇暉保障計劃|Vital|Whole Life|全部|終期紅利|NA|NA|NA|NA|NL|NL|NL|NL|NL|NL|NL
+享悅添心附加保險|RetireFree Booster Rider Insurance|Whole Life|全部|終期紅利|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+歲悅儲蓄計劃|SunPromise Income Plan|Whole Life|全部|終期紅利|CS|CS|CS|NA|NA|70|70|70|70|70|70
+永明學子飛揚計劃|SunEducator|Endowment|全部|週年紅利|CS|CS|CS|CS|CS|56|55|58|62|65|65
+豐庫錦囊, 增長錦囊, 增長年年錦囊|ASSET Builder, GROWTH Builder, GROWTH Plus|Endowment|全部|週年紅利|CS|CS|CS|CS|CS|CS|CS|CS|92|92|91
+生命智富保|LIFE Achiever|Whole Life|全部|週年紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|97|81
+生命加蓄保|LIFE Enhancer|Whole Life|全部|週年紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|87
+生命利多保|LIFE Savings Plus|Whole Life|全部|週年紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|93
+永明康護危疾保 II|SunHealth Critical Illness Care II|Whole Life|全部|終期紅利|CS|CS|CS|CS|CS|CS|CS|CS|95|95|95
+永明危疾家康保|SunHealth LovePromise|Whole Life|全部|終期紅利|NA|NA|NA|NL|NL|NL|NL|NL|NL|NL|NL
+永明危疾齊家保|SunHealth OmniCare|Whole Life|全部|終期紅利|NA|NA|NA|NA|98|94|NL|NL|NL|NL|NL
+永明危疾「全護」保, 永明危疾「至尊」保|SunHealth UltraCare, SunHealth MaxiCare|Whole Life|全部|終期紅利|NA|NA|NA|NA|70|64|57|59|61|NL|NL
+萬家康系列|SunWell Series|Whole Life|全部|終期紅利|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+永明鑽石入息保|Sun Diamond Income Plan|Endowment|全部|週年紅利|CS|CS|CS|CS|87|87|87|74|52|62|62
+安逸自主年金計劃|FlexiRetire Annuity Plan|Whole Life|全部|週年紅利|NA|NA|NA|NA|NA|NA|NA|NL|NL|NL|NL
+安逸自主年金計劃|FlexiRetire Annuity Plan|Whole Life|全部|歸原紅利|NA|NA|110|105|87|86|87|NL|NL|NL|NL
+豐碩延期年金計劃|Foresight Deferred Annuity Plan|Whole Life|全部|週年紅利|NA|NA|NA|NA|NA|NA|NL|NL|NL|NL|NL
+豐碩延期年金計劃|Foresight Deferred Annuity Plan|Whole Life|全部|歸原紅利|NA|NA|100|92|85|85|NL|NL|NL|NL|NL
+暖意退休計劃|WARMTH Retirement|Whole Life|全部|週年紅利|CS|CS|CS|CS|CS|71|71|69|70|69|95
+萬年青 · 星河傳承保險計劃 II|SunGift Global Insurance Plan II|Whole Life|全部|歸原紅利|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+萬年青 · 星河傳承保險計劃 II|SunGift Global Insurance Plan II|Whole Life|全部|終期紅利|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+萬年青 · 星河尊享保險計劃 II|SunJoy Global Insurance Plan II|Whole Life|全部|歸原紅利|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+萬年青 · 星河尊享保險計劃 II|SunJoy Global Insurance Plan II|Whole Life|全部|終期紅利|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+萬年青 · 瑞永盈保險計劃 II|SunWing Insurance Plan II|Whole Life|全部|歸原紅利|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+萬年青 · 瑞永盈保險計劃 II|SunWing Insurance Plan II|Whole Life|全部|終期紅利|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+萬年青 · 信盈保險計劃|SunTreasure Insurance Plan|Whole Life|全部|歸原紅利|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+萬年青 · 信盈保險計劃|SunTreasure Insurance Plan|Whole Life|全部|終期紅利|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+永越多元貨幣保險計劃 II|Stellar Multi-Currency Plan II|Whole Life|全部|歸原紅利|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+永越多元貨幣保險計劃 II|Stellar Multi-Currency Plan II|Whole Life|全部|終期紅利|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+萬年青 · 卓金保險計劃 II|SunPrime Insurance Plan II|Whole Life|全部|歸原紅利|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+萬年青 · 卓金保險計劃 II|SunPrime Insurance Plan II|Whole Life|全部|終期紅利|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+卓裕人壽系列 III|Generations III|Whole Life|全部|終期紅利|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
