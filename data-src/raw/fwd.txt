@@ -1,0 +1,232 @@
+盈聚未來儲蓄壽險計劃 (優越版）|MaxFocus Supreme Savings Insurance Plan||美元|週年紅利|CS|CS|CS|CS|99|98|99|101|NL|NL|NL
+盈聚未來儲蓄壽險計劃 (優越版）|MaxFocus Supreme Savings Insurance Plan||港元|週年紅利|CS|CS|CS|CS|NA|98|99|101|NL|NL|NL
+盈聚未來儲蓄壽險計劃 (優越版）|MaxFocus Supreme Savings Insurance Plan||美元|特別紅利|CS|CS|CS|CS|105|98|97|104|NL|NL|NL
+盈聚未來儲蓄壽險計劃 (優越版）|MaxFocus Supreme Savings Insurance Plan||港元|特別紅利|CS|CS|CS|CS|NA|98|99|103|NL|NL|NL
+盈聚未來壽險計劃 (卓越版）|MaxFocus Signature Insurance Plan||美元|週年紅利|CS|CS|100|100|99|97|NL|NL|NL|NL|NL
+盈聚未來壽險計劃 (卓越版）|MaxFocus Signature Insurance Plan||港元|週年紅利|CS|CS|100|100|99|97|NL|NL|NL|NL|NL
+盈聚未來壽險計劃 (卓越版）|MaxFocus Signature Insurance Plan||美元|特別紅利|CS|CS|NA|100|98|98|NL|NL|NL|NL|NL
+盈聚未來壽險計劃 (卓越版）|MaxFocus Signature Insurance Plan||港元|特別紅利|CS|CS|NA|100|98|98|NL|NL|NL|NL|NL
+盈聚非凡壽險計劃|MaxFocus Achiever Insurance Plan||美元|週年紅利|CS|CS|100|100|NL|NL|NL|NL|NL|NL|NL
+盈聚非凡壽險計劃|MaxFocus Achiever Insurance Plan||港元|週年紅利|CS|CS|100|100|NL|NL|NL|NL|NL|NL|NL
+盈聚非凡壽險計劃|MaxFocus Achiever Insurance Plan||美元|特別紅利|CS|CS|100|100|NL|NL|NL|NL|NL|NL|NL
+盈聚非凡壽險計劃|MaxFocus Achiever Insurance Plan||港元|特別紅利|CS|CS|100|100|NL|NL|NL|NL|NL|NL|NL
+盈聚世代壽險計劃|MaxFocus Infinity Insurance Plan||美元|週年紅利|CS|CS|100|100|NL|NL|NL|NL|NL|NL|NL
+盈聚世代壽險計劃|MaxFocus Infinity Insurance Plan||港元|週年紅利|CS|CS|NA|100|NL|NL|NL|NL|NL|NL|NL
+盈聚世代壽險計劃|MaxFocus Infinity Insurance Plan||美元|特別紅利|CS|CS|100|NA|NL|NL|NL|NL|NL|NL|NL
+盈聚世代壽險計劃|MaxFocus Infinity Insurance Plan||港元|特別紅利|CS|CS|NA|NA|NL|NL|NL|NL|NL|NL|NL
+盈聚優裕壽險計劃|MaxFocus Vision Insurance Plan||美元|週年紅利|NA|NA|100|NL|NL|NL|NL|NL|NL|NL|NL
+盈聚優裕壽險計劃|MaxFocus Vision Insurance Plan||港元|週年紅利|NA|NA|100|NL|NL|NL|NL|NL|NL|NL|NL
+盈聚優裕壽險計劃|MaxFocus Vision Insurance Plan||人民幣|週年紅利|NA|NA|100|NL|NL|NL|NL|NL|NL|NL|NL
+盈聚優裕壽險計劃|MaxFocus Vision Insurance Plan||美元|特別紅利|NA|NA|100|NL|NL|NL|NL|NL|NL|NL|NL
+盈聚優裕壽險計劃|MaxFocus Vision Insurance Plan||港元|特別紅利|NA|NA|100|NL|NL|NL|NL|NL|NL|NL|NL
+盈聚優裕壽險計劃|MaxFocus Vision Insurance Plan||人民幣|特別紅利|NA|NA|NA|NL|NL|NL|NL|NL|NL|NL|NL
+盈聚環球壽險計劃|MaxFocus Global Insurance Plan||美元|週年紅利|NA|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL
+盈聚環球壽險計劃|MaxFocus Global Insurance Plan||港元|週年紅利|NA|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL
+盈聚環球壽險計劃|MaxFocus Global Insurance Plan||人民幣|週年紅利|NA|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL
+盈聚環球壽險計劃|MaxFocus Global Insurance Plan||澳元|週年紅利|NA|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL
+盈聚環球壽險計劃|MaxFocus Global Insurance Plan||加元|週年紅利|NA|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL
+盈聚環球壽險計劃|MaxFocus Global Insurance Plan||歐元|週年紅利|NA|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL
+盈聚環球壽險計劃|MaxFocus Global Insurance Plan||英鎊|週年紅利|NA|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL
+盈聚環球壽險計劃|MaxFocus Global Insurance Plan||新加坡元|週年紅利|NA|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL
+盈聚環球壽險計劃|MaxFocus Global Insurance Plan||美元|特別紅利|NA|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL
+盈聚環球壽險計劃|MaxFocus Global Insurance Plan||港元|特別紅利|NA|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL
+盈聚環球壽險計劃|MaxFocus Global Insurance Plan||人民幣|特別紅利|NA|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL
+盈聚環球壽險計劃|MaxFocus Global Insurance Plan||澳元|特別紅利|NA|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL
+盈聚環球壽險計劃|MaxFocus Global Insurance Plan||加元|特別紅利|NA|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL
+盈聚環球壽險計劃|MaxFocus Global Insurance Plan||歐元|特別紅利|NA|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL
+盈聚環球壽險計劃|MaxFocus Global Insurance Plan||英鎊|特別紅利|NA|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL
+盈聚環球壽險計劃|MaxFocus Global Insurance Plan||新加坡元|特別紅利|NA|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL
+盈聚天下壽險計劃|MaxFocus Legacy Insurance Plan||美元|歸原紅利|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+盈聚天下壽險計劃|MaxFocus Legacy Insurance Plan||港元|歸原紅利|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+盈聚天下壽險計劃|MaxFocus Legacy Insurance Plan||人民幣|歸原紅利|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+盈聚天下壽險計劃|MaxFocus Legacy Insurance Plan||澳元|歸原紅利|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+盈聚天下壽險計劃|MaxFocus Legacy Insurance Plan||加元|歸原紅利|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+盈聚天下壽險計劃|MaxFocus Legacy Insurance Plan||歐元|歸原紅利|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+盈聚天下壽險計劃|MaxFocus Legacy Insurance Plan||英鎊|歸原紅利|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+盈聚天下壽險計劃|MaxFocus Legacy Insurance Plan||新加坡元|歸原紅利|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+盈聚天下壽險計劃|MaxFocus Legacy Insurance Plan||美元|特別紅利|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+盈聚天下壽險計劃|MaxFocus Legacy Insurance Plan||港元|特別紅利|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+盈聚天下壽險計劃|MaxFocus Legacy Insurance Plan||人民幣|特別紅利|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+盈聚天下壽險計劃|MaxFocus Legacy Insurance Plan||澳元|特別紅利|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+盈聚天下壽險計劃|MaxFocus Legacy Insurance Plan||加元|特別紅利|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+盈聚天下壽險計劃|MaxFocus Legacy Insurance Plan||歐元|特別紅利|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+盈聚天下壽險計劃|MaxFocus Legacy Insurance Plan||英鎊|特別紅利|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+盈聚天下壽險計劃|MaxFocus Legacy Insurance Plan||新加坡元|特別紅利|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+盈聚天下II壽險計劃|MaxFocus Legacy II Insurance Plan||美元|歸原紅利|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+盈聚天下II壽險計劃|MaxFocus Legacy II Insurance Plan||港元|歸原紅利|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+盈聚天下II壽險計劃|MaxFocus Legacy II Insurance Plan||人民幣|歸原紅利|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+盈聚天下II壽險計劃|MaxFocus Legacy II Insurance Plan||澳元|歸原紅利|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+盈聚天下II壽險計劃|MaxFocus Legacy II Insurance Plan||加元|歸原紅利|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+盈聚天下II壽險計劃|MaxFocus Legacy II Insurance Plan||歐元|歸原紅利|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+盈聚天下II壽險計劃|MaxFocus Legacy II Insurance Plan||英鎊|歸原紅利|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+盈聚天下II壽險計劃|MaxFocus Legacy II Insurance Plan||新加坡元|歸原紅利|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+盈聚天下II壽險計劃|MaxFocus Legacy II Insurance Plan||美元|特別紅利|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+盈聚天下II壽險計劃|MaxFocus Legacy II Insurance Plan||港元|特別紅利|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+盈聚天下II壽險計劃|MaxFocus Legacy II Insurance Plan||人民幣|特別紅利|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+盈聚天下II壽險計劃|MaxFocus Legacy II Insurance Plan||澳元|特別紅利|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+盈聚天下II壽險計劃|MaxFocus Legacy II Insurance Plan||加元|特別紅利|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+盈聚天下II壽險計劃|MaxFocus Legacy II Insurance Plan||歐元|特別紅利|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+盈聚天下II壽險計劃|MaxFocus Legacy II Insurance Plan||英鎊|特別紅利|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+盈聚天下II壽險計劃|MaxFocus Legacy II Insurance Plan||新加坡元|特別紅利|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+智盈匯聚壽險計劃 (優越版)|Wealth ICON Supreme Insurance Plan||美元|週年紅利|CS|CS|100|100|100|NL|NL|NL|NL|NL|NL
+智盈匯聚壽險計劃 (優越版)|Wealth ICON Supreme Insurance Plan||港元|週年紅利|CS|CS|100|100|100|NL|NL|NL|NL|NL|NL
+智盈匯聚壽險計劃 (優越版)|Wealth ICON Supreme Insurance Plan||美元|特別紅利|CS|CS|100|100|100|NL|NL|NL|NL|NL|NL
+智盈匯聚壽險計劃 (優越版)|Wealth ICON Supreme Insurance Plan||港元|特別紅利|CS|CS|100|100|100|NL|NL|NL|NL|NL|NL
+智盈匯聚(優越版) II壽險計劃|Wealth ICON Supreme II Insurance Plan||美元|週年紅利|CS|NA|100|NL|NL|NL|NL|NL|NL|NL|NL
+智盈匯聚(優越版) II壽險計劃|Wealth ICON Supreme II Insurance Plan||港元|週年紅利|CS|NA|100|NL|NL|NL|NL|NL|NL|NL|NL
+智盈匯聚(優越版) II壽險計劃|Wealth ICON Supreme II Insurance Plan||人民幣|週年紅利|CS|NA|100|NL|NL|NL|NL|NL|NL|NL|NL
+智盈匯聚(優越版) II壽險計劃|Wealth ICON Supreme II Insurance Plan||美元|特別紅利|CS|NA|100|NL|NL|NL|NL|NL|NL|NL|NL
+智盈匯聚(優越版) II壽險計劃|Wealth ICON Supreme II Insurance Plan||港元|特別紅利|CS|NA|100|NL|NL|NL|NL|NL|NL|NL|NL
+智盈匯聚(優越版) II壽險計劃|Wealth ICON Supreme II Insurance Plan||人民幣|特別紅利|CS|NA|100|NL|NL|NL|NL|NL|NL|NL|NL
+智盈匯聚(優越版) III壽險計劃|Wealth ICON Supreme III Insurance Plan||美元|週年紅利|NA|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL
+智盈匯聚(優越版) III壽險計劃|Wealth ICON Supreme III Insurance Plan||港元|週年紅利|NA|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL
+智盈匯聚(優越版) III壽險計劃|Wealth ICON Supreme III Insurance Plan||人民幣|週年紅利|NA|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL
+智盈匯聚(優越版) III壽險計劃|Wealth ICON Supreme III Insurance Plan||美元|特別紅利|NA|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL
+智盈匯聚(優越版) III壽險計劃|Wealth ICON Supreme III Insurance Plan||港元|特別紅利|NA|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL
+智盈匯聚(優越版) III壽險計劃|Wealth ICON Supreme III Insurance Plan||人民幣|特別紅利|NA|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL
+智盈 ‧ 超凡保險計劃|Wealth ICON Horizon Insurance Plan||美元|歸原紅利|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+智盈 ‧ 超凡保險計劃|Wealth ICON Horizon Insurance Plan||港元|歸原紅利|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+智盈 ‧ 超凡保險計劃|Wealth ICON Horizon Insurance Plan||人民幣|歸原紅利|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+智盈 ‧ 超凡保險計劃|Wealth ICON Horizon Insurance Plan||美元|特別紅利|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+智盈 ‧ 超凡保險計劃|Wealth ICON Horizon Insurance Plan||港元|特別紅利|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+智盈 ‧ 超凡保險計劃|Wealth ICON Horizon Insurance Plan||人民幣|特別紅利|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+寰悅致富|Regal Fortune||美元|週年紅利|NA|190|190|190|188|170|NL|NL|NL|NL|NL
+寰悅致富|Regal Fortune||美元|特別紅利|NA|NA|NA|NA|111|113|NL|NL|NL|NL|NL
+寰悅致富 (卓越版)(躉繳保費)|Regal Fortune Signature (Single Premium)||美元|週年紅利|NA|100|100|100|99|NL|NL|NL|NL|NL|NL
+寰悅致富 (卓越版)(躉繳保費)|Regal Fortune Signature (Single Premium)||美元|特別紅利|NA|NA|NA|NA|NA|NL|NL|NL|NL|NL|NL
+創逸致富 (躉繳保費)|Glorious Fortune (Single Premium)||美元|週年紅利|CS|CS|100|100|99|NL|NL|NL|NL|NL|NL
+創逸致富 (躉繳保費)|Glorious Fortune (Single Premium)||美元|特別紅利|CS|CS|NA|100|NA|NL|NL|NL|NL|NL|NL
+創逸致富II (躉繳保費)|Glorious Fortune II (Single Premium)||美元|週年紅利|NA|100|100|100|NL|NL|NL|NL|NL|NL|NL
+創逸致富II (躉繳保費)|Glorious Fortune II (Single Premium)||美元|特別紅利|NA|NA|NA|NA|NL|NL|NL|NL|NL|NL|NL
+創逸致富 (豐盛版)|Glorious Fortune - Wealth||美元|週年紅利|100|100|100|NL|NL|NL|NL|NL|NL|NL|NL
+創逸致富 (豐盛版)|Glorious Fortune - Wealth||美元|特別紅利|NA|NA|100|NL|NL|NL|NL|NL|NL|NL|NL
+創逸致富 (豐裕版)|Glorious Fortune - Longevity||美元|週年紅利|100|100|NL|NL|NL|NL|NL|NL|NL|NL|NL
+創逸致富 (豐裕版)|Glorious Fortune - Longevity||美元|特別紅利|NA|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL
+危疾全攻略|Crisis VCover||美元|週年紅利|CS|CS|CS|CS|CS|97|105|104|97|98|NL
+危疾全攻略|Crisis VCover||港元|週年紅利|CS|CS|CS|CS|CS|97|106|104|97|98|NL
+危疾全攻略|Crisis VCover||美元|特別紅利|CS|CS|CS|CS|CS|NA|NA|99|99|NA|NL
+危疾全攻略|Crisis VCover||港元|特別紅利|CS|CS|CS|CS|CS|NA|NA|99|99|99|NL
+危疾全守衛|Crisis XDefender||美元|特別紅利|CS|CS|CS|NA|NA|NA|100|101|100|NL|NL
+危疾全守衛|Crisis XDefender||港元|特別紅利|CS|CS|CS|NA|NA|NA|100|100|100|NL|NL
+危疾全守衛 (優越版)|Crisis XDefender Supreme||美元|特別紅利|CS|CS|CS|NA|102|95|100|100|NL|NL|NL
+危疾全守衛 (優越版)|Crisis XDefender Supreme||港元|特別紅利|CS|CS|CS|NA|96|95|100|100|NL|NL|NL
+危疾全守衛 (精裝版)|Crisis XDefender Light||美元|特別紅利|NA|NA|NA|NA|NA|115|115|NL|NL|NL|NL
+危疾全守衛 (精裝版)|Crisis XDefender Light||港元|特別紅利|NA|NA|NA|NA|115|115|NA|NL|NL|NL|NL
+危疾全守衛 (卓越版)|Crisis XDefender Signature||美元|特別紅利|CS|NA|NA|NA|NL|NL|NL|NL|NL|NL|NL
+危疾全守衛 (卓越版)|Crisis XDefender Signature||港元|特別紅利|CS|NA|NA|NA|NL|NL|NL|NL|NL|NL|NL
+危疾全守衛 (超卓版)|Crisis XDefender Signature Plus||美元|特別紅利|CS|NA|NA|NA|NL|NL|NL|NL|NL|NL|NL
+危疾全守衛 (超卓版)|Crisis XDefender Signature Plus||港元|特別紅利|CS|NA|NA|NA|NL|NL|NL|NL|NL|NL|NL
+危疾晉御保|Crisis OneCover||美元|週年紅利|CS|CS|CS|100|99|99|NL|NL|NL|NL|NL
+危疾晉御保|Crisis OneCover||港元|週年紅利|CS|CS|CS|100|99|99|NL|NL|NL|NL|NL
+危疾晉御保|Crisis OneCover||美元|特別紅利|CS|CS|CS|NA|101|NA|NL|NL|NL|NL|NL
+危疾晉御保|Crisis OneCover||港元|特別紅利|CS|CS|CS|NA|102|NA|NL|NL|NL|NL|NL
+危疾晉御保 (尊尚版)|Crisis OneCover Prime||美元|週年紅利|100|100|100|100|99|NL|NL|NL|NL|NL|NL
+危疾晉御保 (尊尚版)|Crisis OneCover Prime||港元|週年紅利|100|100|100|100|100|NL|NL|NL|NL|NL|NL
+危疾晉御保 (尊尚版)|Crisis OneCover Prime||美元|特別紅利|NA|NA|NA|NA|NA|NL|NL|NL|NL|NL|NL
+危疾晉御保 (尊尚版)|Crisis OneCover Prime||港元|特別紅利|NA|NA|NA|NA|NA|NL|NL|NL|NL|NL|NL
+危疾緻尚保|Crisis OneMaster||美元|週年紅利|100|100|NL|NL|NL|NL|NL|NL|NL|NL|NL
+危疾緻尚保|Crisis OneMaster||港元|週年紅利|100|100|NL|NL|NL|NL|NL|NL|NL|NL|NL
+危疾緻尚保|Crisis OneMaster||美元|特別紅利|NA|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL
+危疾緻尚保|Crisis OneMaster||港元|特別紅利|NA|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL
+危疾緻尚保（升級版）|Crisis OneMaster Pro||美元|週年紅利|100|100|NL|NL|NL|NL|NL|NL|NL|NL|NL
+危疾緻尚保（升級版）|Crisis OneMaster Pro||港元|週年紅利|100|100|NL|NL|NL|NL|NL|NL|NL|NL|NL
+危疾緻尚保（升級版）|Crisis OneMaster Pro||美元|特別紅利|NA|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL
+危疾緻尚保（升級版）|Crisis OneMaster Pro||港元|特別紅利|NA|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL
+危疾應援保|Crisis USupporter||美元|特別紅利|NA|NA|NA|NL|NL|NL|NL|NL|NL|NL|NL
+危疾應援保|Crisis USupporter||港元|特別紅利|NA|NA|NA|NL|NL|NL|NL|NL|NL|NL|NL
+危疾應援保（升級版）|Crisis USupporter Pro||美元|特別紅利|NA|NA|NA|NL|NL|NL|NL|NL|NL|NL|NL
+危疾應援保（升級版）|Crisis USupporter Pro||港元|特別紅利|NA|NA|NA|NL|NL|NL|NL|NL|NL|NL|NL
+危疾優易保系列|Crisis EasyGo Series||美元|特別紅利|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+危疾優易保系列|Crisis EasyGo Series||港元|特別紅利|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+衛你所愛壽險計劃|Life Promise Insurance Plan||美元|週年紅利|CS|111|111|110|110|110|110|NL|NL|NL|NL
+衛你所愛壽險計劃|Life Promise Insurance Plan||港元|週年紅利|CS|112|110|110|110|110|110|NL|NL|NL|NL
+衛你所愛壽險計劃|Life Promise Insurance Plan||美元|特別紅利|CS|NA|NA|110|NA|110|NA|NL|NL|NL|NL
+衛你所愛壽險計劃|Life Promise Insurance Plan||港元|特別紅利|CS|112|111|110|110|110|110|NL|NL|NL|NL
+家 · 年華壽險計劃|Life Gala Insurance Plan||美元|週年紅利|100|100|NL|NL|NL|NL|NL|NL|NL|NL|NL
+家 · 年華壽險計劃|Life Gala Insurance Plan||港元|週年紅利|100|100|NL|NL|NL|NL|NL|NL|NL|NL|NL
+家 · 年華壽險計劃|Life Gala Insurance Plan||美元|特別紅利|NA|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL
+家 · 年華壽險計劃|Life Gala Insurance Plan||港元|特別紅利|NA|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL
+年月逸延期年金計劃|Journey Deferred Annuity Plan||美元|週年紅利|CS|CS|CS|NA|NA|98|NL|NL|NL|NL|NL
+年月逸延期年金計劃|Journey Deferred Annuity Plan||美元|特別紅利|CS|CS|CS|100|100|100|NL|NL|NL|NL|NL
+盈 ∙ 歲悅延期年金計劃|RetireFun Deferred Annuity Plan||美元|週年紅利|NA|NA|NA|NA|NA|NL|NL|NL|NL|NL|NL
+盈 ∙ 歲悅延期年金計劃|RetireFun Deferred Annuity Plan||美元|特別紅利|100|100|100|100|100|NL|NL|NL|NL|NL|NL
+宜康壽險計劃|AeconoLife||美元|週年紅利|CS|CS|CS|CS|CS|CS|CS|CS|NA|59|63
+宜康壽險計劃|AeconoLife||港元|週年紅利|CS|CS|CS|CS|CS|CS|CS|CS|NA|59|62
+宜康20壽險計劃|AeconoLife 20||美元|週年紅利|CS|CS|CS|CS|CS|CS|CS|NA|83|59|62
+宜康20壽險計劃|AeconoLife 20||港元|週年紅利|CS|CS|CS|CS|CS|CS|CS|99|72|59|62
+才俊壽險計劃|AeconoSmart||美元|週年紅利|CS|CS|CS|CS|CS|CS|CS|CS|58|59|63
+才俊壽險計劃|AeconoSmart||港元|週年紅利|CS|CS|CS|CS|CS|CS|CS|CS|60|58|61
+康美女性壽險計劃|AExcel Lady||美元|週年紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|NA
+康美女性壽險計劃|AExcel Lady||港元|週年紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|69
+攻守易癌症保障計劃|CANcover Cancer Protection Plan||美元|特別紅利|NA|NA|NA|NA|NL|NL|NL|NL|NL|NL|NL
+攻守易癌症保障計劃|CANcover Cancer Protection Plan||港元|特別紅利|NA|NA|NA|NA|NL|NL|NL|NL|NL|NL|NL
+攻守易 (升級版) 癌症保障計劃|CANcover Pro Cancer Protection Plan||美元|特別紅利|NA|NA|NA|NA|NL|NL|NL|NL|NL|NL|NL
+攻守易 (升級版) 癌症保障計劃|CANcover Pro Cancer Protection Plan||港元|特別紅利|NA|NA|NA|NA|NL|NL|NL|NL|NL|NL|NL
+「危疾武士」保障計劃|Crisis Fighter||美元|週年紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|62
+「危疾武士」保障計劃|Crisis Fighter||港元|週年紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|55
+「危疾武士升級版」保障計劃|Crisis Fighter Plus||美元|週年紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|73
+「危疾武士升級版」保障計劃|Crisis Fighter Plus||港元|週年紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|70
+王者本息危疾保障計劃|CrisiSaver||美元|特別紅利|CS|CS|CS|CS|CS|CS|CS|NA|NA|NA|NA
+王者本息危疾保障計劃|CrisiSaver||港元|特別紅利|CS|CS|CS|CS|CS|CS|CS|NA|NA|100|NA
+保多利 II 附約|Dollar$Plus II Rider||美元|特別紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|NA
+保多利 II 附約|Dollar$Plus II Rider||港元|特別紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|76
+「好易賞」兒童儲蓄壽險計劃|Easy Achiever Junior Savings Insurance Plan||美元|特別紅利|CS|CS|CS|CS|NA|NA|NA|NA|NA|NA|NA
+「好易賞」兒童儲蓄壽險計劃|Easy Achiever Junior Savings Insurance Plan||港元|特別紅利|CS|CS|CS|CS|NA|NA|NA|NA|NA|NA|67
+「好易賞」儲蓄壽險計劃|Easy Achiever Savings Insurance Plan||美元|特別紅利|CS|CS|CS|CS|NA|NA|NA|NA|NA|67|67
+「好易賞」儲蓄壽險計劃|Easy Achiever Savings Insurance Plan||港元|特別紅利|CS|CS|CS|CS|NA|NA|NA|NA|NA|67|67
+「好安守」危疾保障計劃|Easy Defender Critical Illness Insurance Plan||美元|特別紅利|CS|CS|CS|CS|CS|CS|CS|54|50|50|50
+「好安守」危疾保障計劃|Easy Defender Critical Illness Insurance Plan||港元|特別紅利|CS|CS|CS|CS|CS|CS|CS|50|50|50|50
+「享一生」儲蓄壽險計劃|Eternity Savings Insurance Plan||美元|週年紅利|CS|CS|NA|NA|NA|84|87|77|70|67|72
+「享一生」儲蓄壽險計劃|Eternity Savings Insurance Plan||港元|週年紅利|CS|CS|NA|NA|NA|84|87|82|70|65|68
+「享一生」儲蓄壽險計劃|Eternity Savings Insurance Plan||美元|特別紅利|CS|CS|NA|NA|NA|NA|NA|71|56|56|56
+「享一生」儲蓄壽險計劃|Eternity Savings Insurance Plan||港元|特別紅利|CS|CS|NA|NA|NA|84|NA|56|56|56|56
+攻守道癌症保障計劃|Fearless Cancer Protection Plan||美元|特別紅利|CS|CS|CS|NA|NA|NA|NA|NA|NA|NA|NA
+攻守道癌症保障計劃|Fearless Cancer Protection Plan||港元|特別紅利|CS|CS|CS|NA|NA|NA|NA|NA|NA|85|NA
+i.15/20 壽險計劃|i.15/20||美元|週年紅利|CS|CS|CS|CS|85|86|90|92|75|72|83
+i.15/20 壽險計劃|i.15/20||港元|週年紅利|CS|CS|CS|CS|85|86|92|91|82|71|76
+i.15/20 壽險計劃(特別版)|i.15/20 (Special Edition)||美元|週年紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|83
+i.15/20 壽險計劃(特別版)|i.15/20 (Special Edition)||港元|週年紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|78
+i.368 壽險計劃|i.368||美元|週年紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|76
+i.368 壽險計劃|i.368||港元|週年紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|67
+愛心學堂教育計劃|i.Junior||美元|週年紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|86
+愛心學堂教育計劃|i.Junior||港元|週年紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|78
+愛心學堂 18 教育計劃|i.Junior@18||美元|週年紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|75
+愛心學堂 18 教育計劃|i.Junior@18||港元|週年紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|63
+愛尚理壽險計劃|i.PaySmart||美元|週年紅利|CS|CS|CS|CS|CS|85|90|91|86|90|91
+愛尚理壽險計劃|i.PaySmart||港元|週年紅利|CS|CS|CS|CS|CS|85|92|91|86|89|89
+愛逍遙II退休計劃|i.Retire II||美元|週年紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|42
+愛逍遙II退休計劃|i.Retire II||港元|週年紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|41
+愛逍遙III退休計劃|i.Retire III||美元|週年紅利|CS|CS|CS|CS|CS|CS|CS|CS|62|63|64
+愛逍遙III退休計劃|i.Retire III||美元|特別紅利|CS|CS|CS|CS|CS|CS|CS|CS|NA|NA|NA
+月月賞息|IncomePlus||美元|週年紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|NA
+月月賞息|IncomePlus||港元|週年紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|85
+年月逸120年金計劃|Journey 120 Annuity Plan||美元|週年紅利|CS|CS|NA|NA|NA|NA|NA|NL|NL|NL|NL
+年月逸120年金計劃|Journey 120 Annuity Plan||港元|週年紅利|CS|CS|NA|NA|NA|NA|NA|NL|NL|NL|NL
+年月逸年金計劃|Journey Annuity Plan||美元|週年紅利|CS|CS|NA|102|82|84|89|85|84|86|84
+年月逸年金計劃|Journey Annuity Plan||港元|週年紅利|CS|CS|NA|102|85|84|90|85|83|86|85
+盈聚未來儲蓄計劃|MaxFocus Savings Plan||美元|週年紅利|CS|CS|CS|CS|CS|CS|CS|93|92|91|NL
+盈聚未來儲蓄計劃|MaxFocus Savings Plan||港元|週年紅利|CS|CS|CS|CS|CS|CS|CS|93|92|91|NL
+盈聚未來儲蓄計劃|MaxFocus Savings Plan||美元|特別紅利|CS|CS|CS|CS|CS|CS|CS|83|83|83|NL
+盈聚未來儲蓄計劃|MaxFocus Savings Plan||港元|特別紅利|CS|CS|CS|CS|CS|CS|CS|83|83|83|NL
+醫存寶保障計劃|MediSaver||美元|週年紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|NA
+醫存寶保障計劃|MediSaver||港元|週年紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|93
+醫存保 (優越版)|MediSaver Supreme||美元|特別紅利|CS|CS|NA|NA|NA|NA|NL|NL|NL|NL|NL
+醫存保 (優越版)|MediSaver Supreme||港元|特別紅利|CS|CS|NA|NA|NA|100|NL|NL|NL|NL|NL
+身心衛危疾保障計劃|Mind+ Critical Illness Protection Plan||美元|特別紅利|CS|CS|NA|NA|NA|NA|NA|NL|NL|NL|NL
+身心衛危疾保障計劃|Mind+ Critical Illness Protection Plan||港元|特別紅利|CS|CS|NA|NA|NA|NA|NA|NL|NL|NL|NL
+智息嘆儲蓄壽險計劃|SaveWise||美元|特別紅利|CS|CS|CS|CS|CS|CS|NA|NA|NL|NL|NL
+智息嘆儲蓄壽險計劃|SaveWise||港元|特別紅利|CS|CS|CS|CS|CS|CS|NA|NA|NL|NL|NL
+沿途衛你人生儲蓄計劃|StandByU Savings Plan||美元|週年紅利|CS|CS|CS|CS|CS|CS|CS|66|66|67|70
+沿途衛你人生儲蓄計劃|StandByU Savings Plan||港元|週年紅利|CS|CS|CS|CS|CS|CS|CS|62|65|66|67
+沿途衛你人生儲蓄計劃|StandByU Savings Plan||美元|特別紅利|CS|CS|CS|CS|CS|CS|CS|65|65|65|65
+沿途衛你人生儲蓄計劃|StandByU Savings Plan||港元|特別紅利|CS|CS|CS|CS|CS|CS|CS|65|65|65|65
+沿途衛你人生儲蓄計劃 (特級版)|StandByU Savings Plan (Premier)||美元|週年紅利|CS|CS|CS|CS|CS|CS|CS|NA|65|66|70
+沿途衛你人生儲蓄計劃 (特級版)|StandByU Savings Plan (Premier)||港元|週年紅利|CS|CS|CS|CS|CS|CS|CS|NA|62|64|67
+沿途衛你人生儲蓄計劃 (特級版)|StandByU Savings Plan (Premier)||美元|特別紅利|CS|CS|CS|CS|CS|CS|CS|NA|NA|NA|66
+沿途衛你人生儲蓄計劃 (特級版)|StandByU Savings Plan (Premier)||港元|特別紅利|CS|CS|CS|CS|CS|CS|CS|NA|NA|65|65
+康慧人壽保險計劃20|Superb-Life 20||美元|週年紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|NA
+康慧人壽保險計劃20|Superb-Life 20||港元|週年紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|64
+智盈匯聚壽險計劃|Wealth ICON Insurance Plan||美元|週年紅利|CS|CS|CS|CS|95|95|93|NL|NL|NL|NL
+智盈匯聚壽險計劃|Wealth ICON Insurance Plan||港元|週年紅利|CS|CS|CS|CS|95|95|93|NL|NL|NL|NL
+智盈匯聚壽險計劃|Wealth ICON Insurance Plan||美元|特別紅利|CS|CS|CS|CS|98|98|NA|NL|NL|NL|NL
+智盈匯聚壽險計劃|Wealth ICON Insurance Plan||港元|特別紅利|CS|CS|CS|CS|99|99|100|NL|NL|NL|NL

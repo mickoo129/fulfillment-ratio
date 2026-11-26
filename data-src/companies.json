@@ -1,101 +1,112 @@
 [
- {
-  "id": "aia",
-  "name": "友邦保險",
-  "full": "AIA International Limited",
-  "file": "aia.csv",
-  "rep": 2025,
-  "source": "https://www.aia.com.hk/zh-hk/products/further-product-information/participating-products/fulfillment-ratio",
-  "note": "由友邦網站的分紅實現率數據讀取。",
-  "color": "#D31145",
-  "ink": ""
- },
- {
-  "id": "pru",
-  "name": "保誠保險",
-  "full": "Prudential Hong Kong Limited",
-  "file": "pru.csv",
-  "rep": 2025,
-  "source": "https://www.prudential.com.hk/tc/general/performance/fulfillment-ratio/",
-  "note": "包括人壽及儲蓄、健康（危疾）及退休保險；保誠把同一系列的分期繳費及整付分開公布。",
-  "color": "#ED1B2E",
-  "ink": "#C8102E"
- },
- {
-  "id": "manulife",
-  "name": "宏利",
-  "full": "Manulife (International) Limited",
-  "file": "manulife.csv",
-  "rep": 2025,
-  "source": "https://www.manulife.com.hk/zh-hk/individual/products/understanding-your-participating-policy/fulfillment-ratio.html",
-  "note": "宏利按保單生效時期分開公布同一計劃，計劃名後面括號是該組保單的生效時期；只有中文名稱。",
-  "color": "#2E6B4F",
-  "ink": "#2E6B4F"
- },
- {
-  "id": "axa",
-  "name": "安盛",
-  "full": "AXA China Region Insurance Company (Bermuda) Limited",
-  "file": "axa.csv",
-  "rep": 2025,
-  "source": "https://www.axa.com.hk/zh/fulfilment-ratios-and-total-value-ratios",
-  "note": "安盛每個計劃一頁公布；「保額增值紅利」歸入歸原紅利。",
-  "color": "#00008F",
-  "ink": ""
- },
- {
-  "id": "aiae",
-  "name": "友邦雋峰（AIA Everest）",
-  "full": "AIA Everest Life Company Limited",
-  "file": "aiae.csv",
-  "rep": 2025,
-  "source": "https://www.aia.com.hk/content/dam/hk-wise/pdf/aia-everest/aiae-fulfilment-ratio-eng.pdf.coredownload.inline.pdf",
-  "note": "AIA 集團旗下公司；只包括 AIA Everest 公布的計劃，不包括友邦（AIA International）。",
-  "color": "#D31145",
-  "ink": ""
- },
- {
-  "id": "boclife",
-  "name": "中銀人壽",
-  "full": "BOC Group Life Assurance Company Limited",
-  "file": "boclife.csv",
-  "rep": 2025,
-  "source": "https://www.boclife.com.hk/en/support/financial-information/dividend-fulfillment-ratios.html",
-  "note": "",
-  "color": "#A6192E",
-  "ink": ""
- },
- {
-  "id": "fubon",
-  "name": "富邦人壽（香港）",
-  "full": "Fubon Life Insurance (Hong Kong) Company Limited",
-  "file": "fubon.csv",
-  "rep": 2025,
-  "source": "https://www.fubonlife.com.hk/public/pdf/Fubon%20Life%20Fulfilment%20Ratios%20Disclosure_Eng.pdf",
-  "note": "公司公布的表只列至第 10 個保單年度。",
-  "color": "#01A09B",
-  "ink": "#00807C"
- },
- {
-  "id": "generali",
-  "name": "忠意人壽（香港）",
-  "full": "Generali Life (Hong Kong) Limited",
-  "file": "generali.csv",
-  "rep": 2025,
-  "source": "https://www.generali.com.hk//file-library/8de9eaa8-3d0a-4e81-ae03-33ecab869ece/GLHKFulfillmentRatio2025.pdf",
-  "note": "資料更新日期：2026 年 3 月。",
-  "color": "#C5281C",
-  "ink": ""
- },
- {
-  "id": "wli",
-  "name": "立橋人壽",
-  "full": "Well Link Life Insurance Company Limited",
-  "file": "wli.csv",
-  "rep": 2025,
-  "source": "https://www.wli.com.hk/editor_upload_image/files/2025%20Fulfillment%20Ratio%20(English).pdf",
-  "note": "2019 年開業，公司公布的表只列至第 10 個保單年度。",
-  "color": "#573AB2",
-  "ink": ""
- }
+  {
+    "id": "aia",
+    "name": "友邦保險",
+    "full": "AIA International Limited",
+    "file": "aia.csv",
+    "rep": 2025,
+    "source": "https://www.aia.com.hk/zh-hk/products/further-product-information/participating-products/fulfillment-ratio",
+    "note": "由友邦網站的分紅實現率數據讀取。",
+    "color": "#D31145",
+    "ink": ""
+  },
+  {
+    "id": "pru",
+    "name": "保誠保險",
+    "full": "Prudential Hong Kong Limited",
+    "file": "pru.csv",
+    "rep": 2025,
+    "source": "https://www.prudential.com.hk/tc/general/performance/fulfillment-ratio/",
+    "note": "包括人壽及儲蓄、健康（危疾）及退休保險；保誠把同一系列的分期繳費及整付分開公布。",
+    "color": "#ED1B2E",
+    "ink": "#C8102E"
+  },
+  {
+    "id": "manulife",
+    "name": "宏利",
+    "full": "Manulife (International) Limited",
+    "file": "manulife.csv",
+    "rep": 2025,
+    "source": "https://www.manulife.com.hk/zh-hk/individual/products/understanding-your-participating-policy/fulfillment-ratio.html",
+    "note": "宏利按保單生效時期分開公布同一計劃，計劃名後面括號是該組保單的生效時期；只有中文名稱。",
+    "color": "#2E6B4F",
+    "ink": "#2E6B4F"
+  },
+  {
+    "id": "axa",
+    "name": "安盛",
+    "full": "AXA China Region Insurance Company (Bermuda) Limited",
+    "file": "axa.csv",
+    "rep": 2025,
+    "source": "https://www.axa.com.hk/zh/fulfilment-ratios-and-total-value-ratios",
+    "note": "安盛每個計劃一頁公布；「保額增值紅利」歸入歸原紅利。",
+    "color": "#00008F",
+    "ink": ""
+  },
+  {
+    "id": "fwd",
+    "name": "富衛",
+    "full": "富衛人壽保險（百慕達）有限公司",
+    "file": "fwd.csv",
+    "rep": 2025,
+    "source": "https://www.fwd.com.hk/zh/regulatory-disclosures/fulfillment-ratios/",
+    "note": "富衛每個計劃一頁公布週年紅利（累積週年紅利及利息）及特別紅利，部分計劃為歸原紅利。",
+    "color": "#E87722",
+    "ink": "#B4560C"
+  },
+  {
+    "id": "aiae",
+    "name": "友邦雋峰（AIA Everest）",
+    "full": "AIA Everest Life Company Limited",
+    "file": "aiae.csv",
+    "rep": 2025,
+    "source": "https://www.aia.com.hk/content/dam/hk-wise/pdf/aia-everest/aiae-fulfilment-ratio-eng.pdf.coredownload.inline.pdf",
+    "note": "AIA 集團旗下公司；只包括 AIA Everest 公布的計劃，不包括友邦（AIA International）。",
+    "color": "#D31145",
+    "ink": ""
+  },
+  {
+    "id": "boclife",
+    "name": "中銀人壽",
+    "full": "BOC Group Life Assurance Company Limited",
+    "file": "boclife.csv",
+    "rep": 2025,
+    "source": "https://www.boclife.com.hk/en/support/financial-information/dividend-fulfillment-ratios.html",
+    "note": "",
+    "color": "#A6192E",
+    "ink": ""
+  },
+  {
+    "id": "fubon",
+    "name": "富邦人壽（香港）",
+    "full": "Fubon Life Insurance (Hong Kong) Company Limited",
+    "file": "fubon.csv",
+    "rep": 2025,
+    "source": "https://www.fubonlife.com.hk/public/pdf/Fubon%20Life%20Fulfilment%20Ratios%20Disclosure_Eng.pdf",
+    "note": "公司公布的表只列至第 10 個保單年度。",
+    "color": "#01A09B",
+    "ink": "#00807C"
+  },
+  {
+    "id": "generali",
+    "name": "忠意人壽（香港）",
+    "full": "Generali Life (Hong Kong) Limited",
+    "file": "generali.csv",
+    "rep": 2025,
+    "source": "https://www.generali.com.hk//file-library/8de9eaa8-3d0a-4e81-ae03-33ecab869ece/GLHKFulfillmentRatio2025.pdf",
+    "note": "資料更新日期：2026 年 3 月。",
+    "color": "#C5281C",
+    "ink": ""
+  },
+  {
+    "id": "wli",
+    "name": "立橋人壽",
+    "full": "Well Link Life Insurance Company Limited",
+    "file": "wli.csv",
+    "rep": 2025,
+    "source": "https://www.wli.com.hk/editor_upload_image/files/2025%20Fulfillment%20Ratio%20(English).pdf",
+    "note": "2019 年開業，公司公布的表只列至第 10 個保單年度。",
+    "color": "#573AB2",
+    "ink": ""
+  }
 ]
