@@ -246,6 +246,34 @@ th.sort:after{content:" ↕";opacity:.5}
 .chk{display:inline-flex;align-items:center;gap:6px;font-size:14px;cursor:pointer}
 .chk input{width:18px;height:18px;accent-color:var(--mk-brand)}
 .count{font-size:13px;color:var(--mk-muted);margin-top:8px}
+/* 公司顏色（保險公司品牌色，代表公司，唔係分類色） */
+.co{display:inline-flex;align-items:center;gap:6px;color:var(--co);font-weight:700}
+.co:before{content:"";width:9px;height:9px;border-radius:50%;background:var(--co);flex:none}
+.co-chip{background:#fff;border:1px solid var(--mk-line);color:var(--co)}
+.co-chip:before{content:"";width:9px;height:9px;border-radius:50%;background:var(--co)}
+.hbar .fill{background:var(--co,var(--mk-brand))}
+td.co-cell{box-shadow:inset 4px 0 0 var(--co)}
+.cmp-item{border-left:4px solid var(--co,var(--mk-line))}
+/* 紅利類型說明 */
+.types{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.type{border:1px solid var(--mk-line);border-radius:12px;padding:12px 14px;background:#fff;font-size:14px}
+.type h4{margin:0 0 2px;color:var(--mk-deep);font-size:15.5px}
+.type .aka{font-size:12.5px;color:var(--mk-muted);margin:0 0 6px}
+.type p{margin:4px 0}
+.type .calc{margin-top:8px;padding-top:8px;border-top:1px dashed var(--mk-line);font-size:13px;color:var(--mk-muted)}
+.type .calc b{color:var(--mk-ink)}
+.tips{margin:12px 0 0;padding-left:20px;font-size:14px}
+.tips li{margin:3px 0}
+.warn{margin-top:12px;padding:10px 14px;border-left:4px solid var(--mk-warn);background:var(--mk-warn-soft);border-radius:0 10px 10px 0;font-size:13.5px;color:#5c3d00}
+.rank{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.rank h4{margin:0 0 6px;font-size:14.5px;color:var(--mk-deep)}
+.rank ol{margin:0;padding:0;list-style:none;display:grid;gap:6px}
+.rank li{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:7px 10px;border:1px solid var(--mk-line);border-radius:10px;font-size:13.5px;cursor:pointer;background:#fff}
+.rank li:hover{border-color:var(--mk-brand)}
+.rank li .t{min-width:0}
+.rank li .t b{display:block;line-height:1.35}
+.rank li .t small{font-size:12px}
+.rank li .num{font-weight:700;font-size:16px;white-space:nowrap}
 /* 頁尾 */
 .mk-footer{background:var(--mk-deep);color:#D7E7E3;padding:28px 0 32px;font-size:13.5px}
 .mk-footer h3{color:#fff;font-size:15px;margin:0 0 6px}
@@ -255,10 +283,11 @@ th.sort:after{content:" ↕";opacity:.5}
 .mk-footer .srcs li{margin:2px 0;word-break:break-word}
 .mk-footer .mk-ecard{color:var(--mk-ink)}
 .mk-footer .mk-copy{color:#B9D1CB}
-@media (max-width:1023px){.intro{grid-template-columns:1fr}}
+@media (max-width:1023px){.intro{grid-template-columns:1fr}.types{grid-template-columns:1fr}}
 @media (max-width:760px){
   .kpis{grid-template-columns:repeat(2,1fr)}
   .cats{grid-template-columns:1fr}
+  .rank{grid-template-columns:1fr}
   .hbar{grid-template-columns:1fr 52px;gap:4px 10px;font-size:13.5px}
   .hbar .lab{grid-column:1/-1;white-space:normal}
   .hbar .lab small{display:inline;margin-left:6px}
@@ -327,6 +356,26 @@ th.sort:after{content:" ↕";opacity:.5}
     </div>
   </div>
 
+  <div class="card" id="types">
+    <div class="card-h"><h3>三種紅利有什麼分別</h3><p>保險業監管局把分紅實現率分為三種，計算方法不同，不宜直接比較</p></div>
+    <div class="types">
+      <div class="type"><h4>週年紅利</h4><p class="aka">又稱每年紅利、現金紅利</p>
+        <p>每年宣布及派發，一經派發金額便固定。可以提取，或留在保險公司累積生息（利息不保證）。</p>
+        <div class="calc"><b>怎樣計算：</b>報告年度內仍然生效的保單，實際累積紅利及利息，除以建議書所示金額。</div></div>
+      <div class="type"><h4>歸原紅利</h4><p class="aka">又稱復歸紅利</p>
+        <p>宣布後加入保額，面值一經宣布便固定，身故時按面值支付。退保時只可取得現金價值，通常低於面值，而且不保證。</p>
+        <div class="calc"><b>怎樣計算：</b>以累積歸原紅利的<b>現金價值</b>（不是面值）計算。</div></div>
+      <div class="type"><h4>終期紅利</h4><p class="aka">又稱特別紅利、終期分紅、特別獎賞</p>
+        <p>只在保單終止（身故、退保或期滿）時一次過支付。金額每次宣布都可能改變，到支付時才確定，所以波動一般最大。</p>
+        <div class="calc"><b>怎樣計算：</b>只計算報告年度內<b>已終止</b>的保單。當年沒有相關保單終止，便會顯示「不適用」。</div></div>
+    </div>
+    <ul class="tips">
+      <li>比較時，要選<b>同一種紅利</b>、<b>產品類型相近</b>的計劃。</li>
+      <li>要看<b>所有保單年度</b>，了解整體紀錄，不要只看某一年。</li>
+      <li>實現率只是「實際 ÷ 預期」的比例，不等於回報。預期紅利較高的計劃，即使實現率較低，實際派發也可能較多；建議同時參考建議書的保證與非保證比重。</li>
+    </ul>
+  </div>
+
   <div class="filters" id="ovFilters"></div>
   <div class="kpis" id="kpis"></div>
 
@@ -344,6 +393,11 @@ th.sort:after{content:" ↕";opacity:.5}
     <div class="card-h"><h3>按保險公司平均</h3><p>每間公司所有已公布數字的簡單平均</p></div>
     <div class="hbars" id="coBars"></div>
     <div class="reflab">虛線為 100%</div>
+  </div>
+
+  <div class="card">
+    <div class="card-h"><h3>個別計劃：較高與較低</h3><p>按計劃同一種紅利所有保單年度的平均排列（最少 3 個數字）；撳一下可查看詳情</p></div>
+    <div class="rank" id="rank"></div>
   </div>
 
   <div class="card">
@@ -459,9 +513,10 @@ const catVar=n=>`--c:var(--mk-cat-${n});--c-ink:var(--mk-cat-${n}-ink);--c-soft:
 const cls=x=>!isN(x)?'code':x>=100?'hi':x<80?'lo':'';
 function pyLabel(i){const r=D.rep;return i<10?{py:`第 ${i+1} 年`,iy:`${r-i-1} 年生效`}:{py:'10 年以上',iy:`${r-11} 年或以前`};}
 function cellTxt(x){return isN(x)?pct(x):x?CODES[x]:'—';}
+function coTag(id,txt){const c=CO[id];return `<span class="co" style="--co:${c.color}">${esc(txt||c.name)}</span>`;}
 function planKey(s){return s.co+'|'+(s.en||s.plan);}
 function serName(s){return s.plan;}
-function serSub(s){return `${CO[s.co].name} · ${s.type}${s.cur&&s.cur!=='全部'?' · '+s.cur:''}`;}
+function serSub(s){return `${coTag(s.co)} · ${s.type}${s.cur&&s.cur!=='全部'?' · '+s.cur:''}`;}
 function filt(f){return D.series.filter(s=>(f.co==='all'||s.co===f.co)&&(f.cat==='all'||s.cat===f.cat)&&(f.tg==='all'||s.tg===f.tg));}
 function pts(list,idx){const o=[];list.forEach(s=>s.v.forEach((x,i)=>{if(isN(x)&&(idx==null||idx===i))o.push(x);}));return o;}
 function catAvgByPy(cat,tg){const L=D.series.filter(s=>s.cat===cat&&s.tg===tg);return Array.from({length:11},(_,i)=>{const p=pts(L,i);return p.length?{v:mean(p),n:p.length}:null;});}
@@ -504,11 +559,16 @@ function renderOverview(){
   // 按公司
   const rows=D.companies.map(c=>{const p=pts(L.filter(s=>s.co===c.id));return {c,v:p.length?mean(p):null,n:p.length,med:median(p)};}).filter(r=>r.n).sort((a,b)=>b.v-a.v);
   const mx=Math.max(120,...rows.map(r=>r.v));
-  $('#coBars').innerHTML=rows.length?rows.map(r=>`<div class="hbar"><div class="lab">${esc(r.c.name)}<small>${r.n} 個數字 · 中位數 ${pct(r.med)}</small></div><div class="track"><div class="fill" style="width:${r.v/mx*100}%"></div><div class="ref" style="left:${100/mx*100}%"></div></div><div class="val">${pct(r.v)}</div></div>`).join(''):`<div class="empty">沒有數字。</div>`;
+  $('#coBars').innerHTML=rows.length?rows.map(r=>`<div class="hbar" style="--co:${r.c.color}"><div class="lab">${coTag(r.c.id)}<small>${r.n} 個數字 · 中位數 ${pct(r.med)}</small></div><div class="track"><div class="fill" style="width:${r.v/mx*100}%"></div><div class="ref" style="left:${100/mx*100}%"></div></div><div class="val">${pct(r.v)}</div></div>`).join(''):`<div class="empty">沒有數字。</div>`;
+
+  // 個別計劃較高／較低
+  const ranked=L.map(s=>{const p=s.v.filter(isN);return {s,n:p.length,v:mean(p)};}).filter(r=>r.n>=3).sort((a,b)=>b.v-a.v);
+  const li=r=>`<li data-go="${r.s.id}"><span class="t"><b>${esc(r.s.plan)}</b><small>${coTag(r.s.co)} · ${esc(r.s.type)}${r.s.cur!=='全部'?' · '+esc(r.s.cur):''} · ${r.n} 個數字</small></span><span class="num" style="color:${r.v>=100?'var(--mk-brand-ink)':r.v<80?'var(--mk-danger)':'var(--mk-ink)'}">${pct(r.v)}</span></li>`;
+  $('#rank').innerHTML=ranked.length?`<div><h4>平均較高</h4><ol>${ranked.slice(0,5).map(li).join('')}</ol></div><div><h4>平均較低</h4><ol>${ranked.slice(-5).reverse().map(li).join('')}</ol></div>`:'<div class="empty">沒有足夠數字（每項最少 3 個）。</div>';
 
   // 公司 × 保單年度
   const head=`<thead><tr><th class="l">保險公司</th>${Array.from({length:11},(_,i)=>{const lb=pyLabel(i);return `<th>${lb.py}<small>${lb.iy}</small></th>`;}).join('')}<th>全部</th></tr></thead>`;
-  const body=D.companies.map(c=>{const S=L.filter(s=>s.co===c.id);const all=pts(S);if(!all.length)return '';return `<tr><td class="l"><b>${esc(c.name)}</b></td>${Array.from({length:11},(_,i)=>{const p=pts(S,i);return p.length?`<td class="v ${cls(mean(p))}">${pct(mean(p))}<small style="display:block;font-size:10.5px;font-weight:500;color:var(--mk-muted)">（${p.length}）</small></td>`:`<td class="v code">—</td>`;}).join('')}<td class="v ${cls(mean(all))}">${pct(mean(all))}</td></tr>`;}).join('');
+  const body=D.companies.map(c=>{const S=L.filter(s=>s.co===c.id);const all=pts(S);if(!all.length)return '';return `<tr><td class="l co-cell" style="--co:${c.color}">${coTag(c.id)}</td>${Array.from({length:11},(_,i)=>{const p=pts(S,i);return p.length?`<td class="v ${cls(mean(p))}">${pct(mean(p))}<small style="display:block;font-size:10.5px;font-weight:500;color:var(--mk-muted)">（${p.length}）</small></td>`:`<td class="v code">—</td>`;}).join('')}<td class="v ${cls(mean(all))}">${pct(mean(all))}</td></tr>`;}).join('');
   $('#coPyTbl').innerHTML=head+`<tbody>${body||'<tr><td colspan="13">沒有數字</td></tr>'}</tbody>`;
 }
 
@@ -580,6 +640,12 @@ function lineChart(el,lines){
 function pyHead(first,extra=''){return `<thead><tr>${first}${Array.from({length:11},(_,i)=>{const lb=pyLabel(i);return `<th data-col="${i}">${lb.py}<small>${lb.iy}</small></th>`;}).join('')}${extra}</tr></thead>`;}
 function vCells(v,sel){return v.map((x,i)=>`<td class="v ${cls(x)}${sel===i?' sel':''}">${cellTxt(x)}</td>`).join('');}
 
+/* ---------- 紅利類型說明 ---------- */
+const TG_NOTE={annual:'週年紅利：計算仍然生效保單的累積紅利及利息。',rev:'歸原紅利：以累積紅利的現金價值計算，不是面值。',term:'終期／特別紅利：只計算當年已終止的保單；當年沒有保單終止便顯示「不適用」，數字波動一般較大。'};
+function typeNotes(list){const g=[...new Set(list.map(s=>s.tg))];return `<p class="lead" style="font-size:12.5px;margin-top:8px">${g.map(t=>TG_NOTE[t]).join('<br>')} <a href="#" data-types>三種紅利有什麼分別</a></p>`;}
+document.addEventListener('click',e=>{const a=e.target.closest('[data-types]');if(a){e.preventDefault();setTab('overview');document.getElementById('types').scrollIntoView({behavior:'smooth',block:'start'});return;}
+  const g=e.target.closest('[data-go]');if(g){const s=D.series.find(x=>x.id===g.dataset.go);if(!s)return;state.pl.co=s.co;state.pl.key=planKey(s);state.pl.iy='';setTab('plan');scrollTo({top:0});}});
+
 /* ---------- 計劃查詢 ---------- */
 function plansOf(co){const m=new Map();D.series.filter(s=>s.co===co).forEach(s=>{const k=planKey(s);if(!m.has(k))m.set(k,{key:k,plan:s.plan,en:s.en,cat:s.cat,list:[]});m.get(k).list.push(s);});return [...m.values()].sort((a,b)=>{const ha=a.list.some(s=>s.v.some(isN)),hb=b.list.some(s=>s.v.some(isN));return (hb-ha)||a.plan.localeCompare(b.plan);});}
 function fillPlanPickers(){
@@ -599,10 +665,11 @@ function renderPlan(){
   if(iy!=null){const lb=pyLabel(iy);iyBox=`<div class="iy-res"><div style="margin-bottom:4px"><b>${lb.iy}的保單</b>（${D.rep} 報告年度屬${lb.py}）</div>${plan.list.map(s=>{const avg=catAvgByPy(s.cat,s.tg)[iy];return `<div class="row"><span>${esc(s.type)}${s.cur!=='全部'?' · '+esc(s.cur):''}</span><span><b class="num">${cellTxt(s.v[iy])}</b>${avg?` <small style="color:var(--mk-muted)">同類平均 ${pct(avg.v)}</small>`:''}</span></div>`;}).join('')}</div>`;}
   const lines=[];plan.list.forEach((s,k)=>{const st=CMP[k%CMP.length];lines.push({name:`${s.type}${s.cur!=='全部'?' · '+s.cur:''}`,color:st.c.color,dash:st.dash,mk:st.mk,vals:s.v});});
   const seen=new Set();plan.list.forEach(s=>{const k=s.tg;if(seen.has(k))return;seen.add(k);const a=catAvgByPy(s.cat,s.tg);if(a.some(Boolean))lines.push({name:`同類平均：${c.name} · ${TGS[s.tg]}`,short:`同類平均 · ${TGS[s.tg]}`,color:'#8A9796',dash:'3 3',vals:a.map(x=>x?x.v:null),faint:true});});
-  out.innerHTML=`<div class="card"><div class="plan-head"><h3>${esc(plan.plan)}</h3><span class="tag" style="${catVar(c.n)}">${c.name}</span><small>${esc(co.name)}${plan.en?' · '+esc(plan.en):''}</small></div>${facts}${iyBox}</div>
+  out.innerHTML=`<div class="card"><div class="plan-head"><h3>${esc(plan.plan)}</h3><span class="tag" style="${catVar(c.n)}">${c.name}</span><small>${coTag(p.co)}${plan.en?' · '+esc(plan.en):''}</small></div>${facts}${iyBox}</div>
   <div class="card"><div class="card-h"><h3>按保單年度</h3><p>灰色虛線是所有公司同類產品、同一紅利類型的平均</p></div><div class="series-legend">${lines.map(l=>`<span>${legendIcon(l)}${esc(l.name)}</span>`).join('')}</div><div class="chart" id="plChart"></div></div>
   <div class="card"><div class="card-h"><h3>數據表</h3><p>${D.rep} 報告年度</p></div><div class="tbl-wrap"><table>${pyHead('<th class="l">紅利類型</th><th>貨幣</th>')}<tbody>${plan.list.map(s=>`<tr><td class="l">${esc(s.type)}</td><td>${esc(s.cur)}</td>${vCells(s.v,iy)}</tr>`).join('')}</tbody></table></div>
   <div class="legend"><span><i class="sw-hi"></i>100% 或以上</span><span><i class="sw-mid"></i>80%–99%</span><span><i class="sw-lo"></i>低於 80%</span></div>
+  ${typeNotes(plan.list)}
   <p class="lead" style="font-size:12.5px;margin-top:8px">資料來源：<a href="${esc(co.source)}" target="_blank" rel="noopener">${esc(co.full)}</a>${co.note?'。'+esc(co.note):''}</p></div>`;
   lineChart($('#plChart'),lines);
   if(iy!=null)out.querySelectorAll(`th[data-col="${iy}"]`).forEach(th=>th.classList.add('sel'));
@@ -619,15 +686,18 @@ function fillCmpPickers(){
 function renderCompare(){
   fillCmpPickers();
   const S=state.cm.map(id=>D.series.find(s=>s.id===id)).filter(Boolean);
-  $('#cmList').innerHTML=S.map((s,k)=>`<div class="cmp-item">${legendIcon({color:CMP[k].c.color,dash:CMP[k].dash,mk:CMP[k].mk})}<div class="txt"><b>${esc(s.plan)}</b><small>${esc(serSub(s))} · ${CATS[s.cat].name}</small></div><button type="button" class="btn-x" data-rm="${s.id}" aria-label="移除">×</button></div>`).join('');
+  $('#cmList').innerHTML=S.map((s,k)=>`<div class="cmp-item" style="--co:${CO[s.co].color}">${legendIcon({color:CMP[k].c.color,dash:CMP[k].dash,mk:CMP[k].mk})}<div class="txt"><b>${esc(s.plan)}</b><small>${serSub(s)} · ${CATS[s.cat].name}</small></div><button type="button" class="btn-x" data-rm="${s.id}" aria-label="移除">×</button></div>`).join('');
   $('#cmCount').textContent=S.length?`已選 ${S.length} / ${MAXCMP} 項`:'未選擇。請先選保險公司，再選計劃及紅利類型，按「加入比較」。';
   const out=$('#cmOut');
   if(!S.length){out.innerHTML='';return;}
   const lines=S.map((s,k)=>({name:`${s.plan} · ${s.type}`,short:s.plan,color:CMP[k].c.color,dash:CMP[k].dash,mk:CMP[k].mk,vals:s.v}));
   if(state.avg){const seen=new Set();S.forEach(s=>{const k=s.cat+s.tg;if(seen.has(k))return;seen.add(k);const a=catAvgByPy(s.cat,s.tg);lines.push({name:`同類平均：${CATS[s.cat].name} · ${TGS[s.tg]}`,short:`同類平均 · ${CATS[s.cat].name}`,color:'#8A9796',dash:'3 3',vals:a.map(x=>x?x.v:null),faint:true});});}
-  const sum=S.map((s,k)=>{const p=s.v.filter(isN);return `<tr><td class="plan"><span style="display:inline-flex;vertical-align:middle;margin-right:6px">${legendIcon({color:CMP[k].c.color,dash:CMP[k].dash,mk:CMP[k].mk})}</span><b style="display:inline">${esc(s.plan)}</b><br><small>${esc(serSub(s))}</small></td><td><span class="tag" style="${catVar(CATS[s.cat].n)}">${CATS[s.cat].name}</span></td>${vCells(s.v)}<td class="v ${cls(mean(p))}">${p.length?pct(mean(p)):'—'}</td></tr>`;}).join('');
-  out.innerHTML=`<div class="card"><div class="card-h"><h3>分紅實現率走勢</h3><p>橫軸是保單年度，左邊是最近生效的保單</p></div><div class="series-legend">${lines.map(l=>`<span>${legendIcon(l)}${esc(l.name)}</span>`).join('')}</div><div class="chart" id="cmChart"></div></div>
+  const sum=S.map((s,k)=>{const p=s.v.filter(isN);return `<tr><td class="plan"><span style="display:inline-flex;vertical-align:middle;margin-right:6px">${legendIcon({color:CMP[k].c.color,dash:CMP[k].dash,mk:CMP[k].mk})}</span><b style="display:inline">${esc(s.plan)}</b><br><small>${serSub(s)}</small></td><td><span class="tag" style="${catVar(CATS[s.cat].n)}">${CATS[s.cat].name}</span></td>${vCells(s.v)}<td class="v ${cls(mean(p))}">${p.length?pct(mean(p)):'—'}</td></tr>`;}).join('');
+  const tgs=[...new Set(S.map(s=>s.tg))], cats=[...new Set(S.map(s=>s.cat))];
+  const warn=tgs.length>1?`<div class="warn"><b>留意：</b>比較中包括不同種類的紅利（${tgs.map(t=>TGS[t]).join('、')}）。不同紅利的計算方法不同，例如終期紅利只計算已終止的保單，數字不宜直接比較。建議選同一種紅利比較。</div>`:cats.length>1?`<div class="warn"><b>留意：</b>比較中包括不同產品類型（${cats.map(c=>CATS[c].name).join('、')}），產品設計及紅利比重不同，比較時請一併考慮。</div>`:'';
+  out.innerHTML=warn+`<div class="card"><div class="card-h"><h3>分紅實現率走勢</h3><p>橫軸是保單年度，左邊是最近生效的保單</p></div><div class="series-legend">${lines.map(l=>`<span>${legendIcon(l)}${esc(l.name)}</span>`).join('')}</div><div class="chart" id="cmChart"></div></div>
   <div class="card"><div class="card-h"><h3>並排數據</h3><p>${D.rep} 報告年度</p></div><div class="tbl-wrap"><table>${pyHead('<th class="l">計劃</th><th>類型</th>','<th>平均</th>')}<tbody>${sum}</tbody></table></div>
+  ${typeNotes(S)}
   <p class="lead" style="font-size:12.5px;margin-top:8px">不同計劃的紅利結構、保證部分比重及銷售時期不同，比較時請同時參考總現金價值及計劃特點。</p></div>`;
   lineChart($('#cmChart'),lines);
 }
@@ -639,7 +709,7 @@ function renderAll(){
   const avg=s=>{const p=s.v.filter(isN);return p.length?mean(p):-1;};
   if(a.sort==='desc')L=[...L].sort((x,y)=>avg(y)-avg(x));else if(a.sort==='asc')L=[...L].sort((x,y)=>avg(x)-avg(y));
   $('#allCount').textContent=`共 ${L.length} 行 · ${pts(L).length} 個數字`;
-  $('#allTbl').innerHTML=pyHead('<th class="l">計劃</th><th>類型</th><th>紅利</th><th>貨幣</th>',`<th class="sort" data-sort>平均${a.sort==='desc'?' ↓':a.sort==='asc'?' ↑':''}</th>`)+`<tbody>${L.map(s=>{const p=s.v.filter(isN);return `<tr><td class="plan"><b>${esc(s.plan)}</b><small>${esc(CO[s.co].name)}${s.en?' · '+esc(s.en):''}</small></td><td><span class="tag" style="${catVar(CATS[s.cat].n)}">${CATS[s.cat].name}</span></td><td>${esc(s.type)}</td><td>${esc(s.cur)}</td>${vCells(s.v)}<td class="v ${p.length?cls(mean(p)):'code'}">${p.length?pct(mean(p)):'—'}</td></tr>`;}).join('')||'<tr><td colspan="16" style="padding:24px;color:var(--mk-muted)">沒有符合的計劃</td></tr>'}</tbody>`;
+  $('#allTbl').innerHTML=pyHead('<th class="l">計劃</th><th>類型</th><th>紅利</th><th>貨幣</th>',`<th class="sort" data-sort>平均${a.sort==='desc'?' ↓':a.sort==='asc'?' ↑':''}</th>`)+`<tbody>${L.map(s=>{const p=s.v.filter(isN);return `<tr><td class="plan"><b>${esc(s.plan)}</b><small>${coTag(s.co)}${s.en?' · '+esc(s.en):''}</small></td><td><span class="tag" style="${catVar(CATS[s.cat].n)}">${CATS[s.cat].name}</span></td><td>${esc(s.type)}</td><td>${esc(s.cur)}</td>${vCells(s.v)}<td class="v ${p.length?cls(mean(p)):'code'}">${p.length?pct(mean(p)):'—'}</td></tr>`;}).join('')||'<tr><td colspan="16" style="padding:24px;color:var(--mk-muted)">沒有符合的計劃</td></tr>'}</tbody>`;
 }
 
 /* ---------- 分頁、分享 ---------- */
@@ -681,7 +751,7 @@ fetch('data.json').then(r=>r.json()).then(d=>{
   D=d;D.companies.forEach(c=>CO[c.id]=c);
   $('#repYear').textContent=D.rep;
   const u=D.updated.split('-');$('#updDate').textContent=`${u[0]} 年 ${+u[1]} 月 ${+u[2]} 日`;
-  $('#coChips').innerHTML=`<span style="font-size:13px;color:var(--mk-muted);align-self:center">現時收錄 ${D.companies.length} 間：</span>`+D.companies.map(c=>`<span class="co-chip">${esc(c.name)}</span>`).join('');
+  $('#coChips').innerHTML=`<span style="font-size:13px;color:var(--mk-muted);align-self:center">現時收錄 ${D.companies.length} 間：</span>`+D.companies.map(c=>`<span class="co-chip" style="--co:${c.color}">${esc(c.name)}</span>`).join('');
   $('#srcList').innerHTML=D.companies.map(c=>`<li>${esc(c.name)}（${esc(c.full)}）：<a href="${esc(c.source)}" target="_blank" rel="noopener">${D.rep} 報告年度分紅實現率</a>${c.note?'　'+esc(c.note):''}</li>`).join('');
   const t=readHash();
   $('#ovFilters').innerHTML=filterHTML('ov',state.f,false);bindFilters($('#ovFilters'),state.f,()=>{renderOverview();writeHash();});

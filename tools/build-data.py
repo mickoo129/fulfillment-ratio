@@ -52,7 +52,7 @@ def main():
     out = {
         "rep": max(c["rep"] for c in cos),
         "updated": "2026-11-26",
-        "companies": [{k: c[k] for k in ("id", "name", "full", "rep", "source", "note")} for c in cos],
+        "companies": [{k: c[k] for k in ("id", "name", "full", "rep", "source", "note", "color")} for c in cos],
         "series": series,
     }
     json.dump(out, open(os.path.join(ROOT, "data.json"), "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
