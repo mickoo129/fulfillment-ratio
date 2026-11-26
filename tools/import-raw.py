@@ -48,6 +48,8 @@ OVERRIDE = {
     ('ctflife', '"Regent · Premier" Insurance Plan'): 'save',
     ('ctflife', '"Regent · Prestige" Insurance Plan'): 'save',
     ('ctflife', '"MediSave" Medical Insurance Plan'): 'life',
+    ('chinalife', 'Wise Legend Multi-Currency Plan'): 'save',
+    ('chinalife', 'Wise Legend Multi-Currency Insurance Plan'): 'save',
     ("fwd", "MediSaver"): "life",
     ("fwd", "MediSaver Supreme"): "life",
     ("fwd", "i.15/20"): "save",

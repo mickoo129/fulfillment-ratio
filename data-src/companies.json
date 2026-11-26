@@ -118,6 +118,17 @@
     "color": "#1F1F1F"
   },
   {
+    "id": "chinalife",
+    "name": "中國人壽（海外）",
+    "full": "中國人壽保險（海外）股份有限公司 China Life Insurance (Overseas) Company Limited",
+    "file": "chinalife.csv",
+    "rep": 2025,
+    "source": "https://www.chinalife.com.hk/zh-hk/products/dividend-philosophy-and-investment-strategy",
+    "note": "中國人壽（海外）大部分計劃不分貨幣公布（「適用於所有貨幣種類保單」顯示為全部）；人民幣計劃另列。",
+    "color": "#F39800",
+    "ink": "#9A5F00"
+  },
+  {
     "id": "aiae",
     "name": "友邦雋峰（AIA Everest）",
     "full": "AIA Everest Life Company Limited",
