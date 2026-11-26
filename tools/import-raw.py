@@ -10,13 +10,14 @@ import os, re, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-CI = r"危疾|Critical [Ii]llness|[Cc]risis|安心保|易重保|倍安保|智倍保|愛伴航|On Your Side|CI\b"
+CI = r"危疾|嚴重疾病|Major Illness|Critical [Ii]llness|[Cc]risis|安心保|易重保|倍安保|智倍保|愛伴航|On Your Side|CI\b"
 SAVE = (r"儲蓄|Sav|入息|Income|年金|Annuity|教育|Education|升學|長享|Coupon|充裕未來|Bonus Power|盈御|Global Power|"
-        r"財富|創富|萬利|Wealth|智昇|Proactive|諾享|Fortune Promise|盈尚|儲速|活享|環宇|Flexi|傳承|Legacy|Endowment|養老|收益")
+        r"財富|創富|萬利|Heritage|Wealth|智昇|Proactive|諾享|Fortune Promise|盈尚|儲速|活享|環宇|Flexi|傳承|Legacy|Endowment|養老|收益")
 SAVE_TYPES = r"儲蓄|入息|年金|Endowment|Annuity|Income"
 OVERRIDE = {
     # (公司, 英文名): cat
     ("pru", "Double Treasure Plan"): "save",
+    ("axa", "Smart Kid Insurance Plan"): "save",
     ("pru", "Prudential Entrust Multi-Currency Insurance Plan"): "save",
 }
 CUR = {"所有": "全部", "All": "全部"}

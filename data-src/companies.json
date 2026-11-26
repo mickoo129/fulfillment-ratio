@@ -33,6 +33,17 @@
   "ink": "#2E6B4F"
  },
  {
+  "id": "axa",
+  "name": "安盛",
+  "full": "AXA China Region Insurance Company (Bermuda) Limited",
+  "file": "axa.csv",
+  "rep": 2025,
+  "source": "https://www.axa.com.hk/zh/fulfilment-ratios-and-total-value-ratios",
+  "note": "安盛每個計劃一頁公布；「保額增值紅利」歸入歸原紅利。",
+  "color": "#00008F",
+  "ink": ""
+ },
+ {
   "id": "aiae",
   "name": "友邦雋峰（AIA Everest）",
   "full": "AIA Everest Life Company Limited",
