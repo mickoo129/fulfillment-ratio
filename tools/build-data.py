@@ -13,7 +13,7 @@ import csv, hashlib, json, os, re
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC = os.path.join(ROOT, "data-src")
-TYPE_GROUP = {"週年紅利": "annual", "歸原紅利": "rev", "終期紅利": "term", "特別紅利": "term", "非保證利益": "term"}
+TYPE_GROUP = {"週年紅利": "annual", "歸原紅利": "rev", "終期紅利": "term", "特別紅利": "term", "非保證利益": "term", "非保證年金": "annual"}
 
 def cell(x):
     x = (x or "").strip()

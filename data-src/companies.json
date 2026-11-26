@@ -192,5 +192,16 @@
     "note": "2019 年開業，公司公布的表只列至第 10 個保單年度。",
     "color": "#573AB2",
     "ink": ""
+  },
+  {
+    "id": "cpic",
+    "name": "中國太平洋人壽（香港）",
+    "full": "China Pacific Life Insurance (H.K.) Company Limited",
+    "file": "cpic.csv",
+    "rep": 2025,
+    "source": "https://www.cpiclifehk.com.hk/customerSupport/importantInfo",
+    "note": "2021 年開業，大部分計劃仍未有數字；「非保證年金」歸入週年紅利一組計算。",
+    "color": "#0052A5",
+    "ink": ""
   }
 ]

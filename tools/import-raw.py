@@ -50,6 +50,7 @@ OVERRIDE = {
     ('ctflife', '"MediSave" Medical Insurance Plan'): 'life',
     ('chinalife', 'Wise Legend Multi-Currency Plan'): 'save',
     ('chinalife', 'Wise Legend Multi-Currency Insurance Plan'): 'save',
+    ('cpic', 'Eternal Wealth Whole Life Insurance Plan'): 'life',  # 公司列「終身壽險 – 保障類」
     ("fwd", "MediSaver"): "life",
     ("fwd", "MediSaver Supreme"): "life",
     ("fwd", "i.15/20"): "save",
