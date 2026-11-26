@@ -225,6 +225,7 @@ th.sort:after{content:" ↕";opacity:.5}
 .pick{display:flex;flex-wrap:wrap;gap:10px 14px;align-items:flex-end}
 .pick .fld{flex:1 1 220px}
 .pick .fld.wide{flex:2 1 320px}
+.pick-n{font-weight:400;color:var(--mk-muted)}
 .plan-head{display:flex;flex-wrap:wrap;align-items:center;gap:8px 10px}
 .plan-head h3{font-size:19px}
 .plan-head small{color:var(--mk-muted)}
@@ -420,8 +421,12 @@ td.co-cell{box-shadow:inset 4px 0 0 var(--co)}
   <p class="lead">選擇保險公司及計劃，查看每個生效年份的分紅實現率，並與同類產品平均比較。</p>
   <div class="card no-print">
     <div class="pick">
+      <label class="fld"><span>產品類型</span><select id="plCat"></select></label>
       <label class="fld"><span>保險公司</span><select id="plCo"></select></label>
-      <label class="fld wide"><span>計劃</span><select id="plPlan"></select></label>
+      <label class="fld"><span>搜尋計劃名</span><input type="search" id="plQ" placeholder="例如：儲蓄、傳承、Wealth" autocomplete="off"></label>
+    </div>
+    <div class="pick" style="margin-top:10px">
+      <label class="fld wide"><span>計劃 <small class="pick-n" id="plN"></small></span><select id="plPlan"></select></label>
       <label class="fld"><span>保單生效年份（可選）</span><select id="plIy"></select></label>
     </div>
   </div>
@@ -434,8 +439,12 @@ td.co-cell{box-shadow:inset 4px 0 0 var(--co)}
   <p class="lead">最多並排比較 4 項（每項是一個計劃的一種紅利），看看不同保單年度的分紅實現率。</p>
   <div class="card">
     <div class="pick">
+      <label class="fld"><span>產品類型</span><select id="cmCat"></select></label>
       <label class="fld"><span>保險公司</span><select id="cmCo"></select></label>
-      <label class="fld wide"><span>計劃及紅利類型</span><select id="cmSer"></select></label>
+      <label class="fld"><span>搜尋計劃名</span><input type="search" id="cmQ" placeholder="例如：儲蓄、傳承、Wealth" autocomplete="off"></label>
+    </div>
+    <div class="pick" style="margin-top:10px">
+      <label class="fld wide"><span>計劃及紅利類型 <small class="pick-n" id="cmN"></small></span><select id="cmSer"></select></label>
       <div class="fld" style="flex:0 0 auto"><span>&nbsp;</span><button type="button" class="btn" id="cmAdd">加入比較</button></div>
     </div>
     <div class="cmp-list" id="cmList"></div>
@@ -508,7 +517,7 @@ const CODES={NA:'不適用',NL:'未推出',CS:'已停售'};
 // 比較線：冇固定意思，但為免同產品類型色（2、3、5）撞色，用 1、4、6、8（見 CLAUDE.md）
 const CMP=[{c:MK_CAT[0],dash:'',mk:'circle'},{c:MK_CAT[3],dash:'6 4',mk:'square'},{c:MK_CAT[5],dash:'',mk:'diamond'},{c:MK_CAT[7],dash:'2 3',mk:'triangle'}];
 const MAXCMP=4;
-let D=null, CO={}, state={tab:'overview',f:{co:'all',cat:'all',tg:'all'},a:{co:'all',cat:'all',tg:'all',q:'',sort:'',only:true},pl:{co:'',key:'',iy:''},cm:[],avg:true,lang:'zh'};
+let D=null, CO={}, state={tab:'overview',f:{co:'all',cat:'all',tg:'all'},a:{co:'all',cat:'all',tg:'all',q:'',sort:'',only:true},pl:{co:'',key:'',iy:'',fco:'',cat:'all',q:''},cm:[],cf:{co:'',cat:'all',q:''},avg:true,lang:'zh'};
 
 const $=s=>document.querySelector(s);
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -654,20 +663,35 @@ function vCells(v,sel){return v.map((x,i)=>`<td class="v ${cls(x)}${sel===i?' se
 const TG_NOTE={annual:'週年紅利：計算仍然生效保單的累積紅利及利息。',rev:'歸原紅利：以累積紅利的現金價值計算，不是面值。',term:'終期／特別紅利：只計算當年已終止的保單；當年沒有保單終止便顯示「不適用」，數字波動一般較大。'};
 function typeNotes(list){const g=[...new Set(list.map(s=>s.tg))];return `<p class="lead" style="font-size:12.5px;margin-top:8px">${g.map(t=>TG_NOTE[t]).join('<br>')} <a href="#" data-types>三種紅利有什麼分別</a></p>`;}
 document.addEventListener('click',e=>{const a=e.target.closest('[data-types]');if(a){e.preventDefault();setTab('overview');document.getElementById('types').scrollIntoView({behavior:'smooth',block:'start'});return;}
-  const g=e.target.closest('[data-go]');if(g){const s=D.series.find(x=>x.id===g.dataset.go);if(!s)return;state.pl.co=s.co;state.pl.key=planKey(s);state.pl.iy='';setTab('plan');scrollTo({top:0});}});
+  const g=e.target.closest('[data-go]');if(g){const s=D.series.find(x=>x.id===g.dataset.go);if(!s)return;state.pl.co=s.co;state.pl.fco=s.co;state.pl.cat='all';state.pl.q='';state.pl.key=planKey(s);state.pl.iy='';setTab('plan');scrollTo({top:0});}});
 
 /* ---------- 計劃查詢 ---------- */
-function plansOf(co){const m=new Map();D.series.filter(s=>s.co===co).forEach(s=>{const k=planKey(s);if(!m.has(k))m.set(k,{key:k,zh:s.zh,en:s.en,cat:s.cat,list:[]});m.get(k).list.push(s);});return [...m.values()].sort((a,b)=>{const ha=a.list.some(s=>s.v.some(isN)),hb=b.list.some(s=>s.v.some(isN));return (hb-ha)||pn(a).localeCompare(pn(b));});}
+function plansOf(co){const m=new Map();D.series.filter(s=>s.co===co).forEach(s=>{const k=planKey(s);if(!m.has(k))m.set(k,{key:k,co:s.co,zh:s.zh,en:s.en,cat:s.cat,list:[]});m.get(k).list.push(s);});return [...m.values()].sort((a,b)=>{const ha=a.list.some(s=>s.v.some(isN)),hb=b.list.some(s=>s.v.some(isN));return (hb-ha)||pn(a).localeCompare(pn(b));});}
+/* 計劃名搜尋：中英文都搵，唔理大細楷同空格 */
+const norm=t=>(t||'').toLowerCase().replace(/[\s·・‧∙「」『』（）()]/g,'');
+const qHit=(x,q)=>!q||norm(x.zh).includes(norm(q))||norm(x.en).includes(norm(q));
+const catOpts=v=>`<option value="all">全部類型</option>`+Object.entries(CATS).map(([k,c])=>`<option value="${k}"${v===k?' selected':''}>${c.name}</option>`).join('');
+const coOpts=v=>`<option value="all"${v==='all'?' selected':''}>全部公司</option>`+D.companies.map(c=>`<option value="${c.id}"${c.id===v?' selected':''}>${esc(c.name)}</option>`).join('');
+/* 分組：揀咗一間公司就按產品類型分組；全部公司就按公司分組 */
+function groupOpts(items,byCo,optFn){
+  const groups=byCo?D.companies.map(c=>({label:c.name,items:items.filter(x=>x.co===c.id)})):Object.entries(CATS).map(([k,c])=>({label:c.name,items:items.filter(x=>x.cat===k)}));
+  return groups.filter(g=>g.items.length).map(g=>`<optgroup label="${esc(g.label)}（${g.items.length}）">${g.items.map(optFn).join('')}</optgroup>`).join('');
+}
 function fillPlanPickers(){
-  const p=state.pl; if(!p.co)p.co=D.companies[0].id;
-  $('#plCo').innerHTML=D.companies.map(c=>`<option value="${c.id}"${c.id===p.co?' selected':''}>${esc(c.name)}</option>`).join('');
-  const plans=plansOf(p.co); if(!plans.find(x=>x.key===p.key))p.key=plans[0]?.key||'';
-  $('#plPlan').innerHTML=plans.map(x=>`<option value="${esc(x.key)}"${x.key===p.key?' selected':''}>${esc(pn(x))}（${CATS[x.cat].name}）${x.list.some(s=>s.v.some(isN))?'':' — 未有數字'}</option>`).join('');
+  const p=state.pl; if(!p.co)p.co=D.companies[0].id; if(!p.fco)p.fco=p.co;
+  $('#plCat').innerHTML=catOpts(p.cat); $('#plCo').innerHTML=coOpts(p.fco);
+  if($('#plQ').value!==p.q)$('#plQ').value=p.q;
+  const cos=p.fco==='all'?D.companies.map(c=>c.id):[p.fco];
+  const plans=cos.flatMap(plansOf).filter(x=>(p.cat==='all'||x.cat===p.cat)&&qHit(x,p.q));
+  if(!plans.find(x=>x.key===p.key&&x.co===p.co)){if(plans[0]){p.key=plans[0].key;p.co=plans[0].co;}else p.key='';}
+  const byCo=p.fco==='all';
+  $('#plPlan').innerHTML=plans.length?groupOpts(plans,byCo,x=>`<option value="${esc(x.co+'\u0001'+x.key)}"${x.key===p.key&&x.co===p.co?' selected':''}>${esc(pn(x))}${byCo?'（'+CATS[x.cat].name+'）':''}${x.list.some(s=>s.v.some(isN))?'':' — 未有數字'}</option>`):'<option value="">沒有符合條件的計劃</option>';
+  $('#plN').textContent=`共 ${plans.length} 個`;
   $('#plIy').innerHTML=`<option value="">不指定</option>`+Array.from({length:11},(_,i)=>{const lb=pyLabel(i);return `<option value="${i}"${String(i)===p.iy?' selected':''}>${lb.iy}（${lb.py}）</option>`;}).join('');
 }
 function renderPlan(){
   fillPlanPickers();
-  const p=state.pl, plan=plansOf(p.co).find(x=>x.key===p.key), out=$('#planOut');
+  const p=state.pl, plan=p.key?plansOf(p.co).find(x=>x.key===p.key):null, out=$('#planOut');
   if(!plan){out.innerHTML='<div class="empty" style="margin-top:16px">請選擇計劃。</div>';return;}
   const c=CATS[plan.cat], co=CO[p.co], iy=p.iy===''?null:+p.iy, P=pts(plan.list);
   const facts=P.length?`<div class="facts"><div class="fact"><span>這個計劃的平均</span><b>${pct(mean(P))}</b> <small>${P.length} 個數字</small></div><div class="fact"><span>最高／最低</span><b>${pct(Math.max(...P))} / ${pct(Math.min(...P))}</b></div><div class="fact"><span>達 100% 或以上</span><b>${P.filter(x=>x>=100).length} / ${P.length}</b></div><div class="fact"><span>同類（${c.name}）平均</span><b>${pct(mean(pts(D.series.filter(s=>s.cat===plan.cat))))}</b> <small>所有公司</small></div></div>`:'';
@@ -687,10 +711,13 @@ function renderPlan(){
 
 /* ---------- 比較 ---------- */
 function fillCmpPickers(){
-  const co=$('#cmCo').value||D.companies[0].id;
-  $('#cmCo').innerHTML=D.companies.map(c=>`<option value="${c.id}"${c.id===co?' selected':''}>${esc(c.name)}</option>`).join('');
-  const L=D.series.filter(s=>s.co===co&&s.v.some(isN)).sort((a,b)=>pn(a).localeCompare(pn(b)));
-  $('#cmSer').innerHTML=L.length?L.map(s=>`<option value="${s.id}"${state.cm.includes(s.id)?' disabled':''}>${esc(pn(s))} · ${esc(s.type)}${s.cur!=='全部'?' · '+esc(s.cur):''}</option>`).join(''):'<option value="">這間公司未有可比較的數字</option>';
+  const f=state.cf; if(!f.co)f.co=D.companies[0].id;
+  $('#cmCat').innerHTML=catOpts(f.cat); $('#cmCo').innerHTML=coOpts(f.co);
+  if($('#cmQ').value!==f.q)$('#cmQ').value=f.q;
+  const byCo=f.co==='all';
+  const L=D.series.filter(s=>(byCo||s.co===f.co)&&(f.cat==='all'||s.cat===f.cat)&&s.v.some(isN)&&qHit(s,f.q)).sort((a,b)=>pn(a).localeCompare(pn(b)));
+  $('#cmSer').innerHTML=L.length?groupOpts(L,byCo,s=>`<option value="${s.id}"${state.cm.includes(s.id)?' disabled':''}>${esc(pn(s))} · ${esc(s.type)}${s.cur!=='全部'?' · '+esc(s.cur):''}${byCo?'（'+CATS[s.cat].name+'）':''}</option>`):'<option value="">沒有符合條件、有數字的計劃</option>';
+  $('#cmN').textContent=`共 ${L.length} 項`;
   $('#cmAdd').disabled=state.cm.length>=MAXCMP||!L.length;
 }
 function renderCompare(){
@@ -737,7 +764,7 @@ function hashOf(){
   if(state.tab==='overview'||state.tab==='all'){['co','cat','tg'].forEach(k=>{if(f[k]!=='all')h.set(k,f[k]);});}
   if(state.tab==='all'&&state.a.q)h.set('q',state.a.q);
   if(state.tab==='all'&&!state.a.only)h.set('only','0');
-  if(state.tab==='plan'){h.set('pc',state.pl.co);h.set('pk',state.pl.key);if(state.pl.iy!=='')h.set('iy',D.rep-1-(+state.pl.iy));}
+  if(state.tab==='plan'){h.set('pc',state.pl.co);h.set('pk',state.pl.key);if(state.pl.iy!=='')h.set('iy',D.rep-1-(+state.pl.iy));if(state.pl.cat!=='all')h.set('pcat',state.pl.cat);if(state.pl.fco==='all')h.set('pf','all');}
   if(state.tab==='compare'){if(state.cm.length)h.set('s',state.cm.join(','));if(!state.avg)h.set('avg','0');}
   if(state.lang==='en')h.set('lang','en');
   return h.toString();
@@ -751,6 +778,8 @@ function readHash(){
   if(t==='all'){if(ok(h.get('co'),cos))state.a.co=h.get('co');if(ok(h.get('cat'),Object.keys(CATS)))state.a.cat=h.get('cat');if(ok(h.get('tg'),Object.keys(TGS)))state.a.tg=h.get('tg');state.a.q=h.get('q')||'';if(h.get('only')==='0')state.a.only=false;}
   else{if(ok(h.get('co'),cos))state.f.co=h.get('co');if(ok(h.get('cat'),Object.keys(CATS)))state.f.cat=h.get('cat');if(ok(h.get('tg'),Object.keys(TGS)))state.f.tg=h.get('tg');}
   if(ok(h.get('pc'),cos)){state.pl.co=h.get('pc');state.pl.key=h.get('pk')||'';}
+  if(ok(h.get('pcat'),Object.keys(CATS)))state.pl.cat=h.get('pcat');
+  if(h.get('pf')==='all')state.pl.fco='all';
   if(h.get('iy')){const i=D.rep-1-(+h.get('iy'));if(i>=0&&i<=10)state.pl.iy=String(i);}
   if(h.get('s'))state.cm=h.get('s').split(',').filter(id=>D.series.some(s=>s.id===id)).slice(0,MAXCMP);
   if(h.get('avg')==='0')state.avg=false;
@@ -770,10 +799,14 @@ fetch('data.json').then(r=>r.json()).then(d=>{
   $('#allFilters').innerHTML=filterHTML('all',state.a,true);bindFilters($('#allFilters'),state.a,()=>{renderAll();writeHash();});
   $('#allOnly').checked=state.a.only;$('#allOnly').addEventListener('change',e=>{state.a.only=e.target.checked;renderAll();writeHash();});
   $('#allTbl').addEventListener('click',e=>{if(!e.target.closest('[data-sort]'))return;state.a.sort=state.a.sort==='desc'?'asc':state.a.sort==='asc'?'':'desc';renderAll();});
-  $('#plCo').addEventListener('change',e=>{state.pl.co=e.target.value;state.pl.key='';renderPlan();writeHash();});
-  $('#plPlan').addEventListener('change',e=>{state.pl.key=e.target.value;renderPlan();writeHash();});
+  $('#plCo').addEventListener('change',e=>{state.pl.fco=e.target.value;if(e.target.value!=='all'){state.pl.co=e.target.value;state.pl.key='';}renderPlan();writeHash();});
+  $('#plCat').addEventListener('change',e=>{state.pl.cat=e.target.value;renderPlan();writeHash();});
+  let plT;$('#plQ').addEventListener('input',e=>{clearTimeout(plT);plT=setTimeout(()=>{state.pl.q=e.target.value.trim();renderPlan();writeHash();},200);});
+  $('#plPlan').addEventListener('change',e=>{const [c,k]=e.target.value.split('\u0001');if(!k)return;state.pl.co=c;state.pl.key=k;renderPlan();writeHash();});
   $('#plIy').addEventListener('change',e=>{state.pl.iy=e.target.value;renderPlan();writeHash();});
-  $('#cmCo').addEventListener('change',()=>fillCmpPickers());
+  $('#cmCo').addEventListener('change',e=>{state.cf.co=e.target.value;fillCmpPickers();});
+  $('#cmCat').addEventListener('change',e=>{state.cf.cat=e.target.value;fillCmpPickers();});
+  let cmT;$('#cmQ').addEventListener('input',e=>{clearTimeout(cmT);cmT=setTimeout(()=>{state.cf.q=e.target.value.trim();fillCmpPickers();},200);});
   $('#cmAdd').addEventListener('click',()=>{const id=$('#cmSer').value;if(id&&!state.cm.includes(id)&&state.cm.length<MAXCMP){state.cm.push(id);renderCompare();writeHash();}});
   $('#cmList').addEventListener('click',e=>{const b=e.target.closest('[data-rm]');if(!b)return;state.cm=state.cm.filter(x=>x!==b.dataset.rm);renderCompare();writeHash();});
   $('#cmAvg').checked=state.avg;$('#cmAvg').addEventListener('change',e=>{state.avg=e.target.checked;renderCompare();writeHash();});
