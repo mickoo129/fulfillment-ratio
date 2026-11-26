@@ -52,6 +52,7 @@ MKPA 工具之一。呢個 repo 只放呢一個工具，獨立部署去 Netlify�
   - 各公司特別做法：萬通用網站 JSON API（唔使 token；用介面揀會讀到舊表）；安達數據喺 `chubblife.com.hk` 嘅 `hk-zh.js`（Vue data）；恒生下拉選單英文次序同中文唔同，要逐個撳 option 睇邊個表顯示嚟配對；中國人壽喺 `#part1`／`#part2`（H3 名、P 保險種類、TABLE）；太平中文版係 `/info/fulfillment_ratio`（`/tc/` 404），只列到第 10 個保單年度；太平洋係 Nuxt 網站，POST `/hkcms/frontPage/dividendRate/queryExcelData`（`languageType:"HK"`，產品清單喺 payload state `respData.conditionMap`），「非保證年金」歸週年紅利組；香港人壽中英文網頁表格次序一樣，按次序配英文名，rowspan 有空行要刪；週年紅利、特別紅利同非保證每月入息合併一個數；蘇黎世係 PDF 入面再連去兩個 PDF（Legacy PAR、Swiss Prime），數字要睇圖人手抄，中文名未核實所以留空。
   - 保監局網頁有 Cloudflare，built-in browser 都入唔到。
   - 搵唔到或者未收錄嘅公司寫入 `data-src/missing.json`（`[{"name":..., "why":...}]`），頁尾自動顯示「暫未收錄」。
+- **計劃名搜尋**：`index.html` 嘅 `VAR_PAIRS` 將常見異體字、簡體字當同一個字（例如「隽升」搵到「雋陞」），仲會轉全形字。客人打錯字搵唔到，就喺度加一對字。
 - **平均數**：所有已公布數字直接平均（每個數字比重一樣，冇按保單數目或保費加權），頁面同頁尾有寫明。「同類平均」= 所有公司同一產品類型 + 同一紅利組別、同一保單年度嘅平均。
 - **「分享呢個方案」放入網址 `#`**：`t`（分頁）；總覽／全部數據嘅篩選 `co`、`cat`、`tg`、`q`、`only`；計劃查詢 `pc`（公司）、`pk`（計劃 key）、`iy`（生效年份）；比較 `s`（最多 4 個 series id，逗號分隔）、`avg=0`（唔顯示同類平均）。
 - **三級用色**：第 2 級「功能分頁」。總覽用宏利綠；計劃查詢 cat-1、比較 cat-4、全部數據 cat-7。
