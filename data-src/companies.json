@@ -55,6 +55,17 @@
     "ink": "#B4560C"
   },
   {
+    "id": "hsbc",
+    "name": "滙豐人壽",
+    "full": "滙豐人壽保險（國際）有限公司",
+    "file": "hsbc.csv",
+    "rep": 2025,
+    "source": "https://www.hsbc.com.hk/zh-hk/misc/insurance/fulfillment-ratio/",
+    "note": "滙豐分終身人壽、儲蓄人壽、年金三頁公布；「年度紅利」歸入週年紅利，「特別獎賞」歸入特別紅利。",
+    "color": "#DB0011",
+    "ink": ""
+  },
+  {
     "id": "aiae",
     "name": "友邦雋峰（AIA Everest）",
     "full": "AIA Everest Life Company Limited",
