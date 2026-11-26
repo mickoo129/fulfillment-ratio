@@ -1,0 +1,212 @@
+雋富多元貨幣計劃|Evergreen Wealth Multi-Currency Plan||美元|終期紅利|NA|NA|109|NL|NL|NL|NL|NL|NL|NL|NL
+雋富多元貨幣計劃|Evergreen Wealth Multi-Currency Plan||港元|終期紅利|NA|NA|108|NL|NL|NL|NL|NL|NL|NL|NL
+雋富多元貨幣計劃|Evergreen Wealth Multi-Currency Plan||人民幣|終期紅利|NA|NA|109|NL|NL|NL|NL|NL|NL|NL|NL
+雋富多元貨幣計劃|Evergreen Wealth Multi-Currency Plan||英鎊|終期紅利|NA|NA|107|NL|NL|NL|NL|NL|NL|NL|NL
+雋富多元貨幣計劃|Evergreen Wealth Multi-Currency Plan||澳元|終期紅利|NA|NA|NA|NL|NL|NL|NL|NL|NL|NL|NL
+雋富多元貨幣計劃|Evergreen Wealth Multi-Currency Plan||加元|終期紅利|NA|NA|NA|NL|NL|NL|NL|NL|NL|NL|NL
+「理想人生」保障系列 II - 分期繳費|Achiever Life Series II - Regular Pay||美元|歸原紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|16
+「理想人生」保障系列 II - 分期繳費|Achiever Life Series II - Regular Pay||港元|歸原紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|19
+「理想人生」保障系列 II - 分期繳費|Achiever Life Series II - Regular Pay||美元|特別紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|76
+「理想人生」保障系列 II - 分期繳費|Achiever Life Series II - Regular Pay||港元|特別紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|44
+「理想人生」保障系列 II - 整付|Achiever Life Series II - Single Pay||美元|歸原紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|53
+「理想人生」保障系列 II - 整付|Achiever Life Series II - Single Pay||港元|歸原紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|41
+「理想人生」保障系列 II - 整付|Achiever Life Series II - Single Pay||美元|特別紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|85
+「理想人生」保障系列 II - 整付|Achiever Life Series II - Single Pay||港元|特別紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|54
+「理想人生」保障系列 III - 分期繳費|Achiever Life Series III - Regular Pay||美元|歸原紅利|CS|CS|CS|CS|CS|CS|CS|CS|53|52|50
+「理想人生」保障系列 III - 分期繳費|Achiever Life Series III - Regular Pay||港元|歸原紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|68|68
+「理想人生」保障系列 III - 分期繳費|Achiever Life Series III - Regular Pay||美元|特別紅利|CS|CS|CS|CS|CS|CS|CS|CS|NA|46|55
+「理想人生」保障系列 III - 分期繳費|Achiever Life Series III - Regular Pay||港元|特別紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|48|40
+「理想人生」保障系列 III - 整付|Achiever Life Series III - Single Pay||美元|歸原紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|110|105
+「理想人生」保障系列 III - 整付|Achiever Life Series III - Single Pay||港元|歸原紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|101|90
+「理想人生」保障系列 III - 整付|Achiever Life Series III - Single Pay||美元|特別紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|52|71
+「理想人生」保障系列 III - 整付|Achiever Life Series III - Single Pay||港元|特別紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|NA|94
+「新生代」計劃|Best Start Plan||美元|歸原紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|16
+「新生代」計劃|Best Start Plan||美元|特別紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|45
+「更美好」保障系列 II - 分期繳費|Better Life Series II - Regular Pay||美元|歸原紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|16
+「更美好」保障系列 II - 分期繳費|Better Life Series II - Regular Pay||港元|歸原紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|19
+「更美好」保障系列 II - 分期繳費|Better Life Series II - Regular Pay||美元|特別紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|79
+「更美好」保障系列 II - 分期繳費|Better Life Series II - Regular Pay||港元|特別紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|45
+「更美好」保障系列 II - 整付|Better Life Series II - Single Pay||美元|歸原紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|52
+「更美好」保障系列 II - 整付|Better Life Series II - Single Pay||港元|歸原紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|42
+「更美好」保障系列 II - 整付|Better Life Series II - Single Pay||美元|特別紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|86
+「更美好」保障系列 II - 整付|Better Life Series II - Single Pay||港元|特別紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|53
+「更美好」保障系列 III - 分期繳費|Better Life Series III - Regular Pay||美元|歸原紅利|CS|CS|CS|CS|CS|CS|CS|CS|96|96|94
+「更美好」保障系列 III - 分期繳費|Better Life Series III - Regular Pay||港元|歸原紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|89|89
+「更美好」保障系列 III - 分期繳費|Better Life Series III - Regular Pay||美元|特別紅利|CS|CS|CS|CS|CS|CS|CS|CS|NA|46|55
+「更美好」保障系列 III - 分期繳費|Better Life Series III - Regular Pay||港元|特別紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|65|71
+「更美好」保障系列 III - 整付|Better Life Series III - Single Pay||美元|歸原紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|120|119
+「更美好」保障系列 III - 整付|Better Life Series III - Single Pay||港元|歸原紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|106|99
+「更美好」保障系列 III - 整付|Better Life Series III - Single Pay||美元|特別紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|65|67
+「更美好」保障系列 III - 整付|Better Life Series III - Single Pay||港元|特別紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|NA|NA
+「進寶」儲蓄計劃 / 「進寶易」儲蓄計劃|PRUsave Plus / Easi-PRUsave Plus||美元|歸原紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|35
+「進寶」儲蓄計劃 / 「進寶易」儲蓄計劃|PRUsave Plus / Easi-PRUsave Plus||美元|特別紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|112
+進寶8年儲蓄計劃|PRUWealth 8-year Saver||美元|特別紅利|CS|NA|NA|NL|NL|NL|NL|NL|NL|NL|NL
+「樂在人生」終身保障計劃|Delightful Life Assurance||美元|歸原紅利|CS|CS|CS|CS|CS|CS|CS|84|83|83|78
+「樂在人生」終身保障計劃|Delightful Life Assurance||港元|歸原紅利|CS|CS|CS|CS|CS|CS|CS|84|84|83|82
+「樂在人生」終身保障計劃|Delightful Life Assurance||美元|特別紅利|CS|CS|CS|CS|CS|CS|CS|NA|58|55|70
+「樂在人生」終身保障計劃|Delightful Life Assurance||港元|特別紅利|CS|CS|CS|CS|CS|CS|CS|NA|NA|NA|95
+「雋陞」儲蓄保障計劃 - 分期繳費|Evergreen Growth Saver - Regular Pay||美元|歸原紅利|CS|CS|CS|CS|CS|CS|80|84|65|44|49
+「雋陞」儲蓄保障計劃 - 分期繳費|Evergreen Growth Saver - Regular Pay||港元|歸原紅利|CS|CS|CS|CS|CS|CS|66|68|60|49|53
+「雋陞」儲蓄保障計劃 - 分期繳費|Evergreen Growth Saver - Regular Pay||人民幣|歸原紅利|CS|CS|CS|CS|CS|CS|CS|77|74|74|NL
+「雋陞」儲蓄保障計劃 - 分期繳費|Evergreen Growth Saver - Regular Pay||美元|特別紅利|CS|CS|CS|CS|CS|CS|NA|35|34|42|51
+「雋陞」儲蓄保障計劃 - 分期繳費|Evergreen Growth Saver - Regular Pay||港元|特別紅利|CS|CS|CS|CS|CS|CS|NA|47|47|51|49
+「雋陞」儲蓄保障計劃 - 分期繳費|Evergreen Growth Saver - Regular Pay||人民幣|特別紅利|CS|CS|CS|CS|CS|CS|CS|120|98|97|NL
+「雋陞」儲蓄保障計劃 - 整付|Evergreen Growth Saver - Single Pay||美元|歸原紅利|CS|CS|CS|CS|CS|CS|CS|130|113|90|86
+「雋陞」儲蓄保障計劃 - 整付|Evergreen Growth Saver - Single Pay||港元|歸原紅利|CS|CS|CS|CS|CS|CS|CS|138|122|90|73
+「雋陞」儲蓄保障計劃 - 整付|Evergreen Growth Saver - Single Pay||人民幣|歸原紅利|CS|CS|CS|CS|CS|CS|CS|86|84|85|NL
+「雋陞」儲蓄保障計劃 - 整付|Evergreen Growth Saver - Single Pay||美元|特別紅利|CS|CS|CS|CS|CS|CS|CS|72|62|70|74
+「雋陞」儲蓄保障計劃 - 整付|Evergreen Growth Saver - Single Pay||港元|特別紅利|CS|CS|CS|CS|CS|CS|CS|64|55|72|53
+「雋陞」儲蓄保障計劃 - 整付|Evergreen Growth Saver - Single Pay||人民幣|特別紅利|CS|CS|CS|CS|CS|CS|CS|104|126|141|NL
+特級「雋陞」儲蓄保障計劃 - 分期繳費|Evergreen Growth Saver Plus - Regular Pay||美元|歸原紅利|CS|CS|CS|CS|CS|CS|31|31|NL|NL|NL
+特級「雋陞」儲蓄保障計劃 - 分期繳費|Evergreen Growth Saver Plus - Regular Pay||港元|歸原紅利|CS|CS|CS|CS|CS|CS|35|35|NL|NL|NL
+特級「雋陞」儲蓄保障計劃 - 分期繳費|Evergreen Growth Saver Plus - Regular Pay||人民幣|歸原紅利|CS|CS|CS|CS|CS|CS|100|100|NL|NL|NL
+特級「雋陞」儲蓄保障計劃 - 分期繳費|Evergreen Growth Saver Plus - Regular Pay||美元|特別紅利|CS|CS|CS|CS|CS|CS|45|42|NL|NL|NL
+特級「雋陞」儲蓄保障計劃 - 分期繳費|Evergreen Growth Saver Plus - Regular Pay||港元|特別紅利|CS|CS|CS|CS|CS|CS|52|51|NL|NL|NL
+特級「雋陞」儲蓄保障計劃 - 分期繳費|Evergreen Growth Saver Plus - Regular Pay||人民幣|特別紅利|CS|CS|CS|CS|CS|CS|64|79|NL|NL|NL
+特級「雋陞」儲蓄保障計劃 - 整付|Evergreen Growth Saver Plus - Single Pay||美元|歸原紅利|CS|CS|CS|CS|CS|CS|55|55|NL|NL|NL
+特級「雋陞」儲蓄保障計劃 - 整付|Evergreen Growth Saver Plus - Single Pay||港元|歸原紅利|CS|CS|CS|CS|CS|CS|52|52|NL|NL|NL
+特級「雋陞」儲蓄保障計劃 - 整付|Evergreen Growth Saver Plus - Single Pay||人民幣|歸原紅利|CS|CS|CS|CS|CS|CS|114|114|NL|NL|NL
+特級「雋陞」儲蓄保障計劃 - 整付|Evergreen Growth Saver Plus - Single Pay||美元|特別紅利|CS|CS|CS|CS|CS|CS|81|79|NL|NL|NL
+特級「雋陞」儲蓄保障計劃 - 整付|Evergreen Growth Saver Plus - Single Pay||港元|特別紅利|CS|CS|CS|CS|CS|CS|78|NA|NL|NL|NL
+特級「雋陞」儲蓄保障計劃 - 整付|Evergreen Growth Saver Plus - Single Pay||人民幣|特別紅利|CS|CS|CS|CS|CS|CS|NA|NA|NL|NL|NL
+特級「雋陞」儲蓄保險 II - 分期繳費|Evergreen Growth Saver Plus Insurance II - Regular Pay||美元|歸原紅利|NA|NA|100|89|73|73|73|NL|NL|NL|NL
+特級「雋陞」儲蓄保險 II - 分期繳費|Evergreen Growth Saver Plus Insurance II - Regular Pay||港元|歸原紅利|NA|NA|100|89|79|79|78|NL|NL|NL|NL
+特級「雋陞」儲蓄保險 II - 分期繳費|Evergreen Growth Saver Plus Insurance II - Regular Pay||人民幣|歸原紅利|CS|CS|CS|CS|100|100|100|NL|NL|NL|NL
+特級「雋陞」儲蓄保險 II - 分期繳費|Evergreen Growth Saver Plus Insurance II - Regular Pay||美元|特別紅利|NA|NA|83|40|21|29|51|NL|NL|NL|NL
+特級「雋陞」儲蓄保險 II - 分期繳費|Evergreen Growth Saver Plus Insurance II - Regular Pay||港元|特別紅利|NA|NA|29|45|39|40|37|NL|NL|NL|NL
+特級「雋陞」儲蓄保險 II - 分期繳費|Evergreen Growth Saver Plus Insurance II - Regular Pay||人民幣|特別紅利|CS|CS|CS|CS|68|84|79|NL|NL|NL|NL
+特級「雋陞」儲蓄保險 II - 整付|Evergreen Growth Saver Plus Insurance II - Single Pay||美元|歸原紅利|100|100|100|87|67|66|70|NL|NL|NL|NL
+特級「雋陞」儲蓄保險 II - 整付|Evergreen Growth Saver Plus Insurance II - Single Pay||港元|歸原紅利|100|100|100|91|69|61|64|NL|NL|NL|NL
+特級「雋陞」儲蓄保險 II - 整付|Evergreen Growth Saver Plus Insurance II - Single Pay||人民幣|歸原紅利|CS|CS|CS|CS|100|100|100|NL|NL|NL|NL
+特級「雋陞」儲蓄保險 II - 整付|Evergreen Growth Saver Plus Insurance II - Single Pay||美元|特別紅利|NA|NA|81|44|39|72|95|NL|NL|NL|NL
+特級「雋陞」儲蓄保險 II - 整付|Evergreen Growth Saver Plus Insurance II - Single Pay||港元|特別紅利|NA|NA|NA|NA|80|81|83|NL|NL|NL|NL
+特級「雋陞」儲蓄保險 II - 整付|Evergreen Growth Saver Plus Insurance II - Single Pay||人民幣|特別紅利|CS|CS|CS|CS|99|97|99|NL|NL|NL|NL
+雋騰傳承保障計劃|Evergreen Wealth Advance||美元|終期紅利|NA|NA|90|NL|NL|NL|NL|NL|NL|NL|NL
+雋享入息保險計劃|Evergreen Wealth Income Insurance Plan||美元|終期紅利|NA|NA|NA|NL|NL|NL|NL|NL|NL|NL|NL
+雋享入息保險計劃|Evergreen Wealth Income Insurance Plan||美元|週年紅利|NA|NA|NA|NL|NL|NL|NL|NL|NL|NL|NL
+雋享入息傳承保險計劃|Evergreen Wealth Income Plus Insurance Plan||美元|終期紅利|NA|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL
+雋享入息傳承保險計劃|Evergreen Wealth Income Plus Insurance Plan||美元|週年紅利|NA|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL
+雋溢傳承保障計劃|Evergreen Wealth Max||美元|終期紅利|CS|CS|NA|83|NL|NL|NL|NL|NL|NL|NL
+雋溢傳承保障計劃 II|Evergreen Wealth Max II||美元|終期紅利|NA|NA|75|86|NL|NL|NL|NL|NL|NL|NL
+雋寶傳承保障計劃|Evergreen Wealth Protector||美元|終期紅利|NA|NA|73|92|NL|NL|NL|NL|NL|NL|NL
+守護星終身收益儲蓄計劃|Galaxy Lifelong Income Savings Plan||美元|週年紅利|CS|CS|CS|CS|CS|CS|CS|CS|72|71|59
+守護星終身收益儲蓄計劃|Galaxy Lifelong Income Savings Plan||美元|終期紅利|CS|CS|CS|CS|CS|CS|CS|CS|23|46|71
+「自主未來」保障計劃 - 分期繳費|LiveFree Protector - Regular Pay||美元|終期紅利|NA|NA|NA|NA|NL|NL|NL|NL|NL|NL|NL
+「自主未來」保障計劃 - 整付|LiveFree Protector - Single Pay||美元|終期紅利|NA|NA|NA|NA|NL|NL|NL|NL|NL|NL|NL
+世譽財富保險計劃|Prime Eternity Insurance Plan||美元|終期紅利|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+雍譽終身人壽保險計劃|Prime Vantage Protector Insurance Plan||美元|終期紅利|NA|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL
+雍譽非凡終身人壽保險計劃|Prime Vantage Prestige Protector Insurance Plan||美元|特別紅利|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+「快享錢」儲蓄保險計劃|PRUCash Insurance Plan||美元|歸原紅利|NA|NA|100|100|99|93|93|94|94|95|102
+「快享錢」儲蓄保險計劃|PRUCash Insurance Plan||美元|特別紅利|NA|NA|111|105|90|87|92|117|128|130|119
+保誠信守明天多元貨幣保險計劃|Prudential Entrust Multi-Currency Insurance Plan||美元|歸原紅利|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+保誠信守明天多元貨幣保險計劃|Prudential Entrust Multi-Currency Insurance Plan||港元|歸原紅利|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+保誠信守明天多元貨幣保險計劃|Prudential Entrust Multi-Currency Insurance Plan||人民幣|歸原紅利|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+保誠信守明天多元貨幣保險計劃|Prudential Entrust Multi-Currency Insurance Plan||英鎊|歸原紅利|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+保誠信守明天多元貨幣保險計劃|Prudential Entrust Multi-Currency Insurance Plan||澳元|歸原紅利|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+保誠信守明天多元貨幣保險計劃|Prudential Entrust Multi-Currency Insurance Plan||加元|歸原紅利|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+保誠信守明天多元貨幣保險計劃|Prudential Entrust Multi-Currency Insurance Plan||美元|終期紅利|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+保誠信守明天多元貨幣保險計劃|Prudential Entrust Multi-Currency Insurance Plan||港元|終期紅利|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+保誠信守明天多元貨幣保險計劃|Prudential Entrust Multi-Currency Insurance Plan||人民幣|終期紅利|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+保誠信守明天多元貨幣保險計劃|Prudential Entrust Multi-Currency Insurance Plan||英鎊|終期紅利|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+保誠信守明天多元貨幣保險計劃|Prudential Entrust Multi-Currency Insurance Plan||澳元|終期紅利|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+保誠信守明天多元貨幣保險計劃|Prudential Entrust Multi-Currency Insurance Plan||加元|終期紅利|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+「創未來」兒童儲蓄保障計劃|PRUlife Best Start||美元|週年紅利|CS|CS|CS|CS|CS|CS|CS|83|80|81|77
+「創未來」兒童儲蓄保障計劃|PRUlife Best Start||美元|終期紅利|CS|CS|CS|CS|CS|CS|CS|NA|50|NA|29
+「息享人生」儲蓄保險計劃|PRULife Coupon Saver Insurance Plan||美元|終期紅利|NA|NA|149|107|26|13|14|NL|NL|NL|NL
+「童創未來」夢想儲蓄保險計劃|PRULife HeadStart Dream Saver Insurance Plan||美元|終期紅利|NA|NA|NA|NA|105|NA|NL|NL|NL|NL|NL
+「童創未來」教育儲蓄保險計劃|PRULife HeadStart Education Saver Insurance Plan||美元|終期紅利|NA|NA|NA|103|92|94|NL|NL|NL|NL|NL
+「創未來」豐裕儲蓄保障計劃|PRUlife Plus||美元|週年紅利|CS|CS|CS|CS|CS|CS|CS|91|91|91|86
+「創未來」豐裕儲蓄保障計劃|PRUlife Plus||美元|終期紅利|CS|CS|CS|CS|CS|CS|CS|NA|98|55|107
+「創未來」基本儲蓄保障計劃|PRUlife Premier||美元|週年紅利|CS|CS|CS|CS|CS|CS|CS|81|80|82|81
+「創未來」基本儲蓄保障計劃|PRUlife Premier||美元|終期紅利|CS|CS|CS|CS|CS|CS|CS|NA|NA|NA|1791
+尊尚雋譽終身壽險計劃|PRUlife Prestige Wealth Planner||美元|終期紅利|CS|NA|NA|NA|NA|NA|NA|NL|NL|NL|NL
+美好人生保障計劃 - 分期繳費|PRUlife Protector - Regular Pay||美元|歸原紅利|CS|CS|CS|CS|CS|103|103|99|96|96|NL
+美好人生保障計劃 - 分期繳費|PRUlife Protector - Regular Pay||港元|歸原紅利|CS|CS|CS|CS|CS|106|110|117|116|116|NL
+美好人生保障計劃 - 分期繳費|PRUlife Protector - Regular Pay||美元|特別紅利|CS|CS|CS|CS|CS|81|73|79|69|61|NL
+美好人生保障計劃 - 分期繳費|PRUlife Protector - Regular Pay||港元|特別紅利|CS|CS|CS|CS|CS|NA|74|77|71|65|NL
+美好人生保障計劃 - 整付|PRUlife Protector - Single Pay||美元|歸原紅利|CS|CS|CS|CS|CS|117|118|115|114|113|NL
+美好人生保障計劃 - 整付|PRUlife Protector - Single Pay||港元|歸原紅利|CS|CS|CS|CS|CS|CS|102|102|102|102|NL
+美好人生保障計劃 - 整付|PRUlife Protector - Single Pay||美元|特別紅利|CS|CS|CS|CS|CS|NA|95|91|76|83|NL
+美好人生保障計劃 - 整付|PRUlife Protector - Single Pay||港元|特別紅利|CS|CS|CS|CS|CS|CS|NA|NA|NA|82|NL
+美好人生保險計劃 II - 分期繳費|PRULife Protector Insurance Plan II - Regular Pay||美元|歸原紅利|NA|NA|100|83|60|60|60|NL|NL|NL|NL
+美好人生保險計劃 II - 分期繳費|PRULife Protector Insurance Plan II - Regular Pay||港元|歸原紅利|NA|NA|100|100|100|100|100|NL|NL|NL|NL
+美好人生保險計劃 II - 分期繳費|PRULife Protector Insurance Plan II - Regular Pay||美元|特別紅利|NA|NA|108|95|82|81|85|NL|NL|NL|NL
+美好人生保險計劃 II - 分期繳費|PRULife Protector Insurance Plan II - Regular Pay||港元|特別紅利|NA|NA|87|97|95|86|NA|NL|NL|NL|NL
+美好人生保險計劃 II - 整付|PRULife Protector Insurance Plan II - Single Pay||美元|歸原紅利|CS|CS|CS|CS|65|67|NL|NL|NL|NL|NL
+美好人生保險計劃 II - 整付|PRULife Protector Insurance Plan II - Single Pay||港元|歸原紅利|CS|CS|CS|CS|76|80|NL|NL|NL|NL|NL
+美好人生保險計劃 II - 整付|PRULife Protector Insurance Plan II - Single Pay||美元|特別紅利|CS|CS|CS|CS|NA|NA|NL|NL|NL|NL|NL
+美好人生保險計劃 II - 整付|PRULife Protector Insurance Plan II - Single Pay||港元|特別紅利|CS|CS|CS|CS|NA|NA|NL|NL|NL|NL|NL
+理想人生保障計劃 / 守護一生保障計劃 - 分期繳費|PRUlife Saver / PRUlife Juvenile Saver - Regular Pay||美元|歸原紅利|CS|CS|CS|CS|73|73|73|46|40|40|NL
+理想人生保障計劃 / 守護一生保障計劃 - 分期繳費|PRUlife Saver / PRUlife Juvenile Saver - Regular Pay||港元|歸原紅利|CS|CS|CS|CS|90|90|90|80|76|76|NL
+理想人生保障計劃 / 守護一生保障計劃 - 分期繳費|PRUlife Saver / PRUlife Juvenile Saver - Regular Pay||人民幣|歸原紅利|CS|CS|CS|CS|CS|100|100|100|94|94|NL
+理想人生保障計劃 / 守護一生保障計劃 - 分期繳費|PRUlife Saver / PRUlife Juvenile Saver - Regular Pay||美元|特別紅利|CS|CS|CS|CS|NA|40|44|40|43|47|NL
+理想人生保障計劃 / 守護一生保障計劃 - 分期繳費|PRUlife Saver / PRUlife Juvenile Saver - Regular Pay||港元|特別紅利|CS|CS|CS|CS|NA|112|46|32|32|48|NL
+理想人生保障計劃 / 守護一生保障計劃 - 分期繳費|PRUlife Saver / PRUlife Juvenile Saver - Regular Pay||人民幣|特別紅利|CS|CS|CS|CS|CS|NA|NA|NA|36|NA|NL
+理想人生保障計劃 / 守護一生保障計劃 - 整付|PRUlife Saver / PRUlife Juvenile Saver - Single Pay||美元|歸原紅利|CS|CS|CS|CS|CS|106|105|88|73|64|NL
+理想人生保障計劃 / 守護一生保障計劃 - 整付|PRUlife Saver / PRUlife Juvenile Saver - Single Pay||港元|歸原紅利|CS|CS|CS|CS|CS|75|81|77|74|76|NL
+理想人生保障計劃 / 守護一生保障計劃 - 整付|PRUlife Saver / PRUlife Juvenile Saver - Single Pay||人民幣|歸原紅利|CS|CS|CS|CS|CS|105|108|109|108|108|NL
+理想人生保障計劃 / 守護一生保障計劃 - 整付|PRUlife Saver / PRUlife Juvenile Saver - Single Pay||美元|特別紅利|CS|CS|CS|CS|CS|62|83|82|72|74|NL
+理想人生保障計劃 / 守護一生保障計劃 - 整付|PRUlife Saver / PRUlife Juvenile Saver - Single Pay||港元|特別紅利|CS|CS|CS|CS|CS|NA|NA|73|52|50|NL
+理想人生保障計劃 / 守護一生保障計劃 - 整付|PRUlife Saver / PRUlife Juvenile Saver - Single Pay||人民幣|特別紅利|CS|CS|CS|CS|CS|NA|62|62|NA|69|NL
+「源源收息」儲蓄保障計劃|Yearly Income Plan||美元|終期紅利|CS|CS|CS|CS|CS|CS|CS|CS|71|69|75
+保誠啟耀未來儲蓄保險/ 保誠啟耀未來儲蓄保險 - 摯愛寶|Prudential Enlight Savings Insurance/ Prudential Baby Enlight Savings Insurance||美元|終期紅利|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+駿譽財富保險計劃|Prime Ace Insurance Plan||美元|歸原紅利|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+「自主未來」保險計劃 II - 分期繳費|LiveFree Protector Insurance Plan II - Regular Pay||美元|終期紅利|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+「自主未來」保險計劃 II - 整付|LiveFree Protector Insurance Plan II - Single Pay||美元|終期紅利|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+誠譽財富保險計劃|Prime Horizon Insurance Plan||美元|終期紅利|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+「卓越人生」保障計劃|PRUflexilife||美元|週年紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|89
+「卓越人生」保障計劃|PRUflexilife||美元|終期紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|NA
+「智選」危疾終身保計劃|PRUcrisis Cover Lifelong Protector||美元|終期紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|30
+「智選」危疾終身保計劃|PRUcrisis Cover Lifelong Protector||港元|終期紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|28
+「摯為您」危疾終身保計劃|PRUmyhealth Lifelong Crisis Protector||美元|終期紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|47
+「摯為您」危疾終身保計劃|PRUmyhealth Lifelong Crisis Protector||港元|終期紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|48
+「自主健康」危疾保險計劃|EasyWell Critical Illness Protector Insurance Plan||美元|終期紅利|NA|NA|NA|NA|NL|NL|NL|NL|NL|NL|NL
+「智選」危疾保障計劃|PRUcrisis Cover Smartchoice||美元|非保證利益|CS|CS|CS|CS|CS|CS|CS|NA|NA|NA|82
+「智選」危疾保障計劃|PRUcrisis Cover Smartchoice||港元|非保證利益|CS|CS|CS|CS|CS|CS|CS|NA|NA|NA|85
+「智選」危疾加護保障計劃|PRUcrisis Cover Smartchoice Extra||美元|非保證利益|CS|CS|CS|CS|CS|CS|CS|NA|NA|NA|NA
+「智選」危疾加護保障計劃|PRUcrisis Cover Smartchoice Extra||港元|非保證利益|CS|CS|CS|CS|CS|CS|CS|NA|NA|NA|NA
+守護健康終身危疾保|PRUhealth Critical Illness Care||美元|終期紅利|CS|CS|CS|CS|CS|CS|CS|45|27|NL|NL
+守護健康危疾加護保|PRUhealth Critical Illness Extended Care||美元|特別紅利|CS|CS|CS|CS|23|57|76|NA|NL|NL|NL
+守護健康危疾加護保|PRUhealth Critical Illness Extended Care||港元|特別紅利|CS|CS|CS|CS|42|55|70|NL|NL|NL|NL
+危疾加護保 II|PRUHealth Critical Illness Extended Care II||美元|特別紅利|CS|CS|CS|NA|65|72|NL|NL|NL|NL|NL
+危疾加護保 II|PRUHealth Critical Illness Extended Care II||港元|特別紅利|CS|CS|CS|NA|96|128|NL|NL|NL|NL|NL
+危疾加護保險計劃 III|PRUHealth Critical Illness Extended Care Insurance Plan III||美元|特別紅利|NA|NA|NA|NA|NA|NL|NL|NL|NL|NL|NL
+危疾加護保險計劃 III|PRUHealth Critical Illness Extended Care Insurance Plan III||港元|特別紅利|NA|NA|NA|NA|NA|NL|NL|NL|NL|NL|NL
+危疾首護保|PRUHealth Critical Illness First Protect||美元|終期紅利|CS|CS|NA|NA|87|97|NL|NL|NL|NL|NL
+危疾首護保|PRUHealth Critical Illness First Protect||港元|終期紅利|CS|CS|CS|NA|211|201|NL|NL|NL|NL|NL
+危疾首護保險計劃 II|PRUHealth Critical Illness First Protect Insurance Plan II||美元|終期紅利|NA|NA|NA|NA|NL|NL|NL|NL|NL|NL|NL
+危疾首護保險計劃 II|PRUHealth Critical Illness First Protect Insurance Plan II||港元|終期紅利|NA|NA|NA|NA|NL|NL|NL|NL|NL|NL|NL
+守護健康危疾加倍保|PRUhealth Critical Illness Multi-care||美元|特別紅利|CS|CS|CS|CS|CS|NA|54|57|NA|NL|NL
+守護健康危疾加倍保|PRUhealth Critical Illness Multi-care||港元|特別紅利|CS|CS|CS|CS|CS|CS|60|50|NA|NL|NL
+尊尚危疾加倍保|PRUhealth Critical Illness Multi-care Prestige||美元|特別紅利|CS|CS|NA|NA|57|67|73|NL|NL|NL|NL
+尊尚危疾加倍保|PRUhealth Critical Illness Multi-care Prestige||港元|特別紅利|CS|CS|NA|NA|NA|78|72|NL|NL|NL|NL
+「誠保一生」危疾保險計劃 /「誠保一生」危疾保險計劃 - 摯愛寶|PRUHealth Guardian Critical Illness Insurance Plan / PRUHealth Baby Guardian Critical Illness Insurance Plan||美元|特別紅利|NA|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL
+「誠保一生」危疾保險計劃 /「誠保一生」危疾保險計劃 - 摯愛寶|PRUHealth Guardian Critical Illness Insurance Plan / PRUHealth Baby Guardian Critical Illness Insurance Plan||港元|特別紅利|NA|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL
+守護健康危疾全護保|PRUhealth Critical illness protector||美元|終期紅利|CS|CS|CS|NA|40|43|29|27|NA|NL|NL
+守護健康危疾全護保|PRUhealth Critical illness protector||港元|終期紅利|CS|CS|CS|NA|52|66|42|38|NL|NL|NL
+守護健康智選危疾保|PRUhealth Critical illness Smartchoice||美元|非保證利益|CS|CS|CS|CS|CS|NA|NA|NA|NA|NL|NL
+危疾終身保計劃|PRUmyhealth Crisis Lifelong Care||美元|終期紅利|CS|CS|CS|CS|CS|CS|CS|107|66|39|41
+危疾終身保計劃|PRUmyhealth Crisis Lifelong Care||港元|終期紅利|CS|CS|CS|CS|CS|CS|CS|19|25|32|39
+危疾終身加倍保|PRUmyhealth Crisis Multi-care||美元|特別紅利|CS|CS|CS|CS|CS|CS|CS|74|66|59|53
+危疾終身加倍保|PRUmyhealth Crisis Multi-care||港元|特別紅利|CS|CS|CS|CS|CS|CS|CS|NA|65|68|62
+保誠加護一生住院現金儲蓄保險|Prudential Encash Hospital Cash Savings Insurance||美元|終期紅利|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL|NL
+悅月享入息計劃|PRUmyretirement Monthly Income Plan||港元|終期紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|69
+悅月享入息計劃|PRUmyretirement Monthly Income Plan||港元|週年紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|100
+「倍豐盛」計劃|Double Treasure Plan||美元|歸原紅利|CS|CS|CS|CS|CS|CS|100|73|45|41|49
+「倍豐盛」計劃|Double Treasure Plan||港元|歸原紅利|CS|CS|CS|CS|CS|CS|100|100|90|66|34
+「倍豐盛」計劃|Double Treasure Plan||美元|特別紅利|CS|CS|CS|CS|CS|CS|8|11|5|5|42
+「倍豐盛」計劃|Double Treasure Plan||港元|特別紅利|CS|CS|CS|CS|CS|CS|NA|12|NA|38|36
+「月享錢」入息計劃|PRUlife Monthly Income Plan||美元|終期紅利|CS|CS|CS|CS|CS|51|53|NL|NL|NL|NL
+「月享錢」入息計劃|PRUlife Monthly Income Plan||美元|週年紅利|CS|CS|CS|CS|CS|74|74|NL|NL|NL|NL
+「摯為您」人民幣年金入息計劃|PRUmyretirement RMB Annuity Income Plan||人民幣|非保證利益|CS|CS|CS|CS|CS|CS|CS|CS|NA|100|100
+「摯為您」人民幣年金入息計劃|PRUmyretirement RMB Annuity Income Plan||人民幣|週年紅利|CS|CS|CS|CS|CS|CS|CS|CS|100|100|100
+悅月豐盛入息計劃|PRUmyretirement Wealth Income Plan||港元|終期紅利|CS|CS|CS|CS|CS|CS|CS|36|33|30|26
+悅月豐盛入息計劃|PRUmyretirement Wealth Income Plan||港元|週年紅利|CS|CS|CS|CS|CS|CS|CS|56|45|45|47
+保誠「雋逸人生」延期年金計劃|PRURetirement Deferred Annuity Plan||美元|終期紅利|NA|NA|100|100|100|100|NL|NL|NL|NL|NL
+保誠「雋逸人生」延期年金計劃|PRURetirement Deferred Annuity Plan||美元|週年紅利|NA|NA|NA|NA|NA|100|NL|NL|NL|NL|NL
+「寫意人生」入息保險計劃|PRURetirement Early Income Insurance Plan||美元|終期紅利|NA|NA|NA|NA|NA|NA|70|NL|NL|NL|NL
+「寫意人生」入息保險計劃|PRURetirement Early Income Insurance Plan||美元|週年紅利|NA|100|73|51|81|91|98|NL|NL|NL|NL
+「無憂生活」入息計劃|PRUretirement Enriched Income Plan||美元|終期紅利|CS|CS|CS|CS|CS|NA|NA|NA|NL|NL|NL
+「無憂生活」入息計劃|PRUretirement Enriched Income Plan||港元|終期紅利|CS|CS|CS|CS|CS|NA|NA|NA|NL|NL|NL
+「無憂生活」入息計劃|PRUretirement Enriched Income Plan||美元|週年紅利|CS|CS|CS|CS|CS|NA|NA|NA|NL|NL|NL
+「無憂生活」入息計劃|PRUretirement Enriched Income Plan||港元|週年紅利|CS|CS|CS|CS|CS|NA|NA|NA|NL|NL|NL

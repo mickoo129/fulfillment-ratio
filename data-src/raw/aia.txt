@@ -1,0 +1,143 @@
+「才雋之寶」終身壽險連額外保障計劃|Excel Graded Premium Whole Life AP|終身壽險|所有|週年紅利|CS|CS|NA|112|125|125|125|124|122|119|112
+「才雋之寶」終身壽險連額外保障計劃|Excel Graded Premium Whole Life AP|終身壽險|所有|終期紅利|CS|CS|NA|NA|NA|NA|NA|NA|NA|NA|NA
+「倍之寶」壽險連額外保障計劃|Excel Protection Plus AP|終身壽險|所有|週年紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|102
+「倍之寶」壽險連額外保障計劃|Excel Protection Plus AP|終身壽險|所有|終期紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|NA
+「資優教育儲蓄計劃」|Talent Builder|儲蓄壽險|所有|週年紅利|CS|CS|CS|CS|CS|CS|CS|99|99|99|97
+「資優教育儲蓄計劃」|Talent Builder|儲蓄壽險|所有|終期紅利|CS|CS|CS|CS|CS|CS|CS|NA|169|NA|169
+「活出精彩」入息保險計劃|Spring Income Insurance Plan|入息計劃|所有|週年紅利|100|100|100|100|98|95|95|95|94|94|94
+「活出精彩」入息保險計劃|Spring Income Insurance Plan|入息計劃|所有|終期紅利|NA|NA|NA|NA|100|100|100|100|100|100|100
+「活出精彩」人民幣入息計劃|RMB Spring Income Plan|入息計劃|所有|週年紅利|CS|CS|CS|CS|99|99|98|98|98|98|98
+「活出精彩」人民幣入息計劃|RMB Spring Income Plan|入息計劃|所有|終期紅利|CS|CS|CS|CS|NA|100|100|NA|NA|100|100
+「三星保連額外保障計劃」|Tri-Star Plus AP|終身壽險|所有|週年紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|87
+「三星保連額外保障計劃」|Tri-Star Plus AP|終身壽險|所有|終期紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|NA
+「慧賢之選」壽險連額外保障計劃|Lady's Choice AP|終身壽險|所有|週年紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|83
+「慧賢之選」壽險連額外保障計劃|Lady's Choice AP|終身壽險|所有|終期紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|NA
+「益壽之寶」壽險計劃|Excel Golden Age Plan|終身壽險|所有|週年紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|81
+「益壽之寶」壽險計劃|Excel Golden Age Plan|終身壽險|所有|終期紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|95
+「逸之寶」二十年付清終身壽險連額外保障計劃|Excel 20 Pay Life AP|終身壽險|所有|週年紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|77
+「逸之寶」二十年付清終身壽險連額外保障計劃|Excel 20 Pay Life AP|終身壽險|所有|終期紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|95
+「整付保費終身分紅壽險連額外保障計劃」|Single Premium Whole Life AP - Par|終身壽險|美元|週年紅利|CS|CS|100|106|108|103|102|102|100|103|100
+「整付保費終身分紅壽險連額外保障計劃」|Single Premium Whole Life AP - Par|終身壽險|港元/澳門幣|週年紅利|CS|CS|CS|NA|NA|NA|NA|79|80|82|77
+「有投必保」儲蓄保險計劃|Guaranteed Issue Whole Life Insurance Plan|終身壽險|所有|週年紅利|100|100|100|100|93|91|91|90|91|91|82
+「有投必保」儲蓄保險計劃|Guaranteed Issue Whole Life Insurance Plan|終身壽險|所有|終期紅利|NA|NA|NA|NA|NA|NA|NA|NA|NA|100|100
+「儲速終身保」|Quick Saver Whole Life|終身壽險|美元|週年紅利|CS|CS|CS|CS|CS|CS|CS|108|110|107|98
+「儲速終身保」|Quick Saver Whole Life|終身壽險|港元/澳門幣|週年紅利|CS|CS|CS|CS|CS|CS|CS|108|108|107|85
+「儲速終身保」|Quick Saver Whole Life|終身壽險|美元|終期紅利|CS|CS|CS|CS|CS|CS|CS|NA|NA|NA|NA
+「儲速終身保」|Quick Saver Whole Life|終身壽險|港元/澳門幣|終期紅利|CS|CS|CS|CS|CS|CS|CS|NA|NA|NA|NA
+「年金寶」入息保險計劃|Golden Years Income Insurance Plan|入息計劃|所有|週年紅利|100|100|100|111|99|83|83|84|85|85|77
+「易達終身保」|Executive Life|終身壽險|所有|週年紅利|CS|CS|CS|120|102|83|83|83|82|83|71
+「易達終身保」|Executive Life|終身壽險|所有|終期紅利|CS|CS|CS|NA|NA|NA|NA|NA|NA|95|71
+簡易特級高息儲蓄保險計劃|Special Target Saver Plus Savings Insurance Plan|儲蓄壽險|所有|週年紅利|100|100|100|110|89|64|65|67|68|71|74
+簡易特級高息儲蓄保險計劃|Special Target Saver Plus Savings Insurance Plan|儲蓄壽險|所有|終期紅利|NA|NA|NA|NA|NA|NA|NA|NA|NA|NA|62
+「特級高息保儲蓄計劃」|Target Saver Plus|儲蓄壽險|所有|週年紅利|CS|CS|CS|CS|CS|CS|CS|68|69|71|75
+「特級高息保儲蓄計劃」|Target Saver Plus|儲蓄壽險|所有|終期紅利|CS|CS|CS|CS|CS|CS|CS|NA|NA|NA|63
+「易達安心保」|Executive Care|終身壽險|所有|週年紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|61
+「易達安心保」|Executive Care|終身壽險|所有|終期紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|63
+「易重保」|Superior Protector|終身壽險|所有|週年紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|67
+「易重保」|Superior Protector|終身壽險|所有|終期紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|68
+「愛無憂長享計劃」|Forever Love Coupon Plan|終身壽險|所有|週年紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|75
+「愛無憂長享計劃」|Forever Love Coupon Plan|終身壽險|所有|終期紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|85
+「愛無憂長享計劃（特級保障）」|Forever Love Coupon Plan (Enhanced Protection)|終身壽險|所有|週年紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|75
+「愛無憂長享計劃（特級保障）」|Forever Love Coupon Plan (Enhanced Protection)|終身壽險|所有|終期紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|85
+「愛無憂長享計劃2」|Forever Love Coupon Plan 2|終身壽險|所有|週年紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|79
+「愛無憂長享計劃2」|Forever Love Coupon Plan 2|終身壽險|所有|終期紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|84
+「愛無憂長享計劃2（特級保障）」|Forever Love Coupon Plan 2 (Enhanced Protection)|終身壽險|所有|週年紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|79
+「愛無憂長享計劃2（特級保障）」|Forever Love Coupon Plan 2 (Enhanced Protection)|終身壽險|所有|終期紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|83
+「愛人生保障計劃」|Adore Life|終身壽險|所有|週年紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|77
+「愛人生保障計劃」|Adore Life|終身壽險|所有|終期紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|85
+「裕滿人生」保障計劃（簡易版）|Admire Life (Simple Version)|終身壽險|所有|週年紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|78
+「裕滿人生」保障計劃（簡易版）|Admire Life (Simple Version)|終身壽險|所有|終期紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|85
+「泰然安心保」|Executive Care Pro|終身壽險|所有|週年紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|68
+「泰然安心保」|Executive Care Pro|終身壽險|所有|終期紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|79
+「多重安心保」|Multiple Care Pro|終身壽險|所有|週年紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|65
+「多重安心保」|Multiple Care Pro|終身壽險|所有|終期紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|73
+「裕滿人生」保障計劃|Admire Life|終身壽險|所有|週年紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|78
+「裕滿人生」保障計劃|Admire Life|終身壽險|所有|終期紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|85
+「愛•延續」保障計劃|Love Encore|終身壽險|所有|週年紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|77
+「愛•延續」保障計劃|Love Encore|終身壽險|所有|終期紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|103
+「進泰安心保」|Prime Care Pro|終身壽險|所有|週年紅利|CS|CS|CS|CS|CS|CS|CS|CS|70|70|72
+「進泰安心保」|Prime Care Pro|終身壽險|所有|終期紅利|CS|CS|CS|CS|CS|CS|CS|CS|NA|84|85
+「簡愛•延續」保障計劃|Simply Love Encore|終身壽險|所有|週年紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|77
+「簡愛•延續」保障計劃|Simply Love Encore|終身壽險|所有|終期紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|101
+「承諾一生」長享計劃|PromiseMe Coupon Plan|終身壽險|所有|週年紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|77
+「承諾一生」長享計劃|PromiseMe Coupon Plan|終身壽險|所有|終期紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|85
+「承諾一生」長享計劃（特級保障）|PromiseMe Coupon Plan (Enhanced Protection)|終身壽險|所有|週年紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|77
+「承諾一生」長享計劃（特級保障）|PromiseMe Coupon Plan (Enhanced Protection)|終身壽險|所有|終期紅利|CS|CS|CS|CS|CS|CS|CS|CS|CS|CS|85
+「親子之寶」升學儲蓄連額外保障計劃|Excel Kid's Choice AP|終身壽險|所有|週年紅利|CS|CS|CS|101|107|101|99|100|100|98|91
+「親子之寶」升學儲蓄連額外保障計劃|Excel Kid's Choice AP|終身壽險|所有|終期紅利|CS|CS|CS|NA|NA|NA|NA|NA|NA|NA|NA
+「泰然安心」危疾保險計劃2|Executive Care Pro Critical Illness Insurance Plan 2|終身壽險|所有|週年紅利|100|100|100|114|85|65|66|68|70|72|74
+「泰然安心」危疾保險計劃2|Executive Care Pro Critical Illness Insurance Plan 2|終身壽險|所有|終期紅利|NA|NA|NA|NA|NA|NA|NA|NA|NA|76|77
+「愛無憂長享計劃3」|Forever Love Coupon Plan 3|終身壽險|所有|週年紅利|CS|CS|CS|CS|CS|78|78|79|80|81|83
+「愛無憂長享計劃3」|Forever Love Coupon Plan 3|終身壽險|所有|終期紅利|CS|CS|CS|CS|CS|NA|NA|NA|NA|96|98
+「愛無憂長享計劃3（特級保障）」|Forever Love Coupon Plan 3 (Enhanced Protection)|終身壽險|所有|週年紅利|CS|CS|CS|CS|CS|77|78|79|80|82|83
+「愛無憂長享計劃3（特級保障）」|Forever Love Coupon Plan 3 (Enhanced Protection)|終身壽險|所有|終期紅利|CS|CS|CS|CS|CS|NA|NA|NA|NA|97|98
+「多重安心」危疾保險計劃2|Multiple Care Pro Critical Illness Insurance Plan 2|終身壽險|所有|週年紅利|100|100|100|117|71|65|66|68|69|71|73
+「多重安心」危疾保險計劃2|Multiple Care Pro Critical Illness Insurance Plan 2|終身壽險|所有|終期紅利|NA|NA|NA|NA|NA|NA|NA|NA|NA|95|95
+「裕滿人生」保險計劃2|Admire Life Insurance Plan 2|終身壽險|所有|週年紅利|100|100|100|129|105|81|81|81|81|82|82
+「裕滿人生」保險計劃2|Admire Life Insurance Plan 2|終身壽險|所有|終期紅利|NA|NA|NA|NA|100|100|100|100|100|100|100
+「簡愛•延續」保障計劃2|Simply Love Encore 2|終身壽險|所有|週年紅利|CS|CS|CS|CS|86|84|83|83|83|83|84
+「簡愛•延續」保障計劃2|Simply Love Encore 2|終身壽險|所有|終期紅利|CS|CS|CS|CS|94|90|95|91|91|90|91
+「多重進泰安心保」|Smart Care Pro|終身壽險|所有|週年紅利|CS|CS|CS|116|90|77|78|79|80|81|81
+「多重進泰安心保」|Smart Care Pro|終身壽險|所有|終期紅利|CS|CS|CS|NA|NA|NA|NA|NA|NA|95|95
+「摯愛孩子」教育計劃|Kiss Kids Education Plan|儲蓄壽險|所有|週年紅利|CS|CS|CS|106|96|87|87|88|88|89|89
+「摯愛孩子」教育計劃|Kiss Kids Education Plan|儲蓄壽險|所有|終期紅利|CS|CS|CS|NA|NA|NA|NA|NA|NA|NA|105
+「智昇」保險計劃|Proactive Insurance Plan|終身壽險|所有|週年紅利|CS|CS|CS|CS|CS|CS|CS|82|82|83|81
+「智昇」保險計劃|Proactive Insurance Plan|終身壽險|所有|終期紅利|CS|CS|CS|CS|CS|CS|CS|107|104|85|82
+「充裕未來」計劃|Bonus Power Plan|終身壽險|所有|歸原紅利|CS|CS|CS|CS|CS|CS|CS|81|83|84|NL
+「充裕未來」計劃|Bonus Power Plan|終身壽險|所有|終期紅利|CS|CS|CS|CS|CS|CS|CS|95|90|82|NL
+「充裕未來」計劃（特級保障）|Bonus Power Plan (Enhanced Protection)|終身壽險|所有|歸原紅利|CS|CS|CS|CS|CS|CS|CS|81|83|84|NL
+「充裕未來」計劃（特級保障）|Bonus Power Plan (Enhanced Protection)|終身壽險|所有|終期紅利|CS|CS|CS|CS|CS|CS|CS|95|88|82|NL
+「財富恆裕」壽險計劃|Wealth Elite|終身壽險|所有|歸原紅利|CS|CS|CS|CS|100|100|100|100|100|NA|NL
+「財富恆裕」壽險計劃|Wealth Elite|終身壽險|所有|終期紅利|CS|CS|CS|CS|NA|NA|NA|NA|NA|NA|NL
+「進泰安心」危疾保險計劃2|Prime Care Pro Critical Illness Insurance Plan 2|終身壽險|所有|週年紅利|100|100|100|110|93|71|72|74|75|75|NL
+「進泰安心」危疾保險計劃2|Prime Care Pro Critical Illness Insurance Plan 2|終身壽險|所有|終期紅利|NA|NA|NA|NA|NA|NA|NA|NA|NA|76|NL
+「加裕倍安保」|Protect Elevator|終身壽險|所有|終期紅利|CS|CS|CS|CS|CS|CS|89|90|91|89|NL
+「加裕倍安保（加強版）」|Protect Elevator Plus|終身壽險|所有|終期紅利|CS|CS|CS|CS|CS|CS|89|90|90|NA|NL
+「充裕未來」計劃2|Bonus Power Plan 2|終身壽險|所有|歸原紅利|CS|CS|CS|CS|CS|CS|78|80|82|NL|NL
+「充裕未來」計劃2|Bonus Power Plan 2|終身壽險|所有|終期紅利|CS|CS|CS|CS|CS|CS|138|118|108|NL|NL
+「充裕未來」人壽保險計劃2（特級保障）|Bonus Power Life Insurance Plan 2 (Enhanced Protection)|終身壽險|所有|歸原紅利|NA|NA|100|128|103|85|80|80|82|NL|NL
+「充裕未來」人壽保險計劃2（特級保障）|Bonus Power Life Insurance Plan 2 (Enhanced Protection)|終身壽險|所有|終期紅利|NA|NA|100|113|144|156|141|122|NA|NL|NL
+「智昇」保險計劃2|Proactive Insurance Plan 2|終身壽險|所有|週年紅利|CS|CS|CS|140|118|85|83|82|83|NL|NL
+「智昇」保險計劃2|Proactive Insurance Plan 2|終身壽險|所有|終期紅利|CS|CS|CS|NA|NA|117|122|89|NA|NL|NL
+「多重智倍」危疾保險計劃|Smart Elite Ultra Critical Illness Insurance Plan|終身壽險|所有|週年紅利|100|100|100|122|96|74|75|75|76|NL|NL
+「多重智倍」危疾保險計劃|Smart Elite Ultra Critical Illness Insurance Plan|終身壽險|所有|終期紅利|NA|NA|NA|NA|105|105|104|103|NA|NL|NL
+「充裕未來」計劃3|Bonus Power Plan 3|終身壽險|所有|歸原紅利|CS|CS|CS|CS|85|85|82|NL|NL|NL|NL
+「充裕未來」計劃3|Bonus Power Plan 3|終身壽險|所有|終期紅利|CS|CS|CS|CS|134|115|96|NL|NL|NL|NL
+「加裕智倍保」|Protect Elite Ultra|終身壽險|所有|週年紅利|CS|CS|CS|CS|CS|79|76|75|76|NL|NL
+「加裕智倍保」|Protect Elite Ultra|終身壽險|所有|終期紅利|CS|CS|CS|CS|CS|85|85|84|NA|NL|NL
+「加裕智倍保2」/「加裕智倍保2 – 首護摯寶」|Protect Elite Ultra 2 / Protect Elite Ultra 2 – First Gift|終身壽險|所有|終期紅利|CS|CS|CS|CS|105|105|105|NA|NL|NL|NL
+AIA延期年金計劃|AIA Deferred Annuity Plan|入息計劃|所有|週年紅利|NA|NA|NA|NA|NA|NA|NL|NL|NL|NL|NL
+AIA延期年金計劃|AIA Deferred Annuity Plan|入息計劃|所有|終期紅利|NA|100|100|100|100|100|NL|NL|NL|NL|NL
+愛無憂長享儲蓄保險計劃5|Forever Love Coupon Insurance Plan 5|終身壽險|所有|週年紅利|NA|100|100|100|93|87|NL|NL|NL|NL|NL
+愛無憂長享儲蓄保險計劃5|Forever Love Coupon Insurance Plan 5|終身壽險|所有|終期紅利|NA|NA|NA|NA|NA|NA|NL|NL|NL|NL|NL
+「簡愛•延續」保障計劃3|Simply Love Encore 3|終身壽險|所有|週年紅利|CS|CS|CS|NA|NA|NA|NL|NL|NL|NL|NL
+「簡愛•延續」保障計劃3|Simply Love Encore 3|終身壽險|所有|終期紅利|CS|CS|CS|NA|100|NA|NL|NL|NL|NL|NL
+「財富晉薈」壽險計劃|Wealth Optima|終身壽險|所有|終期紅利|CS|NA|NA|NA|NA|NL|NL|NL|NL|NL|NL
+「諾享」保障計劃|Fortune Promise|終身壽險|所有|週年紅利|CS|CS|NA|NA|NA|NL|NL|NL|NL|NL|NL
+「諾享」保障計劃|Fortune Promise|終身壽險|所有|終期紅利|CS|CS|NA|NA|100|NL|NL|NL|NL|NL|NL
+「加裕智倍保3」/「加裕智倍保3 – 首護摯寶」|Protect Elite Ultra 3 / Protect Elite Ultra 3 – First Gift|終身壽險|所有|終期紅利|CS|CS|NA|NA|105|NA|NL|NL|NL|NL|NL
+「充裕未來•盈尚」|Bonus Power Vantage|終身壽險|所有|歸原紅利|NA|NA|100|105|162|NL|NL|NL|NL|NL|NL
+「充裕未來•盈尚」|Bonus Power Vantage|終身壽險|所有|終期紅利|NA|NA|100|100|100|NL|NL|NL|NL|NL|NL
+「盈御多元貨幣計劃」|Global Power Multi-Currency Plan|終身壽險|所有|歸原紅利|CS|NA|100|100|NL|NL|NL|NL|NL|NL|NL
+「盈御多元貨幣計劃」|Global Power Multi-Currency Plan|終身壽險|所有|終期紅利|CS|NA|100|100|NL|NL|NL|NL|NL|NL|NL
+「簡愛•延續」儲蓄保險計劃5|Simply Love Encore Savings Insurance Plan 5|終身壽險|所有|週年紅利|NA|100|100|100|NL|NL|NL|NL|NL|NL|NL
+「簡愛•延續」儲蓄保險計劃5|Simply Love Encore Savings Insurance Plan 5|終身壽險|所有|終期紅利|NA|100|100|100|NL|NL|NL|NL|NL|NL|NL
+「樂怡人生」保險計劃|Serene Life Insurance Plan|終身壽險|所有|終期紅利|NA|NA|100|100|NL|NL|NL|NL|NL|NL|NL
+「樂怡人生」保險計劃(週年紅利)|Serene Life Insurance Plan (Annual Dividends)|終身壽險|所有|週年紅利|NA|NA|100|100|NL|NL|NL|NL|NL|NL|NL
+「樂怡人生」保險計劃(週年紅利)|Serene Life Insurance Plan (Annual Dividends)|終身壽險|所有|終期紅利|NA|NA|NA|NA|NL|NL|NL|NL|NL|NL|NL
+「諾享」儲蓄保險計劃2|Fortune Promise Savings Insurance Plan 2|終身壽險|所有|週年紅利|NA|100|100|NL|NL|NL|NL|NL|NL|NL|NL
+「諾享」儲蓄保險計劃2|Fortune Promise Savings Insurance Plan 2|終身壽險|所有|終期紅利|NA|NA|100|NL|NL|NL|NL|NL|NL|NL|NL
+「財富顯裕」儲蓄保險計劃|Wealth Enrich Savings Insurance Plan|終身壽險|所有|週年紅利|NA|NA|NA|NL|NL|NL|NL|NL|NL|NL|NL
+「財富顯裕」儲蓄保險計劃|Wealth Enrich Savings Insurance Plan|終身壽險|所有|終期紅利|NA|NA|NA|NL|NL|NL|NL|NL|NL|NL|NL
+「愛伴航」/「愛伴航 - 首護摯寶」|On Your Side Plan / On Your Side Plan – First Gift|終身壽險|所有|終期紅利|NA|NA|NA|NA|NL|NL|NL|NL|NL|NL|NL
+「樂滿明天」儲蓄計劃|Brighter Tomorrow|儲蓄壽險|所有|週年紅利|CS|CS|NA|NL|NL|NL|NL|NL|NL|NL|NL
+「樂滿明天」儲蓄計劃|Brighter Tomorrow|儲蓄壽險|所有|終期紅利|CS|CS|NA|NL|NL|NL|NL|NL|NL|NL|NL
+「盈御多元貨幣計劃2」|Global Power Multi-Currency Plan 2|終身壽險|所有|歸原紅利|NA|NA|100|NL|NL|NL|NL|NL|NL|NL|NL
+「盈御多元貨幣計劃2」|Global Power Multi-Currency Plan 2|終身壽險|所有|終期紅利|NA|NA|100|NL|NL|NL|NL|NL|NL|NL|NL
+「財富恆裕2•蔚」壽險計劃|Wealth Elite 2 - Sapphire|終身壽險|所有|歸原紅利|NA|NA|100|NL|NL|NL|NL|NL|NL|NL|NL
+「財富恆裕2•蔚」壽險計劃|Wealth Elite 2 - Sapphire|終身壽險|所有|終期紅利|NA|NA|NA|NL|NL|NL|NL|NL|NL|NL|NL
+「自在自選」危疾保險計劃|AIA Assemble Critical Illness Insurance Plan|終身壽險|所有|終期紅利|NA|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL
+「財富恆裕2•霞」壽險計劃|Wealth Elite 2 - Ruby|終身壽險|所有|歸原紅利|NA|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL
+「財富恆裕2•霞」壽險計劃|Wealth Elite 2 - Ruby|終身壽險|所有|終期紅利|NA|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL
+盈御多元貨幣儲蓄保險計劃3|Global Power Multi-Currency Savings Insurance Plan 3|終身壽險|所有|歸原紅利|NA|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL
+盈御多元貨幣儲蓄保險計劃3|Global Power Multi-Currency Savings Insurance Plan 3|終身壽險|所有|終期紅利|NA|NA|NL|NL|NL|NL|NL|NL|NL|NL|NL

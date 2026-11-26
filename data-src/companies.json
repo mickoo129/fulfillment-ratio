@@ -1,5 +1,27 @@
 [
  {
+  "id": "aia",
+  "name": "友邦保險",
+  "full": "AIA International Limited",
+  "file": "aia.csv",
+  "rep": 2025,
+  "source": "https://www.aia.com.hk/zh-hk/products/further-product-information/participating-products/fulfillment-ratio",
+  "note": "由友邦網站的分紅實現率數據讀取。",
+  "color": "#D31145",
+  "ink": ""
+ },
+ {
+  "id": "pru",
+  "name": "保誠保險",
+  "full": "Prudential Hong Kong Limited",
+  "file": "pru.csv",
+  "rep": 2025,
+  "source": "https://www.prudential.com.hk/tc/general/performance/fulfillment-ratio/",
+  "note": "包括人壽及儲蓄、健康（危疾）及退休保險；保誠把同一系列的分期繳費及整付分開公布。",
+  "color": "#ED1B2E",
+  "ink": "#C8102E"
+ },
+ {
   "id": "aiae",
   "name": "友邦雋峰（AIA Everest）",
   "full": "AIA Everest Life Company Limited",
