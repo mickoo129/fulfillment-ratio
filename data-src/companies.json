@@ -87,6 +87,17 @@
     "color": "#002E6C"
   },
   {
+    "id": "ctflife",
+    "name": "周大福人壽",
+    "full": "周大福人壽保險有限公司 CTF Life Insurance Company Limited",
+    "file": "ctflife.csv",
+    "rep": 2025,
+    "source": "https://www.ctflife.com.hk/tc/support/important-information/fulfillment-ratios-dividends",
+    "note": "周大福人壽（前富通保險）。「終期分紅」歸入終期紅利，「復歸紅利」即歸原紅利，「保單價值」（非保證部分）歸入終期組；「沒有分紅／沒有保單終結」顯示為不適用。",
+    "color": "#009188",
+    "ink": "#006E67"
+  },
+  {
     "id": "aiae",
     "name": "友邦雋峰（AIA Everest）",
     "full": "AIA Everest Life Company Limited",
