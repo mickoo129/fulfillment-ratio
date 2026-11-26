@@ -42,7 +42,8 @@ def main():
                 "id": c["id"] + "-" + hashlib.md5(f"{r['plan_en'].strip()}|{r['cur'].strip()}|{t}".encode()).hexdigest()[:6],
                 "co": c["id"],
                 "plan": (r["plan_zh"] or "").strip() or r["plan_en"].strip(),
-                "en": r["plan_en"].strip() if (r["plan_zh"] or "").strip() else "",
+                "zh": (r["plan_zh"] or "").strip(),
+                "en": r["plan_en"].strip(),
                 "cat": r["cat"], "cur": r["cur"].strip(), "type": t, "tg": TYPE_GROUP[t],
                 "v": v,
             })
@@ -52,7 +53,7 @@ def main():
     out = {
         "rep": max(c["rep"] for c in cos),
         "updated": "2026-11-26",
-        "companies": [{k: c[k] for k in ("id", "name", "full", "rep", "source", "note", "color")} for c in cos],
+        "companies": [{k: c.get(k, "") for k in ("id", "name", "full", "rep", "source", "note", "color", "ink")} for c in cos],
         "series": series,
     }
     json.dump(out, open(os.path.join(ROOT, "data.json"), "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))

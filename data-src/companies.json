@@ -1,13 +1,14 @@
 [
  {
   "id": "aiae",
-  "name": "AIA Everest",
+  "name": "友邦雋峰（AIA Everest）",
   "full": "AIA Everest Life Company Limited",
   "file": "aiae.csv",
   "rep": 2025,
   "source": "https://www.aia.com.hk/content/dam/hk-wise/pdf/aia-everest/aiae-fulfilment-ratio-eng.pdf.coredownload.inline.pdf",
   "note": "AIA 集團旗下公司；只包括 AIA Everest 公布的計劃，不包括友邦（AIA International）。",
-  "color": "#D31145"
+  "color": "#D31145",
+  "ink": ""
  },
  {
   "id": "boclife",
@@ -17,7 +18,8 @@
   "rep": 2025,
   "source": "https://www.boclife.com.hk/en/support/financial-information/dividend-fulfillment-ratios.html",
   "note": "",
-  "color": "#A6192E"
+  "color": "#A6192E",
+  "ink": ""
  },
  {
   "id": "fubon",
@@ -27,7 +29,8 @@
   "rep": 2025,
   "source": "https://www.fubonlife.com.hk/public/pdf/Fubon%20Life%20Fulfilment%20Ratios%20Disclosure_Eng.pdf",
   "note": "公司公布的表只列至第 10 個保單年度。",
-  "color": "#0B6EB5"
+  "color": "#01A09B",
+  "ink": "#00807C"
  },
  {
   "id": "generali",
@@ -37,7 +40,8 @@
   "rep": 2025,
   "source": "https://www.generali.com.hk//file-library/8de9eaa8-3d0a-4e81-ae03-33ecab869ece/GLHKFulfillmentRatio2025.pdf",
   "note": "資料更新日期：2026 年 3 月。",
-  "color": "#C5281C"
+  "color": "#C5281C",
+  "ink": ""
  },
  {
   "id": "wli",
@@ -47,6 +51,7 @@
   "rep": 2025,
   "source": "https://www.wli.com.hk/editor_upload_image/files/2025%20Fulfillment%20Ratio%20(English).pdf",
   "note": "2019 年開業，公司公布的表只列至第 10 個保單年度。",
-  "color": "#3D4F8F"
+  "color": "#573AB2",
+  "ink": ""
  }
 ]

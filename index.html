@@ -254,6 +254,12 @@ th.sort:after{content:" ↕";opacity:.5}
 .hbar .fill{background:var(--co,var(--mk-brand))}
 td.co-cell{box-shadow:inset 4px 0 0 var(--co)}
 .cmp-item{border-left:4px solid var(--co,var(--mk-line))}
+.alt{display:block;font-size:12px;font-weight:500;color:var(--mk-muted);line-height:1.35;margin-top:1px}
+.co{color:var(--co-ink,var(--co))}
+.langbar{display:flex;justify-content:flex-end;align-items:center;gap:8px;font-size:13px;color:var(--mk-muted);margin:-6px 0 10px}
+.seg{display:inline-flex;border:1px solid var(--mk-line);border-radius:999px;background:#fff;padding:2px}
+.seg button{font:inherit;font-size:13px;border:0;background:none;border-radius:999px;padding:4px 12px;cursor:pointer;color:var(--mk-muted)}
+.seg button[aria-pressed="true"]{background:var(--mk-brand-ink);color:#fff;font-weight:700}
 /* 紅利類型說明 */
 .types{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
 .type{border:1px solid var(--mk-line);border-radius:12px;padding:12px 14px;background:#fff;font-size:14px}
@@ -335,6 +341,7 @@ td.co-cell{box-shadow:inset 4px 0 0 var(--co)}
 
 <main>
 <div class="mk-wrap">
+<div class="langbar no-print"><span>計劃名稱</span><span class="seg" role="group" aria-label="計劃名稱語言"><button type="button" data-lang="zh" aria-pressed="true">中文</button><button type="button" data-lang="en" aria-pressed="false">English</button></span></div>
 
 <!-- ===== 總覽 ===== -->
 <section class="panel on" id="p-overview" aria-label="總覽">
@@ -457,7 +464,7 @@ td.co-cell{box-shadow:inset 4px 0 0 var(--co)}
 <footer class="mk-footer">
   <div class="mk-wrap">
     <h3>注意事項</h3>
-    <p>分紅實現率只反映過往派發紀錄，不代表將來表現。每個數字是同一計劃、同一保單年度所有相關保單的平均，個別保單的情況可能不同。本工具的平均數是把已公布的數字直接平均（每個數字比重相同，沒有按保單數目或保費加權），只供參考。產品類型（儲蓄及退休、人壽、危疾）由本工具按產品性質分類，並非保險公司的官方分類。如有出入，以保險公司公布的資料為準。</p>
+    <p>分紅實現率只反映過往派發紀錄，不代表將來表現。每個數字是同一計劃、同一保單年度所有相關保單的平均，個別保單的情況可能不同。本工具的平均數是把已公布的數字直接平均（每個數字比重相同，沒有按保單數目或保費加權），只供參考。產品類型（儲蓄及退休、人壽、危疾）由本工具按產品性質分類，並非保險公司的官方分類。計劃名稱跟保險公司公布的寫法；部分已停售的計劃找不到中文名稱，會以英文顯示。如有出入，以保險公司公布的資料為準。</p>
     <h3 style="margin-top:14px">資料來源</h3>
     <p>各保險公司按保險業監管局指引（GL16）在網站公布的分紅實現率：</p>
     <ul class="srcs" id="srcList"></ul>
@@ -501,7 +508,7 @@ const CODES={NA:'不適用',NL:'未推出',CS:'已停售'};
 // 比較線：冇固定意思，但為免同產品類型色（2、3、5）撞色，用 1、4、6、8（見 CLAUDE.md）
 const CMP=[{c:MK_CAT[0],dash:'',mk:'circle'},{c:MK_CAT[3],dash:'6 4',mk:'square'},{c:MK_CAT[5],dash:'',mk:'diamond'},{c:MK_CAT[7],dash:'2 3',mk:'triangle'}];
 const MAXCMP=4;
-let D=null, CO={}, state={tab:'overview',f:{co:'all',cat:'all',tg:'all'},a:{co:'all',cat:'all',tg:'all',q:'',sort:'',only:true},pl:{co:'',key:'',iy:''},cm:[],avg:true};
+let D=null, CO={}, state={tab:'overview',f:{co:'all',cat:'all',tg:'all'},a:{co:'all',cat:'all',tg:'all',q:'',sort:'',only:true},pl:{co:'',key:'',iy:''},cm:[],avg:true,lang:'zh'};
 
 const $=s=>document.querySelector(s);
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -513,9 +520,12 @@ const catVar=n=>`--c:var(--mk-cat-${n});--c-ink:var(--mk-cat-${n}-ink);--c-soft:
 const cls=x=>!isN(x)?'code':x>=100?'hi':x<80?'lo':'';
 function pyLabel(i){const r=D.rep;return i<10?{py:`第 ${i+1} 年`,iy:`${r-i-1} 年生效`}:{py:'10 年以上',iy:`${r-11} 年或以前`};}
 function cellTxt(x){return isN(x)?pct(x):x?CODES[x]:'—';}
-function coTag(id,txt){const c=CO[id];return `<span class="co" style="--co:${c.color}">${esc(txt||c.name)}</span>`;}
-function planKey(s){return s.co+'|'+(s.en||s.plan);}
-function serName(s){return s.plan;}
+function coTag(id,txt){const c=CO[id];return `<span class="co" style="--co:${c.color};--co-ink:${c.ink||c.color}">${esc(txt||c.name)}</span>`;}
+function planKey(s){return s.co+'|'+s.en;}
+// 計劃名：預設中文（冇中文就用英文），可以切換做英文；另一種語言細細個顯示
+function pn(x){return state.lang==='en'?x.en:(x.zh||x.en);}
+function pa(x){return state.lang==='en'?(x.zh||''):(x.zh?x.en:'');}
+function nameHTML(x){const a=pa(x);return `<b>${esc(pn(x))}</b>${a?`<span class="alt">${esc(a)}</span>`:''}`;}
 function serSub(s){return `${coTag(s.co)} · ${s.type}${s.cur&&s.cur!=='全部'?' · '+s.cur:''}`;}
 function filt(f){return D.series.filter(s=>(f.co==='all'||s.co===f.co)&&(f.cat==='all'||s.cat===f.cat)&&(f.tg==='all'||s.tg===f.tg));}
 function pts(list,idx){const o=[];list.forEach(s=>s.v.forEach((x,i)=>{if(isN(x)&&(idx==null||idx===i))o.push(x);}));return o;}
@@ -563,7 +573,7 @@ function renderOverview(){
 
   // 個別計劃較高／較低
   const ranked=L.map(s=>{const p=s.v.filter(isN);return {s,n:p.length,v:mean(p)};}).filter(r=>r.n>=3).sort((a,b)=>b.v-a.v);
-  const li=r=>`<li data-go="${r.s.id}"><span class="t"><b>${esc(r.s.plan)}</b><small>${coTag(r.s.co)} · ${esc(r.s.type)}${r.s.cur!=='全部'?' · '+esc(r.s.cur):''} · ${r.n} 個數字</small></span><span class="num" style="color:${r.v>=100?'var(--mk-brand-ink)':r.v<80?'var(--mk-danger)':'var(--mk-ink)'}">${pct(r.v)}</span></li>`;
+  const li=r=>`<li data-go="${r.s.id}"><span class="t">${nameHTML(r.s)}<small>${coTag(r.s.co)} · ${esc(r.s.type)}${r.s.cur!=='全部'?' · '+esc(r.s.cur):''} · ${r.n} 個數字</small></span><span class="num" style="color:${r.v>=100?'var(--mk-brand-ink)':r.v<80?'var(--mk-danger)':'var(--mk-ink)'}">${pct(r.v)}</span></li>`;
   $('#rank').innerHTML=ranked.length?`<div><h4>平均較高</h4><ol>${ranked.slice(0,5).map(li).join('')}</ol></div><div><h4>平均較低</h4><ol>${ranked.slice(-5).reverse().map(li).join('')}</ol></div>`:'<div class="empty">沒有足夠數字（每項最少 3 個）。</div>';
 
   // 公司 × 保單年度
@@ -647,12 +657,12 @@ document.addEventListener('click',e=>{const a=e.target.closest('[data-types]');i
   const g=e.target.closest('[data-go]');if(g){const s=D.series.find(x=>x.id===g.dataset.go);if(!s)return;state.pl.co=s.co;state.pl.key=planKey(s);state.pl.iy='';setTab('plan');scrollTo({top:0});}});
 
 /* ---------- 計劃查詢 ---------- */
-function plansOf(co){const m=new Map();D.series.filter(s=>s.co===co).forEach(s=>{const k=planKey(s);if(!m.has(k))m.set(k,{key:k,plan:s.plan,en:s.en,cat:s.cat,list:[]});m.get(k).list.push(s);});return [...m.values()].sort((a,b)=>{const ha=a.list.some(s=>s.v.some(isN)),hb=b.list.some(s=>s.v.some(isN));return (hb-ha)||a.plan.localeCompare(b.plan);});}
+function plansOf(co){const m=new Map();D.series.filter(s=>s.co===co).forEach(s=>{const k=planKey(s);if(!m.has(k))m.set(k,{key:k,zh:s.zh,en:s.en,cat:s.cat,list:[]});m.get(k).list.push(s);});return [...m.values()].sort((a,b)=>{const ha=a.list.some(s=>s.v.some(isN)),hb=b.list.some(s=>s.v.some(isN));return (hb-ha)||pn(a).localeCompare(pn(b));});}
 function fillPlanPickers(){
   const p=state.pl; if(!p.co)p.co=D.companies[0].id;
   $('#plCo').innerHTML=D.companies.map(c=>`<option value="${c.id}"${c.id===p.co?' selected':''}>${esc(c.name)}</option>`).join('');
   const plans=plansOf(p.co); if(!plans.find(x=>x.key===p.key))p.key=plans[0]?.key||'';
-  $('#plPlan').innerHTML=plans.map(x=>`<option value="${esc(x.key)}"${x.key===p.key?' selected':''}>${esc(x.plan)}（${CATS[x.cat].name}）${x.list.some(s=>s.v.some(isN))?'':' — 未有數字'}</option>`).join('');
+  $('#plPlan').innerHTML=plans.map(x=>`<option value="${esc(x.key)}"${x.key===p.key?' selected':''}>${esc(pn(x))}（${CATS[x.cat].name}）${x.list.some(s=>s.v.some(isN))?'':' — 未有數字'}</option>`).join('');
   $('#plIy').innerHTML=`<option value="">不指定</option>`+Array.from({length:11},(_,i)=>{const lb=pyLabel(i);return `<option value="${i}"${String(i)===p.iy?' selected':''}>${lb.iy}（${lb.py}）</option>`;}).join('');
 }
 function renderPlan(){
@@ -665,7 +675,7 @@ function renderPlan(){
   if(iy!=null){const lb=pyLabel(iy);iyBox=`<div class="iy-res"><div style="margin-bottom:4px"><b>${lb.iy}的保單</b>（${D.rep} 報告年度屬${lb.py}）</div>${plan.list.map(s=>{const avg=catAvgByPy(s.cat,s.tg)[iy];return `<div class="row"><span>${esc(s.type)}${s.cur!=='全部'?' · '+esc(s.cur):''}</span><span><b class="num">${cellTxt(s.v[iy])}</b>${avg?` <small style="color:var(--mk-muted)">同類平均 ${pct(avg.v)}</small>`:''}</span></div>`;}).join('')}</div>`;}
   const lines=[];plan.list.forEach((s,k)=>{const st=CMP[k%CMP.length];lines.push({name:`${s.type}${s.cur!=='全部'?' · '+s.cur:''}`,color:st.c.color,dash:st.dash,mk:st.mk,vals:s.v});});
   const seen=new Set();plan.list.forEach(s=>{const k=s.tg;if(seen.has(k))return;seen.add(k);const a=catAvgByPy(s.cat,s.tg);if(a.some(Boolean))lines.push({name:`同類平均：${c.name} · ${TGS[s.tg]}`,short:`同類平均 · ${TGS[s.tg]}`,color:'#8A9796',dash:'3 3',vals:a.map(x=>x?x.v:null),faint:true});});
-  out.innerHTML=`<div class="card"><div class="plan-head"><h3>${esc(plan.plan)}</h3><span class="tag" style="${catVar(c.n)}">${c.name}</span><small>${coTag(p.co)}${plan.en?' · '+esc(plan.en):''}</small></div>${facts}${iyBox}</div>
+  out.innerHTML=`<div class="card"><div class="plan-head"><h3>${esc(pn(plan))}</h3><span class="tag" style="${catVar(c.n)}">${c.name}</span><small>${coTag(p.co)}${pa(plan)?' · '+esc(pa(plan)):''}</small></div>${facts}${iyBox}</div>
   <div class="card"><div class="card-h"><h3>按保單年度</h3><p>灰色虛線是所有公司同類產品、同一紅利類型的平均</p></div><div class="series-legend">${lines.map(l=>`<span>${legendIcon(l)}${esc(l.name)}</span>`).join('')}</div><div class="chart" id="plChart"></div></div>
   <div class="card"><div class="card-h"><h3>數據表</h3><p>${D.rep} 報告年度</p></div><div class="tbl-wrap"><table>${pyHead('<th class="l">紅利類型</th><th>貨幣</th>')}<tbody>${plan.list.map(s=>`<tr><td class="l">${esc(s.type)}</td><td>${esc(s.cur)}</td>${vCells(s.v,iy)}</tr>`).join('')}</tbody></table></div>
   <div class="legend"><span><i class="sw-hi"></i>100% 或以上</span><span><i class="sw-mid"></i>80%–99%</span><span><i class="sw-lo"></i>低於 80%</span></div>
@@ -679,20 +689,20 @@ function renderPlan(){
 function fillCmpPickers(){
   const co=$('#cmCo').value||D.companies[0].id;
   $('#cmCo').innerHTML=D.companies.map(c=>`<option value="${c.id}"${c.id===co?' selected':''}>${esc(c.name)}</option>`).join('');
-  const L=D.series.filter(s=>s.co===co&&s.v.some(isN)).sort((a,b)=>a.plan.localeCompare(b.plan));
-  $('#cmSer').innerHTML=L.length?L.map(s=>`<option value="${s.id}"${state.cm.includes(s.id)?' disabled':''}>${esc(s.plan)} · ${esc(s.type)}${s.cur!=='全部'?' · '+esc(s.cur):''}</option>`).join(''):'<option value="">這間公司未有可比較的數字</option>';
+  const L=D.series.filter(s=>s.co===co&&s.v.some(isN)).sort((a,b)=>pn(a).localeCompare(pn(b)));
+  $('#cmSer').innerHTML=L.length?L.map(s=>`<option value="${s.id}"${state.cm.includes(s.id)?' disabled':''}>${esc(pn(s))} · ${esc(s.type)}${s.cur!=='全部'?' · '+esc(s.cur):''}</option>`).join(''):'<option value="">這間公司未有可比較的數字</option>';
   $('#cmAdd').disabled=state.cm.length>=MAXCMP||!L.length;
 }
 function renderCompare(){
   fillCmpPickers();
   const S=state.cm.map(id=>D.series.find(s=>s.id===id)).filter(Boolean);
-  $('#cmList').innerHTML=S.map((s,k)=>`<div class="cmp-item" style="--co:${CO[s.co].color}">${legendIcon({color:CMP[k].c.color,dash:CMP[k].dash,mk:CMP[k].mk})}<div class="txt"><b>${esc(s.plan)}</b><small>${serSub(s)} · ${CATS[s.cat].name}</small></div><button type="button" class="btn-x" data-rm="${s.id}" aria-label="移除">×</button></div>`).join('');
+  $('#cmList').innerHTML=S.map((s,k)=>`<div class="cmp-item" style="--co:${CO[s.co].color}">${legendIcon({color:CMP[k].c.color,dash:CMP[k].dash,mk:CMP[k].mk})}<div class="txt">${nameHTML(s)}<small>${serSub(s)} · ${CATS[s.cat].name}</small></div><button type="button" class="btn-x" data-rm="${s.id}" aria-label="移除">×</button></div>`).join('');
   $('#cmCount').textContent=S.length?`已選 ${S.length} / ${MAXCMP} 項`:'未選擇。請先選保險公司，再選計劃及紅利類型，按「加入比較」。';
   const out=$('#cmOut');
   if(!S.length){out.innerHTML='';return;}
-  const lines=S.map((s,k)=>({name:`${s.plan} · ${s.type}`,short:s.plan,color:CMP[k].c.color,dash:CMP[k].dash,mk:CMP[k].mk,vals:s.v}));
+  const lines=S.map((s,k)=>({name:`${pn(s)} · ${s.type}`,short:pn(s),color:CMP[k].c.color,dash:CMP[k].dash,mk:CMP[k].mk,vals:s.v}));
   if(state.avg){const seen=new Set();S.forEach(s=>{const k=s.cat+s.tg;if(seen.has(k))return;seen.add(k);const a=catAvgByPy(s.cat,s.tg);lines.push({name:`同類平均：${CATS[s.cat].name} · ${TGS[s.tg]}`,short:`同類平均 · ${CATS[s.cat].name}`,color:'#8A9796',dash:'3 3',vals:a.map(x=>x?x.v:null),faint:true});});}
-  const sum=S.map((s,k)=>{const p=s.v.filter(isN);return `<tr><td class="plan"><span style="display:inline-flex;vertical-align:middle;margin-right:6px">${legendIcon({color:CMP[k].c.color,dash:CMP[k].dash,mk:CMP[k].mk})}</span><b style="display:inline">${esc(s.plan)}</b><br><small>${serSub(s)}</small></td><td><span class="tag" style="${catVar(CATS[s.cat].n)}">${CATS[s.cat].name}</span></td>${vCells(s.v)}<td class="v ${cls(mean(p))}">${p.length?pct(mean(p)):'—'}</td></tr>`;}).join('');
+  const sum=S.map((s,k)=>{const p=s.v.filter(isN);return `<tr><td class="plan"><span style="display:inline-flex;vertical-align:middle;margin-right:6px">${legendIcon({color:CMP[k].c.color,dash:CMP[k].dash,mk:CMP[k].mk})}</span><b style="display:inline">${esc(pn(s))}</b>${pa(s)?`<span class="alt">${esc(pa(s))}</span>`:'<br>'}<small>${serSub(s)}</small></td><td><span class="tag" style="${catVar(CATS[s.cat].n)}">${CATS[s.cat].name}</span></td>${vCells(s.v)}<td class="v ${cls(mean(p))}">${p.length?pct(mean(p)):'—'}</td></tr>`;}).join('');
   const tgs=[...new Set(S.map(s=>s.tg))], cats=[...new Set(S.map(s=>s.cat))];
   const warn=tgs.length>1?`<div class="warn"><b>留意：</b>比較中包括不同種類的紅利（${tgs.map(t=>TGS[t]).join('、')}）。不同紅利的計算方法不同，例如終期紅利只計算已終止的保單，數字不宜直接比較。建議選同一種紅利比較。</div>`:cats.length>1?`<div class="warn"><b>留意：</b>比較中包括不同產品類型（${cats.map(c=>CATS[c].name).join('、')}），產品設計及紅利比重不同，比較時請一併考慮。</div>`:'';
   out.innerHTML=warn+`<div class="card"><div class="card-h"><h3>分紅實現率走勢</h3><p>橫軸是保單年度，左邊是最近生效的保單</p></div><div class="series-legend">${lines.map(l=>`<span>${legendIcon(l)}${esc(l.name)}</span>`).join('')}</div><div class="chart" id="cmChart"></div></div>
@@ -705,11 +715,11 @@ function renderCompare(){
 /* ---------- 全部數據 ---------- */
 function renderAll(){
   const a=state.a, q=a.q.trim().toLowerCase();
-  let L=filt(a).filter(s=>(!q||(s.plan+' '+s.en).toLowerCase().includes(q))&&(!a.only||s.v.some(isN)));
+  let L=filt(a).filter(s=>(!q||(s.zh+' '+s.en).toLowerCase().includes(q))&&(!a.only||s.v.some(isN)));
   const avg=s=>{const p=s.v.filter(isN);return p.length?mean(p):-1;};
   if(a.sort==='desc')L=[...L].sort((x,y)=>avg(y)-avg(x));else if(a.sort==='asc')L=[...L].sort((x,y)=>avg(x)-avg(y));
   $('#allCount').textContent=`共 ${L.length} 行 · ${pts(L).length} 個數字`;
-  $('#allTbl').innerHTML=pyHead('<th class="l">計劃</th><th>類型</th><th>紅利</th><th>貨幣</th>',`<th class="sort" data-sort>平均${a.sort==='desc'?' ↓':a.sort==='asc'?' ↑':''}</th>`)+`<tbody>${L.map(s=>{const p=s.v.filter(isN);return `<tr><td class="plan"><b>${esc(s.plan)}</b><small>${coTag(s.co)}${s.en?' · '+esc(s.en):''}</small></td><td><span class="tag" style="${catVar(CATS[s.cat].n)}">${CATS[s.cat].name}</span></td><td>${esc(s.type)}</td><td>${esc(s.cur)}</td>${vCells(s.v)}<td class="v ${p.length?cls(mean(p)):'code'}">${p.length?pct(mean(p)):'—'}</td></tr>`;}).join('')||'<tr><td colspan="16" style="padding:24px;color:var(--mk-muted)">沒有符合的計劃</td></tr>'}</tbody>`;
+  $('#allTbl').innerHTML=pyHead('<th class="l">計劃</th><th>類型</th><th>紅利</th><th>貨幣</th>',`<th class="sort" data-sort>平均${a.sort==='desc'?' ↓':a.sort==='asc'?' ↑':''}</th>`)+`<tbody>${L.map(s=>{const p=s.v.filter(isN);return `<tr><td class="plan">${nameHTML(s)}<small>${coTag(s.co)}</small></td><td><span class="tag" style="${catVar(CATS[s.cat].n)}">${CATS[s.cat].name}</span></td><td>${esc(s.type)}</td><td>${esc(s.cur)}</td>${vCells(s.v)}<td class="v ${p.length?cls(mean(p)):'code'}">${p.length?pct(mean(p)):'—'}</td></tr>`;}).join('')||'<tr><td colspan="16" style="padding:24px;color:var(--mk-muted)">沒有符合的計劃</td></tr>'}</tbody>`;
 }
 
 /* ---------- 分頁、分享 ---------- */
@@ -729,6 +739,7 @@ function hashOf(){
   if(state.tab==='all'&&!state.a.only)h.set('only','0');
   if(state.tab==='plan'){h.set('pc',state.pl.co);h.set('pk',state.pl.key);if(state.pl.iy!=='')h.set('iy',D.rep-1-(+state.pl.iy));}
   if(state.tab==='compare'){if(state.cm.length)h.set('s',state.cm.join(','));if(!state.avg)h.set('avg','0');}
+  if(state.lang==='en')h.set('lang','en');
   return h.toString();
 }
 function writeHash(){history.replaceState(null,'','#'+hashOf());}
@@ -743,6 +754,7 @@ function readHash(){
   if(h.get('iy')){const i=D.rep-1-(+h.get('iy'));if(i>=0&&i<=10)state.pl.iy=String(i);}
   if(h.get('s'))state.cm=h.get('s').split(',').filter(id=>D.series.some(s=>s.id===id)).slice(0,MAXCMP);
   if(h.get('avg')==='0')state.avg=false;
+  if(h.get('lang')==='en')state.lang='en';else if(!h.get('t')){try{if(localStorage.getItem('fr-lang')==='en')state.lang='en';}catch(e){}}
   return ['overview','plan','compare','all'].includes(t)?t:'overview';
 }
 
@@ -751,7 +763,7 @@ fetch('data.json').then(r=>r.json()).then(d=>{
   D=d;D.companies.forEach(c=>CO[c.id]=c);
   $('#repYear').textContent=D.rep;
   const u=D.updated.split('-');$('#updDate').textContent=`${u[0]} 年 ${+u[1]} 月 ${+u[2]} 日`;
-  $('#coChips').innerHTML=`<span style="font-size:13px;color:var(--mk-muted);align-self:center">現時收錄 ${D.companies.length} 間：</span>`+D.companies.map(c=>`<span class="co-chip" style="--co:${c.color}">${esc(c.name)}</span>`).join('');
+  $('#coChips').innerHTML=`<span style="font-size:13px;color:var(--mk-muted);align-self:center">現時收錄 ${D.companies.length} 間：</span>`+D.companies.map(c=>`<span class="co-chip" style="--co:${c.color};color:${c.ink||c.color}">${esc(c.name)}</span>`).join('');
   $('#srcList').innerHTML=D.companies.map(c=>`<li>${esc(c.name)}（${esc(c.full)}）：<a href="${esc(c.source)}" target="_blank" rel="noopener">${D.rep} 報告年度分紅實現率</a>${c.note?'　'+esc(c.note):''}</li>`).join('');
   const t=readHash();
   $('#ovFilters').innerHTML=filterHTML('ov',state.f,false);bindFilters($('#ovFilters'),state.f,()=>{renderOverview();writeHash();});
@@ -766,6 +778,9 @@ fetch('data.json').then(r=>r.json()).then(d=>{
   $('#cmList').addEventListener('click',e=>{const b=e.target.closest('[data-rm]');if(!b)return;state.cm=state.cm.filter(x=>x!==b.dataset.rm);renderCompare();writeHash();});
   $('#cmAvg').checked=state.avg;$('#cmAvg').addEventListener('change',e=>{state.avg=e.target.checked;renderCompare();writeHash();});
   document.querySelectorAll('.mk-tab').forEach(b=>b.addEventListener('click',()=>{setTab(b.dataset.tab);scrollTo({top:0});}));
+  const setLang=l=>{state.lang=l;document.querySelectorAll('[data-lang]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.lang===l));try{localStorage.setItem('fr-lang',l);}catch(e){}};
+  setLang(state.lang);
+  document.querySelector('.langbar').addEventListener('click',e=>{const b=e.target.closest('[data-lang]');if(!b)return;setLang(b.dataset.lang);render();writeHash();});
   setTab(t,false);
   let rt;addEventListener('resize',()=>{clearTimeout(rt);rt=setTimeout(render,150);});
 }).catch(()=>{document.querySelector('main .mk-wrap').innerHTML='<div class="empty" style="margin-top:20px">未能載入數據，請重新整理頁面。</div>';});
